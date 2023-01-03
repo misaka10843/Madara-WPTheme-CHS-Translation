@@ -1,0 +1,3727 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Manga Core\n"
+"POT-Creation-Date: 2021-10-08 11:07+0700\n"
+"PO-Revision-Date: 2023-01-03 04:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;esc_html__;esc_html_e;__;"
+"esc_attr__;esc_attr_e;_x;_n:1,2;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: admin/class-wpmanga-admin.php:28 admin/class-wpmanga-admin.php:32
+msgid "Template overrides"
+msgstr "模板覆盖"
+
+#: admin/class-wpmanga-admin.php:38
+msgid "Template file"
+msgstr "模板文件"
+
+#: admin/class-wpmanga-admin.php:40
+msgid "Template version"
+msgstr "模板版本"
+
+#: admin/class-wpmanga-admin.php:42
+msgid "Core version"
+msgstr "核心版本"
+
+#: admin/class-wpmanga-admin.php:58
+#, php-format
+msgid "Outdated: %s"
+msgstr "过期时间:%s"
+
+#: admin/first-install.php:25
+msgid ""
+"<strong>WP Manga Plugin</strong> &#8211; Get started with WP Manga Plugin!"
+msgstr "<strong>WP Manga Plugin</strong> &#8211;开始使用WP漫画插件吧!"
+
+#: admin/first-install.php:27
+msgid "Let's go!"
+msgstr "我们走吧!"
+
+#: admin/first-install.php:28
+msgid "Skip this"
+msgstr "跳过"
+
+#: admin/first-install.php:38 admin/first-install.php:39
+msgid "WP Manga Welcome"
+msgstr "欢迎使用WP漫画"
+
+#: admin/first-install/first-install-html.php:10
+msgid "WP Manga &rsaquo; Welcome"
+msgstr "WP漫画&rsaquo; 欢迎"
+
+#: admin/first-install/step-0.php:1
+msgid "Welcome to WP Manga plugin!"
+msgstr "欢迎来到WP漫画插件!"
+
+#: admin/first-install/step-0.php:4
+msgid ""
+"Thanks for choosing WP Manga plugin - the best solution to build your manga "
+"website!"
+msgstr "感谢你选择WP漫画插件 - 建立你的漫画网站的最佳解决方案"
+
+#: admin/first-install/step-0.php:7
+msgid ""
+"By taking a few minutes, you can learn more about WP Manga settings and "
+"usages to get started with WP Manga."
+msgstr "通过花几分钟时间，你可以了解更多关于WP Manga的设置和使用方法，从而开始使用WP Manga。"
+
+#: admin/first-install/step-0.php:10
+msgid ""
+"Please feel free to exit if you don't have time right now or want to skip "
+"this instruction. "
+msgstr "如果你现在没有时间或想跳过这个指令，请随时退出。"
+
+#: admin/first-install/step-0.php:13 admin/first-install/step-1.php:153 
+#: admin/first-install/step-2.php:57 admin/first-install/step-3.php:35 
+#: admin/first-install/step-4.php:18 admin/first-install/step-5.php:9
+msgid "Maybe later"
+msgstr "晚点再说吧"
+
+#: admin/first-install/step-0.php:14 admin/first-install/step-1.php:154 
+#: admin/first-install/step-2.php:58 admin/first-install/step-3.php:36 
+#: admin/first-install/step-4.php:19 inc/manga-type/manga-chapter.php:358 
+#: inc/manga-type/manga-chapter.php:579 inc/manga-type/manga-chapter.php:587 
+#: inc/manga-type/text-chapter.php:196 wp-manga.php:538
+msgid "Next"
+msgstr "下一页"
+
+#: admin/first-install/step-1.php:1
+msgid "Before Getting Started with WP Manga Plugin"
+msgstr "在开始使用WP漫画插件之前"
+
+#: admin/first-install/step-1.php:4
+msgid ""
+"Since WP Manga Plugin is a plugin to upload and manage Manga, so there are a "
+"fews requirements and recommendations on your server settings to make it "
+"works properly. "
+msgstr "由于WP漫画插件是一个上传和管理漫画的插件，所以对你的服务器设置有一些要求和建议，以使其正常工作。"
+
+#: admin/first-install/step-1.php:8
+msgid ""
+"These are settings you need to notice and the number in right side is the "
+"current config in your server."
+msgstr "这些是你需要注意的设置，右边的数字是你服务器中的当前配置。"
+
+#: admin/first-install/step-1.php:12
+msgid ""
+"Please make sure your file size does not exceed the configurations below, "
+"and change it to fit your needs. "
+msgstr "请确保你的文件大小不超过下面的配置，并根据你的需要进行修改。"
+
+#: admin/first-install/step-1.php:33
+msgid "Settings"
+msgstr "设置"
+
+#: admin/first-install/step-1.php:36
+msgid "Require/Recommend"
+msgstr "要求/建议"
+
+#: admin/first-install/step-1.php:39
+msgid "Your Current Settings"
+msgstr "您当前的设置"
+
+#: admin/first-install/step-1.php:42 templates/content/content-search.php:158 
+#: templates/manga-search.php:154 templates/single/info-status.php:20
+msgid "Status"
+msgstr "状况"
+
+#: admin/first-install/step-1.php:142
+msgid "high"
+msgstr "高"
+
+#: admin/first-install/step-1.php:145
+msgid "medium"
+msgstr "中"
+
+#: admin/first-install/step-1.php:148
+msgid "low"
+msgstr "低"
+
+#: admin/first-install/step-2.php:1
+msgid "Manga Page Settings"
+msgstr "漫画页面设置"
+
+#: admin/first-install/step-2.php:4
+msgid ""
+" By default, WP Manga plugin would generate Manga Archive Page and User Page "
+"automatically. However, you can be able to set a Single Page to be Manga "
+"Archive Page and User Page. "
+msgstr "默认情况下，WP漫画插件会自动生成漫画存档页和用户页。但是，你可以将单个页面设置为漫画存档页面和用户页面。"
+
+#: admin/first-install/step-2.php:12 admin/first-install/step-3.php:14
+msgid " If you want to skip this setting, then you can get it back in "
+msgstr "如果你想跳过这个设置，你可以回到"
+
+#: admin/first-install/step-2.php:13
+msgid "Manga > WP Manga settings"
+msgstr "漫画 > WP漫画设置"
+
+#: admin/first-install/step-2.php:18 admin/settings/settings-page.php:161
+msgid "Manga Archive Page"
+msgstr "漫画归档页"
+
+#: admin/first-install/step-2.php:26 admin/settings/settings-page.php:167 
+#: admin/settings/settings-page.php:295 
+#: templates/user/page/reader-settings.php:64 
+#: templates/user/page/reader-settings.php:81 
+#: templates/user/page/reader-settings.php:99
+msgid "Default"
+msgstr "默认"
+
+#: admin/first-install/step-2.php:32 admin/settings/settings-page.php:172
+msgid "Choose page for Manga archive to show all manga."
+msgstr "为漫画档案选择页面以显示所有漫画。"
+
+#: admin/first-install/step-2.php:37 admin/settings/settings-page.php:177
+msgid "User Page"
+msgstr "用户页面"
+
+#: admin/first-install/step-2.php:44 admin/settings/settings-page.php:183
+msgid "Select User Page"
+msgstr "选择用户页面"
+
+#: admin/first-install/step-2.php:50 admin/settings/settings-page.php:189
+msgid ""
+"A page display user's bookmark, history and settings. The <code>[manga-user-"
+"page]</code> short code must be on this page."
+msgstr "页面显示用户的书签、历史记录和设置。<code>[manga-user-page]</code>短代码必须在此页上。"
+
+#: admin/first-install/step-3.php:1
+msgid "Manga Post Type Settings"
+msgstr "漫画帖子类型设置"
+
+#: admin/first-install/step-3.php:4
+msgid ""
+"The default slug for Manga Post type is <code>manga</code>, but you can "
+"change the slug of Manga Post Type to different slug. "
+msgstr ""
+"Manga Post类型的默认slug是<code> manga </code>，但你可以将Manga Post类型的slug更改为不同的slug。"
+
+#: admin/first-install/step-3.php:19
+msgid "Manga Slug"
+msgstr "漫画Slug"
+
+#: admin/first-install/step-3.php:28
+msgid ""
+"Change slug for Manga, default slug is <code>manga</code>. Manga slug will "
+"be used for Manga Single and Manga Archive page."
+msgstr "修改漫画的slug，默认的slug是<code> Manga </code>。漫画slug将用于漫画单页和漫画档案页。"
+
+#: admin/first-install/step-4.php:1
+msgid "Configure WP Manga Storage"
+msgstr "配置WP Manga存储"
+
+#: admin/first-install/step-4.php:4
+msgid ""
+"Beside Local storage, WP Manga integrate 3 popular storage services to store "
+"Manga data for your website. Includes <strong>Blogspot (Google Photos), "
+"Imgur Settings, Amazon S3 services.</strong>."
+msgstr ""
+"除了本地存储，WP Manga还集成了3种流行的存储服务，为您的网站存储漫画数据。包括<strong>Blogspot(谷歌照片)"
+"，Imgur设置，亚马逊S3服务</strong>。"
+
+#: admin/first-install/step-4.php:14
+msgid "You will find the settings for this in "
+msgstr "你可以在以下内容中找到相关的设置 "
+
+#: admin/first-install/step-5.php:1
+msgid "Thanks for staying tuned! "
+msgstr "感谢大家继续关注! "
+
+#: admin/first-install/step-5.php:3
+msgid "That's all! You can start to create and upload Manga right now!"
+msgstr "这就是全部! 你现在就可以开始创作和上传漫画了!"
+
+#: admin/first-install/step-5.php:6
+msgid "Please go to our Document for further instructions and tutorials."
+msgstr "请到我们的文件中了解进一步的说明和教程。"
+
+#: admin/first-install/step-5.php:10
+msgid "Back to Dashboard"
+msgstr "回到仪表盘"
+
+#: admin/hooks.php:8
+msgid "AMP - Image Height"
+msgstr "AMP - 图像高度"
+
+#: admin/hooks.php:11
+#, php-format
+msgid ""
+"If this chapter uses different Image Height value than global setting in "
+"Theme Options > AMP, you can override it using this field. Value is in "
+"pixels. Read more about %s"
+msgstr "如果本章在主题选项> AMP中使用不同于全局设置的图像高度值，您可以使用此字段覆盖它。Value以像素为单位。阅读更多关于%s的信息"
+
+#: admin/manga-single/chapter-edit-modal.php:30 
+#: admin/manga-single/metabox/content-type/chapter-create.php:29 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:44
+msgid "Chapter Name"
+msgstr "章节名称"
+
+#: admin/manga-single/chapter-edit-modal.php:33
+msgid "Chapter Extend Name"
+msgstr "章节扩展名称"
+
+#: admin/manga-single/chapter-edit-modal.php:36
+msgid "Custom Index"
+msgstr "自定义目录"
+
+#: admin/manga-single/chapter-edit-modal.php:49
+msgid "Status: "
+msgstr "状态:"
+
+#: admin/manga-single/chapter-edit-modal.php:52 inc/functions.php:444 
+#: inc/post-type.php:609 templates/manga-search.php:157
+msgid "Completed"
+msgstr "已完成"
+
+#: admin/manga-single/chapter-edit-modal.php:53
+msgid "Uploading"
+msgstr "上传中"
+
+#: admin/manga-single/chapter-edit-modal.php:60
+msgid "Chapter SEO Description: "
+msgstr "章节SEO描述:"
+
+#: admin/manga-single/chapter-edit-modal.php:67
+msgid "Chapter warning text: "
+msgstr "章节警告文本:"
+
+#: admin/manga-single/chapter-edit-modal.php:75 
+#: admin/manga-single/chapter-edit-modal.php:94
+msgid "Volume: "
+msgstr "卷:"
+
+#: admin/manga-single/chapter-edit-modal.php:86
+msgid "Storage: "
+msgstr "储存:"
+
+#: admin/manga-single/chapter-edit-modal.php:90
+msgid "Remove this storage"
+msgstr "删除这个存储"
+
+#: admin/manga-single/chapter-edit-modal.php:103
+msgid "Upload images"
+msgstr "上传图像"
+
+#: admin/manga-single/chapter-edit-modal.php:106
+msgid ""
+"Upload more images to this chapter. A single image or a zip file is accepted"
+msgstr "向本章上传更多图片。接受单张图片或一个压缩文件"
+
+#: admin/manga-single/chapter-edit-modal.php:108
+msgid "Update Latest Modified Time for this manga?"
+msgstr "更新 这部漫画的最新修改时间？"
+
+#: admin/manga-single/chapter-edit-modal.php:111 
+#: templates/user/page/account-settings.php:75
+msgid "Upload"
+msgstr "上传"
+
+#: admin/manga-single/chapter-edit-modal.php:124
+msgid "You can sort the page by draging picture"
+msgstr "你可以按图片排序"
+
+#: admin/manga-single/chapter-edit-modal.php:132 
+#: admin/manga-single/metabox/content-type/chapter-create.php:48
+msgid "To enable multiple servers, use this format in the content"
+msgstr "时间范围要启用多个服务器，在内容中使用这种格式"
+
+#: admin/manga-single/chapter-edit-modal.php:133 
+#: admin/manga-single/metabox/content-type/chapter-create.php:48
+msgid "SERVER 1 NAME :: CONTENT 1 || SERVER 2 NAME :: CONTENT"
+msgstr "服务器1名称::内容1 ||服务器2名称::内容"
+
+#: admin/manga-single/chapter-edit-modal.php:148
+msgid "Duplicate to : "
+msgstr "复制到 :"
+
+#: admin/manga-single/chapter-edit-modal.php:151
+msgid "Duplicate"
+msgstr "复制"
+
+#: admin/manga-single/chapter-edit-modal.php:154
+msgid "Save"
+msgstr "保存"
+
+#: admin/manga-single/chapter-edit-modal.php:156 inc/functions.php:862
+msgid "Delete Chapter"
+msgstr "删除章节"
+
+#: admin/manga-single/chapter-edit-modal.php:160
+msgid "Empty Images"
+msgstr "空图像"
+
+#: admin/manga-single/chapter-edit-modal.php:165
+msgid "Download Chapter"
+msgstr "下载章节"
+
+#: admin/manga-single/chapter-edit-modal.php:169
+msgid "Close"
+msgstr "关闭"
+
+#: admin/manga-single/manga-metabox.php:47 
+#: admin/manga-single/manga-metabox.php:88
+msgid "Manga Extra Info"
+msgstr "漫画额外信息"
+
+#: admin/manga-single/manga-metabox.php:50
+msgid "Manga Chapters List"
+msgstr "漫画章节列表"
+
+#: admin/manga-single/manga-metabox.php:56
+msgid "Upload Single Chapter"
+msgstr "上传单个章节"
+
+#: admin/manga-single/manga-metabox.php:59 
+#: admin/manga-single/manga-metabox.php:68 
+#: admin/manga-single/manga-metabox.php:77
+msgid "Upload Multi Chapters"
+msgstr "上传多个章节"
+
+#: admin/manga-single/manga-metabox.php:65 
+#: admin/manga-single/metabox/manga-type-select.php:29
+msgid "Text Chapter"
+msgstr "文本章节"
+
+#: admin/manga-single/manga-metabox.php:74 
+#: admin/manga-single/metabox/manga-type-select.php:33
+msgid "Video Chapter"
+msgstr "视频章节"
+
+#: admin/manga-single/manga-metabox.php:92
+msgid "Alternative Name"
+msgstr "备用名称"
+
+#: admin/manga-single/manga-metabox.php:95 inc/post-type.php:25 
+#: templates/single/info-type.php:21
+msgid "Type"
+msgstr "类型"
+
+#: admin/manga-single/manga-metabox.php:108
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: admin/manga-single/manga-metabox.php:112
+msgid "Global Message In All Chapters"
+msgstr "所有章节的全局信息"
+
+#: admin/manga-single/metabox/chapter-list.php:15
+msgid "Search Chapter"
+msgstr "搜索章节"
+
+#: admin/manga-single/metabox/chapter-list.php:28
+msgid "Fetching New Chapters Data"
+msgstr "获取新的章节数据"
+
+#: admin/manga-single/metabox/chapter-list.php:37
+msgid "This Manga doesn't have any chapters yet. "
+msgstr "这部漫画还没有任何章节。"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:17 
+#: admin/manga-single/metabox/content-type/manga-upload.php:19 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:27 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:34
+msgid "Volume"
+msgstr "卷"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:21 
+#: admin/manga-single/metabox/content-type/manga-upload.php:22 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:33 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:36
+msgid "New Volume"
+msgstr "新卷"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:25 
+#: admin/manga-single/metabox/content-type/manga-upload.php:26 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:37 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:40
+msgid "Add"
+msgstr "添加"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:32 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:48
+msgid "If you want to override a chapter, use same chapter name here"
+msgstr "如果你想覆盖一个章节，在这里使用相同的章节名称"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:34 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:54
+msgid "Name Extend"
+msgstr "名称扩展"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:37
+msgid ""
+"(optional) Name extend of chapter for better display => Chapter name: Name "
+"extend"
+msgstr "(可选)为了更好的显示，扩展章节的名称=>章节名称:扩展名称"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:40 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:66
+msgid "Chapter Index"
+msgstr "章节目录"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:43
+msgid "(Optional) Index of Chapter which is used to sort Chapter"
+msgstr "(可选)章节索引，用于对章节进行排序"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:46
+msgid "Chapter Content"
+msgstr "章节内容"
+
+#: admin/manga-single/metabox/content-type/chapter-create.php:54 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:291
+msgid "Create Chapter"
+msgstr "创建章节"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:31 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:45
+msgid "Direct File Path"
+msgstr "直接文件路径"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:32 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:46
+msgid "Enter direct link to .zip file on your server"
+msgstr "输入你服务器上.zip文件的直接链接"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:36 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:50 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:65
+msgid "Allowed .zip file structures"
+msgstr "允许的.zip文件结构"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:43 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:58
+msgid "OR"
+msgstr "或"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:47
+msgid "Multi Chapters File"
+msgstr "多章节文件"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:51 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:117 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:139
+msgid "Allowed .zip file structure"
+msgstr "允许的.zip文件结构"
+
+#: admin/manga-single/metabox/content-type/manga-upload.php:60 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:61
+msgid "Upload File"
+msgstr "上传文件"
+
+#: admin/manga-single/metabox/manga-type-select.php:16
+msgid "Chapter Type"
+msgstr "章节类型"
+
+#: admin/manga-single/metabox/manga-type-select.php:19
+msgid "This setting cannot be changed after choosen."
+msgstr "该设置在选择后不能改变。"
+
+#: admin/manga-single/metabox/manga-type-select.php:25
+msgid "Manga Chapter"
+msgstr "漫画章节"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:59
+msgid ""
+"(Optional) Name extend of chapter for better display => Chapter name: Name "
+"extend"
+msgstr "(可选)为了更好的显示，扩展章节名称=>章节名称:扩展名称"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:71
+msgid "(Optional) Index of Chapter which is used to sort Chapters"
+msgstr "(可选)章节索引，用于对章节进行排序"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:78
+msgid "Upload Type"
+msgstr "上传类型"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:83
+msgid "Upload Zip File"
+msgstr "上传压缩文件"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:86
+msgid "Select Uploaded Album from Cloud Server"
+msgstr "选择从云服务器上传的专辑"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:95
+msgid "Choose where to upload"
+msgstr "选择上传位置"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:111
+msgid "Direct Link"
+msgstr "直接链接"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:124
+msgid ""
+"Direct link on local server to the .zip file which contains all pictures of "
+"the chapter."
+msgstr "在本地服务器上直接链接到包含该章所有图片的.zip文件。"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:133
+msgid "File"
+msgstr "文件"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:146
+msgid ""
+"Update a .zip file which contains all pictures of the chapter. If you use "
+"this upload, Direct Link will be ignored"
+msgstr "更新一个包含该章节所有图片的.zip文件。如果你使用这个上传，直接链接将被忽略。"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:154
+msgid "Do you want to overwrite chapter or create a new one?"
+msgstr "你想覆盖章节还是创建一个新的章节？"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:156
+msgid "Overwrite old chapter"
+msgstr "覆盖旧的章节"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:159
+msgid "Create new chapter"
+msgstr "创建新章节"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:165
+msgid "Select Chapter to overwrite "
+msgstr "选择要覆盖的章节"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:176
+msgid "Upload Chapter"
+msgstr "上传章节"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:186
+msgid "Choose where to import"
+msgstr "选择导入位置"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:215 
+#: inc/upload/googlephotos.php:160
+msgid "Search Album by Name"
+msgstr "按名称搜索专辑"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:218 
+#: inc/upload/googlephotos.php:163
+msgid "Album Name"
+msgstr "专辑名称"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:224 
+#: inc/upload/googlephotos.php:169
+msgid ""
+"Album needs to be exactly with the album you want to import in Google Photos "
+"(case sensitive.)"
+msgstr "相册需要与您想在谷歌照片中导入的相册完全一致(大小写敏感)。"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:231 
+#: inc/upload/googlephotos.php:176
+msgid "Select Album to Import"
+msgstr "选择要导入的专辑"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:245 
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:277
+msgid "Album URL"
+msgstr "专辑的URL"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:251
+msgid ""
+"Imgur album URL needs to be in <strong>https://imgur.com/a/{albumhash}"
+"</strong> format"
+msgstr "Imgur专辑的URL需要是<strong>https://imgur.com/a/{albumhash}</strong>格式。"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:261
+msgid "Folder URL"
+msgstr "文件夹URL"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:267
+msgid ""
+"AmazonS3 folder URL needs to be in <strong>https://s3.console.aws.amazon."
+"com/s3/buckets/{bucket}/{folder_path}/?region={region}</strong> format"
+msgstr ""
+"AmazonS3文件夹URL需要采用<strong>https://s3.console.aws.amazon."
+"com/s3/buckets/{bucket}/{folder_path}/?region={region}</strong>格式"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:283
+msgid ""
+"Flickr album URL needs to be in <strong>https://www.flickr.com/photos/{user}"
+"/albums/{album_id}</strong> format"
+msgstr ""
+"Flickr相册URL需要采用<strong>https://www.flickr.com/photos/{user}/albums/{album_id}"
+"</strong>格式"
+
+#: admin/manga-single/metabox/manga-type/chapter-upload.php:291
+msgid "Search Album"
+msgstr "搜索专辑"
+
+#: admin/manga-single/metabox/manga-type/manga-upload.php:17 
+#: admin/manga-single/metabox/manga-type/manga-upload.php:79
+msgid "Upload Manga"
+msgstr "上传漫画"
+
+#: admin/manga-single/metabox/manga-type/manga-upload.php:20
+msgid "Storage"
+msgstr "储存"
+
+#: admin/manga-single/metabox/manga-type/manga-upload.php:67
+msgid ""
+"Use \"--\" separator in folder name for Chapter Name and Extend Name. For "
+"example: \"Chapter 1 -- Other Name\""
+msgstr "章节名称和扩展名称的文件夹名称中使用\"--\"分隔符。例如。\"第1章--其他名称\""
+
+#: admin/settings/settings-page.php:74
+msgid "Manga Permalink Settings"
+msgstr "漫画永久链接设置"
+
+#: admin/settings/settings-page.php:78
+msgid "Manga Single Slug"
+msgstr "漫画单Slug"
+
+#: admin/settings/settings-page.php:84
+msgid "Change slug for Single Manga, default slug is <strong> manga </strong>."
+msgstr "改变单幅漫画的slug，默认slug为<strong>manga </strong>。"
+
+#: admin/settings/settings-page.php:91
+msgid "Manga Genres Slug"
+msgstr "漫画类型"
+
+#: admin/settings/settings-page.php:97
+msgid ""
+"Change slug for Manga Genres Page, default slug is <strong> manga-genre "
+"</strong>."
+msgstr "修改漫画类型页面的slug，默认slug为<strong> manga-genre </strong>。"
+
+#: admin/settings/settings-page.php:104
+msgid "Manga Author Slug"
+msgstr "漫画作者Slug"
+
+#: admin/settings/settings-page.php:110
+msgid ""
+"Change slug for Manga Author Page, default slug is <strong> manga-author "
+"</strong>."
+msgstr "更改漫画作者页的slug，默认slug为<strong> manga-author </strong>。"
+
+#: admin/settings/settings-page.php:117
+msgid "Manga Artist Slug"
+msgstr "漫画作者Slug"
+
+#: admin/settings/settings-page.php:123
+msgid ""
+"Change slug for Manga Artist Page, default slug is <strong> manga-artist "
+"</strong>."
+msgstr "修改漫画作者页面的slug，默认slug为<strong> manga-artist </strong>。"
+
+#: admin/settings/settings-page.php:130
+msgid "Manga Tag Slug"
+msgstr "漫画标签Slug"
+
+#: admin/settings/settings-page.php:136
+msgid ""
+"Change slug for Manga Tag Page, default slug is <strong> manga-tag </strong>."
+" Do not use default \"tag\" slug"
+msgstr ""
+"更改Manga Tag页面的slug，默认slug为<strong> manga-tag</strong>。不要使用默认的 \"标签 \"slug"
+
+#: admin/settings/settings-page.php:143
+msgid "Manga Release Year Slug"
+msgstr "漫画发布年份Slug"
+
+#: admin/settings/settings-page.php:149
+msgid ""
+"Change slug for Manga Release Year Page, default slug is <strong> manga-"
+"release </strong>."
+msgstr "更改漫画发布年份页面的slug，默认slug为<strong> manga-release </strong>。"
+
+#: admin/settings/settings-page.php:154
+msgid ""
+"Remember to save the <b>Settings > Permalink</b> setting again if you change "
+"any of above values"
+msgstr "如果你改变了上述任何数值，请记得再次保存<b>设置>Permalink</b>设置。"
+
+#: admin/settings/settings-page.php:155 admin/settings/settings-page.php:285 
+#: admin/settings/settings-page.php:302 admin/settings/settings-page.php:586 
+#: admin/settings/settings-page.php:660 admin/settings/settings-page.php:664
+msgid "Save All Changes"
+msgstr "保存所有更改"
+
+#: admin/settings/settings-page.php:158
+msgid "Manga General Settings"
+msgstr "漫画常规设置"
+
+#: admin/settings/settings-page.php:195
+msgid "Loading Bootstrap"
+msgstr "加载Bootstrap"
+
+#: admin/settings/settings-page.php:201
+msgid "Option to turn off loading Bootstrap"
+msgstr "关闭加载Bootstrap的选项"
+
+#: admin/settings/settings-page.php:203
+msgid ""
+"Turn off loading Bootstrap might break Manga pages layout. However, in some "
+"cases, your theme already has Bootstrap, then you can switch this off to "
+"avoid conflicts."
+msgstr "关闭加载Bootstrap可能会破坏漫画页面的布局。然而，在某些情况下，你的主题已经有了Bootstrap，那么你可以把它关掉以避免冲突。"
+
+#: admin/settings/settings-page.php:205
+msgid ""
+"By default, plugin would check if your theme already has Bootstrap and turn "
+"off this."
+msgstr ""
+"By default, plugin would check if your theme already has Bootstrap and turn "
+"off this."
+
+#: admin/settings/settings-page.php:212
+msgid "Loading Slick"
+msgstr "加载Slick"
+
+#: admin/settings/settings-page.php:218
+msgid "Option to turn off loading slick"
+msgstr "关掉加载slick的选项"
+
+#: admin/settings/settings-page.php:225
+msgid "Loading FontAwesome"
+msgstr "加载FontAwesome"
+
+#: admin/settings/settings-page.php:231
+msgid "Option to turn off loading FontAwesome"
+msgstr "关闭加载FontAwesome的选项"
+
+#: admin/settings/settings-page.php:238
+msgid "Loading IonIcons"
+msgstr "加载IonIcons"
+
+#: admin/settings/settings-page.php:244
+msgid "Option to turn off loading IonIcons"
+msgstr "关掉加载IonIcons的选项"
+
+#: admin/settings/settings-page.php:252
+msgid "Manga Chapters Feed"
+msgstr "漫画篇目提要"
+
+#: admin/settings/settings-page.php:259
+#, php-format
+msgid ""
+"Number of entries in the Chapters Feed. Link to Chapters Feed: <a "
+"href=\"%s\" target=\"_blank\">Chapters Feed</a>"
+msgstr "章节提要中的条目数量。链接到章节提要:<a href=\"%s\" target=\"_blank\">章节提要</a>"
+
+#: admin/settings/settings-page.php:268
+msgid "Show Chapter Type in Admin"
+msgstr "在管理中显示章节类型"
+
+#: admin/settings/settings-page.php:274
+msgid "Show"
+msgstr "显示"
+
+#: admin/settings/settings-page.php:278
+msgid ""
+"If your site has more than 1 Chapter Type (manga, novel, video), you can "
+"check this option so in Manga > All Mangas page, you will see a column "
+"showing Chapter Type"
+msgstr ""
+"如果你的网站有超过一个章节类型(漫画，小说，视频)，你可以选中这个选项，所以在manga > All manga页面，你会看到一个显示章节类型的列"
+
+#: admin/settings/settings-page.php:288
+msgid "Manga Archives Page Settings"
+msgstr "漫画归档页设置"
+
+#: admin/settings/settings-page.php:291
+msgid "Paging Style"
+msgstr "寻呼样式"
+
+#: admin/settings/settings-page.php:296
+msgid "Load More Button"
+msgstr "载入更多按钮"
+
+#: admin/settings/settings-page.php:305
+msgid "Manga Detail Page Settings"
+msgstr "漫画详情页设置"
+
+#: admin/settings/settings-page.php:308
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/settings/settings-page.php:313
+msgid "Add website name to meta title tag & meta keywords tag"
+msgstr "添加网站名称到meta标题标签和meta关键字标签"
+
+#: admin/settings/settings-page.php:320
+msgid "Manga Rating"
+msgstr "漫画评分"
+
+#: admin/settings/settings-page.php:325
+msgid "Enable Rating for manga"
+msgstr "为漫画设置评级"
+
+#: admin/settings/settings-page.php:332
+msgid "Manga Guest Rating"
+msgstr "漫画游客评分"
+
+#: admin/settings/settings-page.php:337
+msgid "Allow Guests to rate. The above \"Manga Rating\" must be checked"
+msgstr "允许游客评分。以上“漫画等级”必须检查"
+
+#: admin/settings/settings-page.php:344 inc/post-type.php:304
+msgid "Manga Views"
+msgstr "漫画浏览"
+
+#: admin/settings/settings-page.php:349
+msgid "Enable Views Count for Manga"
+msgstr "开启漫画的浏览量计数"
+
+#: admin/settings/settings-page.php:356
+msgid "Saving reading history for Guests"
+msgstr "为游客保存阅读历史"
+
+#: admin/settings/settings-page.php:360 admin/settings/settings-page.php:459 
+#: admin/settings/settings-page.php:541 admin/settings/settings-page.php:553 
+#: admin/settings/settings-page.php:598
+msgid "Enable"
+msgstr "启用"
+
+#: admin/settings/settings-page.php:366
+msgid "Manga Bookmark"
+msgstr "漫画书签"
+
+#: admin/settings/settings-page.php:371
+msgid "Enable Bookmark feature"
+msgstr "启用书签功能"
+
+#: admin/settings/settings-page.php:378
+msgid "Maximum Bookmark Items"
+msgstr "最大的书签项目"
+
+#: admin/settings/settings-page.php:382
+msgid ""
+"We should limit number of Mangas an user can bookmark to prevent memory "
+"limit issue"
+msgstr "我们应该限制一个用户可以收藏的漫画数量，以防止内存限制问题。"
+
+#: admin/settings/settings-page.php:388
+msgid "Manga Comment"
+msgstr "漫画评论"
+
+#: admin/settings/settings-page.php:393
+msgid "Enable Comment for manga"
+msgstr "开启漫画评论"
+
+#: admin/settings/settings-page.php:399
+msgid "Default Comment"
+msgstr "默认的评论"
+
+#: admin/settings/settings-page.php:402
+msgid "Disqus Comment"
+msgstr "Disqus评论"
+
+#: admin/settings/settings-page.php:403
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: admin/settings/settings-page.php:404
+msgid "Both"
+msgstr "两者都"
+
+#: admin/settings/settings-page.php:410
+msgid "Related Manga"
+msgstr "相关漫画"
+
+#: admin/settings/settings-page.php:415
+msgid "Enable Related Manga"
+msgstr "启用相关漫画"
+
+#: admin/settings/settings-page.php:422
+msgid "Related by"
+msgstr "相关"
+
+#: admin/settings/settings-page.php:426 
+#: inc/widgets/manga-popular-slider.php:95 inc/widgets/manga-slider.php:95 
+#: inc/widgets/recent-manga.php:261 templates/manga-search.php:130 
+#: templates/manga-search.php:131
+msgid "Author"
+msgstr "作者"
+
+#: admin/settings/settings-page.php:427 
+#: inc/widgets/manga-popular-slider.php:109 inc/widgets/manga-slider.php:109 
+#: inc/widgets/recent-manga.php:273
+msgid "Release Year"
+msgstr "发布年份"
+
+#: admin/settings/settings-page.php:428 
+#: templates/content/content-search.php:111
+msgid "Artists"
+msgstr "作者"
+
+#: admin/settings/settings-page.php:429 
+#: templates/content/content-search.php:135
+msgid "Genres"
+msgstr "类型"
+
+#: admin/settings/settings-page.php:437
+msgid "Manga Reading Page Settings"
+msgstr "漫画阅读页面设置"
+
+#: admin/settings/settings-page.php:441
+msgid "Hosting Selection"
+msgstr "主机的选择"
+
+#: admin/settings/settings-page.php:446
+msgid "Show Hosting Selection for Manga"
+msgstr "显示漫画的服务器选择"
+
+#: admin/settings/settings-page.php:448
+msgid ""
+"Uncheck to hide Hosting Selection. Hosting Selection should be hide if you "
+"only use one hosting for your Manga"
+msgstr "取消勾选以隐藏主机选择。如果你只为你的漫画使用一个主机，应该隐藏主机选择。"
+
+#: admin/settings/settings-page.php:454
+msgid "Use Anonymous Name for Hosting"
+msgstr "使用匿名主机名称"
+
+#: admin/settings/settings-page.php:461
+msgid ""
+"Use anonymous name for hosting, for example \"Server 1\", \"Server 2\"..."
+msgstr "使用匿名名称进行托管，例如 \"服务器1\"、\"服务器2\"..."
+
+#: admin/settings/settings-page.php:467
+msgid "Image Chapter - Reading Style Selection"
+msgstr "图片篇 - 阅读风格选择"
+
+#: admin/settings/settings-page.php:472
+msgid "Show Reading Style selection box"
+msgstr "显示阅读样式选择框"
+
+#: admin/settings/settings-page.php:474
+msgid ""
+"Show/hide Reading Style selection box in Chapter Reading page (ie. switching "
+"between Paged and List style. Uncheck to hide Reading Style selection box. "
+"Global setting in Theme Options and in individual User Settings will be used"
+msgstr ""
+"在章节阅读页面显示/隐藏阅读风格选择框（即在分页和列表风格之间切换。取消勾选以隐藏阅读风格选择框。主题选项和个人用户设置中的全局设置将被使用。"
+
+#: admin/settings/settings-page.php:481
+msgid "Image Chapter - Default Storage"
+msgstr "图像章节 - 默认存储"
+
+#: admin/settings/settings-page.php:495
+msgid "Change default storage to upload Manga images"
+msgstr "更改默认存储空间以上传漫画图像"
+
+#: admin/settings/settings-page.php:502
+msgid "Video Chapter - Default Server"
+msgstr "视频章节 - 默认服务器"
+
+#: admin/settings/settings-page.php:507
+msgid ""
+"Set default server for Video Chapter. Please enter exact server name here"
+msgstr "为视频章节设置默认服务器。请在此输入准确的服务器名称"
+
+#: admin/settings/settings-page.php:512
+msgid "When reading, click to scroll"
+msgstr "阅读时，点击滚动"
+
+#: admin/settings/settings-page.php:517
+msgid "Click to Scroll page when reading chapter"
+msgstr "阅读章节时点击滚动页面"
+
+#: admin/settings/settings-page.php:524
+msgid "Use Left/Right Keyboard"
+msgstr "使用左/右键键盘"
+
+#: admin/settings/settings-page.php:529
+msgid "Next/Prev chapter pages using left/right keyboard"
+msgstr "使用左/右键盘查看下一/前一章的内容"
+
+#: admin/settings/settings-page.php:536
+msgid "Link to All Mangas page in BreadCrumbs"
+msgstr "链接到BreadCrumbs的All Mangas页面"
+
+#: admin/settings/settings-page.php:548
+msgid "Link to First Genre in BreadCrumbs"
+msgstr "链接到BreadCrumbs中的第一种类型"
+
+#: admin/settings/settings-page.php:555
+msgid ""
+"When manga belongs to several Genres, only the first genre will appear in "
+"the breadcrumbs"
+msgstr "当漫画属于多个类型时，只有第一个类型会出现在面包屑中"
+
+#: admin/settings/settings-page.php:561
+msgid "Link to Manga Info when reaching last chapter"
+msgstr "到达最后一章时链接到漫画信息"
+
+#: admin/settings/settings-page.php:566
+msgid "Hidden"
+msgstr "隐藏"
+
+#: admin/settings/settings-page.php:567
+msgid "Show when reader reaches the end"
+msgstr "读者到达结尾时显示"
+
+#: admin/settings/settings-page.php:568
+msgid "Always show"
+msgstr "总是显示"
+
+#: admin/settings/settings-page.php:571
+msgid "Display a button link to the Manga/Novel detail page"
+msgstr "显示一个链接到漫画/小说详情页的按钮"
+
+#: admin/settings/settings-page.php:577
+msgid "Variable name for Chapter Pagination"
+msgstr "章节分页的变量名称"
+
+#: admin/settings/settings-page.php:590
+msgid "Manga User Settings"
+msgstr "漫画用户设置"
+
+#: admin/settings/settings-page.php:593
+msgid "Allow Upload Avatar"
+msgstr "允许上传头像"
+
+#: admin/settings/settings-page.php:600
+msgid ""
+"Allow User to upload custom avatar. Or else, Gravatar is used (based on "
+"user's email)"
+msgstr "允许用户上传自定义头像。否则，使用Gravatar(根据用户的电子邮件)"
+
+#: admin/settings/settings-page.php:606
+msgid "Admin Bar"
+msgstr "Admin Bar"
+
+#: admin/settings/settings-page.php:612
+msgid "Hide Admin Bar for Administrator"
+msgstr "隐藏管理员的管理栏"
+
+#: admin/settings/settings-page.php:614
+msgid ""
+"By default, Admin Bar would be hidden for all user roles but Administrator. "
+"This option will let you hide Admin Bar for Administrator role."
+msgstr "默认情况下，除管理员外，所有用户角色的管理栏都将被隐藏。该选项将允许你为管理员角色隐藏管理栏。"
+
+#: admin/settings/settings-page.php:620
+msgid "Notify User"
+msgstr "通知用户"
+
+#: admin/settings/settings-page.php:626
+msgid "When User Bookmarked Manga has new chapter"
+msgstr "用户收藏的漫画有新章节时"
+
+#: admin/settings/settings-page.php:633
+msgid "Webpush Notification"
+msgstr "Webpush通知"
+
+#: admin/settings/settings-page.php:639
+msgid "Send a webpush notification for users bookmarked Manga"
+msgstr "为用户收藏的漫画发送webpush通知"
+
+#: admin/settings/settings-page.php:643
+msgid "Require OneSignal – Web Push Notifications plugin"
+msgstr "需要OneSignal - 网络推送通知插件"
+
+#: admin/settings/settings-page.php:648
+msgid "Webpush Notification Content"
+msgstr "Webpush通知内容"
+
+#: admin/settings/settings-page.php:655
+msgid ""
+"Message to send notification for user. Use <strong>%manga%</strong> for "
+"Manga name, <strong>%chapter%</strong> for Chapter name"
+msgstr ""
+"消息，为用户发送通知。漫画名称使用<strong>%manga%</strong>，章节名称使用<strong>%chapter%</strong>"
+
+#: admin/settings/settings-search.php:14
+msgid "Rebuild Search Text"
+msgstr "重建搜索文本"
+
+#: admin/settings/settings-search.php:16
+msgid ""
+"Rebuild all search text for all series (mangas/novels) in your site. It only "
+"needs to be run once if you are from a version earlier than 1.7, or you will "
+"to rebuild all search text for some reasons. Search Text is used for keyword "
+"search, and these fields will be included:"
+msgstr ""
+"重建你网站中所有系列（漫画/小说）的所有搜索文本。如果你的版本早于1."
+"7，或者你因为某些原因要重建所有的搜索文本，只需要运行一次。搜索文本用于关键词搜索，这些字段将被包括在内。"
+
+#: admin/settings/settings-search.php:18
+msgid "Series Title"
+msgstr "系列标题"
+
+#: admin/settings/settings-search.php:19
+msgid "Series Alternative Title"
+msgstr "系列备选标题"
+
+#: admin/settings/settings-search.php:20
+msgid "Chapter Name & Extend Name"
+msgstr "章节名称和扩展名称"
+
+#: admin/settings/settings-search.php:23
+msgid ""
+"If you only need to search in Title, Excerpt or Description, then you don't "
+"need to do this."
+msgstr "如果你只需要在标题、摘要或描述中搜索，那么你就不需要这样做。"
+
+#: admin/settings/settings-search.php:24
+msgid ""
+"It will take time to rebuild the search text if your site has a lot of "
+"series and chapters, so stay tuned!"
+msgstr "如果你的网站有很多系列和章节，重建搜索文本将需要时间，所以请保持关注!"
+
+#: admin/settings/settings-search.php:34
+msgid ""
+"This function modify database structure. Make sure you backup your database "
+"before doing this! If your site has a lot of data, it may break in the middle"
+msgstr "这个函数修改数据库结构。在这样做之前，请确保你备份你的数据库! 如果你的网站有大量的数据，它可能会在中间中断。"
+
+#: admin/settings/settings-search.php:38
+msgid "Run"
+msgstr "运行"
+
+#: admin/settings/settings-search.php:39
+msgid "Ignore"
+msgstr "忽略"
+
+#: admin/settings/settings-storage.php:34
+msgid "Blogspot Settings"
+msgstr "Blogspot设置"
+
+#: admin/settings/settings-storage.php:35 inc/upload/googlephotos.php:19
+msgid ""
+" - You can start using this upload feature when you see the Authorizing "
+"success display."
+msgstr "—当您看到授权成功显示时，您可以开始使用此上传功能。"
+
+#: admin/settings/settings-storage.php:36 inc/upload/googlephotos.php:20
+msgid " - Allow to upload only Image file type at this time."
+msgstr "-此时只允许上传图像文件类型。"
+
+#: admin/settings/settings-storage.php:39
+msgid "* For Blogspot Api register :"
+msgstr "*对于Blogspot Api注册:"
+
+#: admin/settings/settings-storage.php:41
+msgid ""
+" - You need to create a Oauth Client ID Credential and when setting, "
+"remember to put the redirect Url to your website. "
+msgstr "-你需要创建一个Oauth客户端ID凭证，设置时，记得把重定向Url到你的网站。"
+
+#: admin/settings/settings-storage.php:46 
+#: admin/settings/settings-storage.php:161 inc/upload/googlephotos.php:30
+msgid "Client ID"
+msgstr "Client ID"
+
+#: admin/settings/settings-storage.php:52 inc/upload/googlephotos.php:36
+msgid "You can register the client ID at"
+msgstr "你可以在以下网址注册客户ID"
+
+#: admin/settings/settings-storage.php:54 inc/upload/googlephotos.php:38
+msgid "developers.google.com"
+msgstr "developers.google.com"
+
+#: admin/settings/settings-storage.php:61 
+#: admin/settings/settings-storage.php:182 inc/upload/googlephotos.php:45
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: admin/settings/settings-storage.php:67
+msgid ""
+"You will need Client Secret to Authorize and Upload to blogspot function"
+msgstr "你将需要客户密钥来授权和上传至blogspot功能"
+
+#: admin/settings/settings-storage.php:73 inc/upload/googlephotos.php:57
+msgid "Redirect URL"
+msgstr "重定向URL"
+
+#: admin/settings/settings-storage.php:79 inc/upload/googlephotos.php:63
+msgid ""
+"Redirect URL need to match Credential's redirect URL when creating API "
+"Credential "
+msgstr "创建API凭证时，重定向URL需要与凭证的重定向URL相匹配。"
+
+#: admin/settings/settings-storage.php:86 inc/upload/googlephotos.php:70
+msgid "Refresh Token"
+msgstr "刷新令牌"
+
+#: admin/settings/settings-storage.php:92 inc/upload/googlephotos.php:76
+msgid ""
+"Google Refresh Token only being provided at the first time Authorizing the "
+"App, so you should remember or save the token to use the client ID again."
+msgstr "谷歌刷新令牌只在第一次授权应用程序时提供，因此您应该记住或保存令牌以再次使用客户端ID。"
+
+#: admin/settings/settings-storage.php:95 inc/upload/googlephotos.php:79
+msgid ""
+"Also if you have saved the Refresh Token along with Client ID and Secret, "
+"you can just fill all the details and don't need to authorize again. "
+msgstr "此外，如果您已经保存了刷新令牌以及客户端ID和密钥，则只需填写所有详细信息，而不需要再次授权。"
+
+#: admin/settings/settings-storage.php:98 inc/upload/googlephotos.php:82
+msgid "This will be auto generate when Authorize Process success."
+msgstr "这将在授权过程成功后自动生成。"
+
+#: admin/settings/settings-storage.php:111 
+#: admin/settings/settings-storage.php:195 
+#: admin/settings/settings-storage.php:255 
+#: admin/settings/settings-storage.php:377 inc/upload/googlephotos.php:93
+msgid "Authorize"
+msgstr "授权"
+
+#: admin/settings/settings-storage.php:120 
+#: admin/settings/settings-storage.php:204 
+#: admin/settings/settings-storage.php:264 
+#: admin/settings/settings-storage.php:383 inc/upload/googlephotos.php:102
+msgid "Authorizing Success"
+msgstr "授权成功"
+
+#: admin/settings/settings-storage.php:125 inc/upload/googlephotos.php:107
+msgid "Authorizing Failed. "
+msgstr "授权失败。"
+
+#: admin/settings/settings-storage.php:139
+msgid "Replace Blogspot URL"
+msgstr "替换Blogspot网址"
+
+#: admin/settings/settings-storage.php:147
+msgid ""
+"From Madara version 1.3, Madara-Core plugin use Blogspot URL for images "
+"instead of Picasa URL as before. This button would help you to replace all "
+"images Picasa URL with Blogspot URL."
+msgstr ""
+"从Madara 1.3版本开始，Madara-Core插件使用Blogspot URL来处理图片，而不是像以前那样使用Picasa "
+"URL。这个按钮将帮助你把所有图片的Picasa URL替换成Blogspot URL。"
+
+#: admin/settings/settings-storage.php:155
+msgid "Imgur Settings"
+msgstr "Ingur 设置"
+
+#: admin/settings/settings-storage.php:156
+msgid " - API setting for storage in Imgur.com"
+msgstr "—Imgur.com存储的API设置"
+
+#: admin/settings/settings-storage.php:167
+msgid "You can register the client ID at "
+msgstr "你可以在以下网址注册客户ID"
+
+#: admin/settings/settings-storage.php:169
+msgid "Imgur.com"
+msgstr "Imgur.com"
+
+#: admin/settings/settings-storage.php:173
+msgid ""
+"Note that you need to create a credential with callback to your website, "
+"also the the Redirect URL should be your website "
+msgstr "请注意，你需要创建一个带有回调功能的证书，同时，重定向URL应该是你的网站。"
+
+#: admin/settings/settings-storage.php:188
+msgid "You will need Client Secret to Authorize and Upload to imgur function"
+msgstr "你将需要客户密钥来授权和上传至imgur功能"
+
+#: admin/settings/settings-storage.php:215
+msgid "Flickr Settings"
+msgstr "Flickr 设置"
+
+#: admin/settings/settings-storage.php:216
+msgid " - API setting for storage in Flickr.com"
+msgstr "—Flickr.com存储的API设置"
+
+#: admin/settings/settings-storage.php:226
+msgid "API Key"
+msgstr "API Key"
+
+#: admin/settings/settings-storage.php:232
+msgid "You can register the API Key at "
+msgstr "你可以在以下网址注册API密钥 "
+
+#: admin/settings/settings-storage.php:234
+msgid "Flickr.com"
+msgstr "Flickr.com"
+
+#: admin/settings/settings-storage.php:236
+msgid "(registering API Key also include API Secret)"
+msgstr "(注册API Key时也要包含API Secret)"
+
+#: admin/settings/settings-storage.php:242
+msgid "API Secret"
+msgstr "API Secret"
+
+#: admin/settings/settings-storage.php:248
+msgid "You will need API Secret to Authorize and Upload to Flickr"
+msgstr "你将需要API Secret来授权和上传至Flickr"
+
+#: admin/settings/settings-storage.php:272
+msgid "Amazon S3 settings"
+msgstr "Amazon S3设置"
+
+#: admin/settings/settings-storage.php:273
+msgid ""
+" - If your upload not success, please check your region when create account "
+"need to be same as your bucket region."
+msgstr "-如果您上传不成功，请检查您的区域，当创建帐户需要与您的桶区域相同。"
+
+#: admin/settings/settings-storage.php:274
+msgid " - Allow to upload all files."
+msgstr "—允许上传所有文件。"
+
+#: admin/settings/settings-storage.php:277
+msgid "* For Amazon S3 set up :"
+msgstr "*对于Amazon S3的设置:"
+
+#: admin/settings/settings-storage.php:278
+msgid " - You need to login to your account at "
+msgstr "-你需要登入你的帐户"
+
+#: admin/settings/settings-storage.php:280 
+#: admin/settings/settings-storage.php:297
+msgid "https://console.aws.amazon.com/"
+msgstr "https://console.aws.amazon.com/"
+
+#: admin/settings/settings-storage.php:284
+msgid ""
+" - First thing to do is create an user to have the Access key ID and Secret "
+"access key ( register with Access Type of Programmatic access then push them "
+"to a group that have permission: \"AmazonS3FullAcess\" to get the keys ) at "
+msgstr ""
+"-首先要做的是创建一个具有访问键ID和秘密访问键的用户(以编程访问类型注册，然后将它们推送到具有权限的组:"
+"“AmazonS3FullAcess”以获取密钥)"
+
+#: admin/settings/settings-storage.php:286
+msgid "https://console.aws.amazon.com/iam"
+msgstr "https://console.aws.amazon.com/iam"
+
+#: admin/settings/settings-storage.php:288
+msgid ". Then provide the user the permission to read and write."
+msgstr "． 然后为用户提供读写权限。"
+
+#: admin/settings/settings-storage.php:291
+msgid " - After having the Key and Secret, note it and get to "
+msgstr "-拥有钥匙和秘密后，记下它并开始"
+
+#: admin/settings/settings-storage.php:293
+msgid "https://console.aws.amazon.com/s3/"
+msgstr "https://console.aws.amazon.com/s3/"
+
+#: admin/settings/settings-storage.php:295
+msgid ""
+". ( *Note : you need to create the bucket in the same region as your account "
+"when register the account at "
+msgstr "． (*注:在注册账号时，需要在与账号相同的区域创建桶"
+
+#: admin/settings/settings-storage.php:299
+msgid ""
+"And Also provide the permission for Any Authenticated AWS User can read and "
+"write "
+msgstr "并为任何经过身份验证的AWS用户提供读写权限"
+
+#: admin/settings/settings-storage.php:302
+msgid ""
+" - Then go back here to input your Key ID and Secret and also the Region of "
+"your account and your Bucket then save changes and you can start to upload. "
+msgstr "-然后回到这里输入您的密钥ID和秘密，以及您的帐户和Bucket的区域，然后保存更改，您可以开始上传。"
+
+#: admin/settings/settings-storage.php:307
+msgid "Access key ID"
+msgstr "访问密钥 ID"
+
+#: admin/settings/settings-storage.php:314
+msgid "You can create the key ID at"
+msgstr "你可以在以下网址创建密钥ID"
+
+#: admin/settings/settings-storage.php:316
+msgid "console.aws.amazon.com/iam"
+msgstr "console.aws.amazon.com/iam"
+
+#: admin/settings/settings-storage.php:323
+msgid "Secret access key"
+msgstr "秘密访问密钥"
+
+#: admin/settings/settings-storage.php:333
+msgid "Region"
+msgstr "地区"
+
+#: admin/settings/settings-storage.php:343
+msgid "Custom CDN"
+msgstr "自定义 CDN"
+
+#: admin/settings/settings-storage.php:350
+msgid ""
+"If you have Custom CDN URL for Amazon S3 storage, enter it here. If not, "
+"just leave empty. Value does not include https"
+msgstr "如果你有亚马逊S3存储的自定义CDN URL，在这里输入。如果没有，就留空。该值不包括HTTPS"
+
+#: admin/settings/settings-storage.php:364
+msgid "Bucket"
+msgstr "桶"
+
+#: admin/settings/settings-storage.php:391
+msgid ""
+"You don't have any buckets yet. Please create one in your Amazon account"
+msgstr "你还没有任何桶。请在您的亚马逊账户中创建一个"
+
+#: admin/settings/settings-storage.php:412
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: inc/ajax/backend.php:89
+msgid "Alter database failed. Please contact plugin author for help!"
+msgstr "修改数据库失败。请联系插件作者寻求帮助!"
+
+#: inc/ajax/backend.php:119
+#, fuzzy
+msgid "Build search text done!"
+msgstr "构建搜索文本完成!"
+
+#: inc/ajax/backend.php:216 inc/ajax/backend.php:640 inc/ajax/backend.php:1139 
+#: inc/ajax/backend.php:1170 inc/ajax/upload.php:121
+msgid "Missing Post ID"
+msgstr "缺少帖子ID"
+
+#: inc/ajax/backend.php:333 inc/ajax/upload.php:169
+msgid "Upload error. Please try again"
+msgstr "上传错误。请再试一次"
+
+#: inc/ajax/backend.php:434 inc/ajax/upload.php:187 inc/ajax/upload.php:303
+msgid ""
+"Invalid Zip file for Manga Chapter upload. This should be zip file for Video "
+"or Text Chapter upload."
+msgstr "上传漫画章节的Zip文件无效。这应该是用于上传视频或文本章节的压缩文件。"
+
+#: inc/ajax/backend.php:445 inc/ajax/upload.php:314
+msgid ""
+"Invalid Zip file for Single Chapter upload. This is Multi Chapters Upload "
+"zip file"
+msgstr "单章上传的Zip文件无效。这是多章节上传的压缩文件"
+
+#: inc/ajax/backend.php:447 inc/ajax/upload.php:316
+msgid "Unsupported Zip File for Single Chapter upload"
+msgstr "不支持单章上传的压缩文件"
+
+#: inc/ajax/backend.php:521 inc/ajax/backend.php:567 inc/ajax/upload.php:376
+msgid "Upload failed. Please try again later"
+msgstr "上传失败。请稍后再试。"
+
+#: inc/ajax/backend.php:554
+msgid "Upload failed. No images uploaded. Please try again later"
+msgstr "上传失败。没有上传图片。请稍后再试。"
+
+#: inc/ajax/backend.php:559
+msgid "Upload Successful"
+msgstr "上传成功"
+
+#: inc/ajax/backend.php:586
+msgid "Error"
+msgstr "错误"
+
+#: inc/ajax/backend.php:595 inc/upload/googlephotos.php:197
+msgid "Album Name cannot be empty"
+msgstr "专辑名不能为空"
+
+#: inc/ajax/backend.php:626 inc/upload/googlephotos.php:225
+msgid "Cannot find this album"
+msgstr "找不到这张专辑"
+
+#: inc/ajax/backend.php:644
+msgid "Missing Chapter ID"
+msgstr "缺少的章节ID"
+
+#: inc/ajax/backend.php:653
+msgid "Cannot find this Chapter"
+msgstr "找不到这一章"
+
+#: inc/ajax/backend.php:679
+msgid "Cannot find Chapter Content Data"
+msgstr "无法找到章节内容数据"
+
+#: inc/ajax/backend.php:691
+msgid "Empty chapter data"
+msgstr "空的章节数据"
+
+#: inc/ajax/backend.php:1012
+msgid "Something wrong happened. Please try again later"
+msgstr "发生了一些错误。请稍后再试。"
+
+#: inc/ajax/backend.php:1047
+msgid "<span> Nothing matches </span>"
+msgstr "<span>没有匹配项</span>"
+
+#: inc/ajax/backend.php:1080 inc/upload/google-upload.php:267 
+#: inc/upload/googlephotos.php:611
+#, php-format
+msgid "[Album] %s (having %d items)"
+msgstr "[专辑] %s (包含 %d 项)"
+
+#: inc/ajax/backend.php:1095 inc/ajax/backend.php:1120
+msgid "Missing Volume ID"
+msgstr "缺少卷ID"
+
+#: inc/ajax/backend.php:1143 inc/ajax/backend.php:1174
+msgid "Missing Chapter Type"
+msgstr "缺少的章节类型"
+
+#: inc/ajax/backend.php:1149
+msgid "Invalid Chapter Type"
+msgstr "无效的章节类型"
+
+#: inc/ajax/backend.php:1178
+msgid "Missing File"
+msgstr "丢失文件"
+
+#: inc/ajax/backend.php:1188
+msgid ""
+"Invalid Zip file for Manga Chapter Content type upload. This should be zip "
+"file for Manga Images Chapter type upload."
+msgstr "漫画章节内容类型上传的Zip文件无效。这应该是Manga Images Chapter类型上传的压缩文件。"
+
+#: inc/ajax/backend.php:1190 inc/ajax/upload.php:192
+msgid ""
+"Invalid Zip file for Multi Chapters upload. This is Single Chapter upload "
+"zip file"
+msgstr "多章上传的Zip文件无效。这是单章上传的压缩文件"
+
+#: inc/ajax/backend.php:1192 inc/ajax/upload.php:194
+msgid "Unsupported Zip File for Multi Chapters upload"
+msgstr "不支持上传多章节的压缩文件"
+
+#: inc/ajax/frontend.php:258
+msgid "<span>You haven't bookmarked any manga yet</span>"
+msgstr "<span>你还没有收藏过任何漫画</span>"
+
+#: inc/ajax/frontend.php:300
+msgid "<span>You haven't bookmark any manga yet</span>"
+msgstr "<span>你还没有收藏过任何漫画</span>"
+
+#: inc/ajax/frontend.php:309
+msgid "Eh, try to cheat ahh !?"
+msgstr "嗯，试图作弊啊!?"
+
+#: inc/ajax/frontend.php:545
+#, php-format
+msgid "Average %1s / %2s out of %3s total vote."
+msgid_plural "Average %1s / %2s out of %3s total votes."
+msgstr[0] "总投票数  %3s ，平均 %1s / %2s 。"
+
+#: inc/ajax/frontend.php:563
+msgid "I smell some cheating here"
+msgstr "我闻到了作弊的味道"
+
+#: inc/ajax/frontend.php:571 inc/ajax/frontend.php:594
+msgid "Upload failed! Please try again later"
+msgstr "上传失败! 请稍后再试"
+
+#: inc/ajax/frontend.php:648 inc/ajax/upload.php:198
+msgid "Missing post ID"
+msgstr "缺少帖子ID"
+
+#: inc/ajax/frontend.php:652
+msgid "Missing Query Page"
+msgstr "缺少查询页"
+
+#: inc/ajax/frontend.php:656
+msgid "Missing Chapter param"
+msgstr "缺少的章节参数"
+
+#: inc/ajax/frontend.php:666 inc/user-actions.php:555
+msgid "Chapter not found"
+msgstr "未找到章节"
+
+#: inc/ajax/frontend.php:751
+msgid "No manga found"
+msgstr "没有找到漫画"
+
+#: inc/ajax/frontend.php:792 inc/post-type.php:74
+msgid "No Manga found"
+msgstr "没有找到漫画"
+
+#: inc/ajax/upload.php:23
+msgid "Missing Information"
+msgstr "缺少信息"
+
+#: inc/ajax/upload.php:58 inc/ajax/upload.php:251
+msgid ""
+"This Chapter name is already existed, please choose if you want to over "
+"write or create a new one"
+msgstr "该章节名称已经存在，请选择是否要重写或创建一个新的名称。"
+
+#: inc/ajax/upload.php:89
+msgid "Invalid storage"
+msgstr "无效的存储"
+
+#: inc/ajax/upload.php:100
+msgid "Cannot import album to Chapter"
+msgstr "无法导入专辑到章节"
+
+#: inc/ajax/upload.php:146
+msgid "Chapter is created successfully!"
+msgstr "章节创建成功!"
+
+#: inc/ajax/upload.php:171
+msgid "Please check your maximum upload file size"
+msgstr "请检查您的最大上传文件尺寸"
+
+#: inc/ajax/upload.php:219
+msgid "Please choose zip file to upload"
+msgstr "请选择压缩文件进行上传"
+
+#: inc/ajax/upload.php:223
+msgid "Something wrong happened, please try again later"
+msgstr "发生了一些错误，请稍后再试"
+
+#: inc/ajax/upload.php:232
+msgid "Upload fail! Please provide direct link or upload a file"
+msgstr "上传失败! 请提供直接链接或上传文件"
+
+#: inc/comments/wp-comments.php:21
+msgid "Chapter"
+msgstr "章"
+
+#: inc/extras.php:124
+#, php-format
+msgid ""
+"A new comment on the chapter \"%s\" of \"%s\" is waiting for your approval"
+msgstr "关于“%s”中的“%s”章节的新注释正在等待您的批准"
+
+#: inc/extras.php:127
+#, php-format
+msgid "Author: %1$s (IP address: %2$s, %3$s)"
+msgstr "作者: %1$s (IP地址: %2$s， %3$s)"
+
+#: inc/extras.php:129
+#, php-format
+msgid "Email: %s"
+msgstr "电子邮件:%s"
+
+#: inc/extras.php:131
+#, php-format
+msgid "URL: %s"
+msgstr "URL: %s"
+
+#: inc/extras.php:133
+#, php-format
+msgid "Comment: %s"
+msgstr "评论:%s"
+
+#: inc/extras.php:136
+#, php-format
+msgid "Approve it: %s"
+msgstr "批准:%s"
+
+#: inc/extras.php:140
+#, php-format
+msgid "Trash it: %s"
+msgstr "垃圾:%s"
+
+#: inc/extras.php:143
+#, php-format
+msgid "Delete it: %s"
+msgstr "删除:%s"
+
+#: inc/extras.php:147
+#, php-format
+msgid "Spam it: %s"
+msgstr "垃圾邮件:%s"
+
+#: inc/extras.php:152
+#, php-format
+msgid ""
+"Currently %s comment is waiting for approval. Please visit the moderation "
+"panel:"
+msgid_plural ""
+"Currently %s comments are waiting for approval. Please visit the moderation "
+"panel:"
+msgstr[0] "目前%s评论正在等待批准。请访问审核小组:"
+
+#: inc/extras.php:168
+#, php-format
+msgid ""
+"<p class=\"must-log-in\">\n"
+"\t\t\t\t\t You must <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-"
+"sign-up\">Register</a> or \n"
+"\t\t\t\t\t <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-login\">"
+"Login</a> to post a comment.</p>"
+msgstr ""
+"<p class=\"must-log-in\">\n"
+"\t\t\t\t\t 你必须 <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-sign-"
+"up\">注册</a> 或 \n"
+"\t\t\t\t\t <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-login\">"
+"登录</a>才能发表评论。</p>"
+
+#: inc/extras.php:185
+#, php-format
+msgid " %1s, it has %2s view"
+msgid_plural " %1s, it has %2s views"
+msgstr[0] "%1s，它有%2s的访问量"
+
+#: inc/functions.php:68
+msgid "None"
+msgstr "无"
+
+#: inc/functions.php:130
+#, php-format
+msgid "%dst"
+msgstr "%d"
+
+#: inc/functions.php:132
+#, php-format
+msgid "%dnd"
+msgstr "%d"
+
+#: inc/functions.php:134
+#, php-format
+msgid "%drd"
+msgstr "%d"
+
+#: inc/functions.php:136
+#, php-format
+msgid "%dth"
+msgstr "%d"
+
+#: inc/functions.php:141
+msgid "N/A"
+msgstr "N/A"
+
+#: inc/functions.php:309
+msgid "<span class=\"score font-meta total_votes\">Your Rating</span>"
+msgstr "<span class=\"score font-meta total_votes\">您的评分</span>"
+
+#: inc/functions.php:420 templates/single/info-rank.php:31
+#, php-format
+msgid " %1s, it has %2s monthly view"
+msgid_plural " %1s, it has %2s monthly views"
+msgstr[0] "%1s，它每月有%2s的访问量"
+
+#: inc/functions.php:447 inc/post-type.php:608
+msgid "OnGoing"
+msgstr "正在进行中"
+
+#: inc/functions.php:449 inc/post-type.php:610 templates/manga-search.php:165
+msgid "Canceled"
+msgstr "已取消"
+
+#: inc/functions.php:451 inc/post-type.php:611 templates/manga-search.php:169
+msgid "On Hold"
+msgstr "搁置中"
+
+#: inc/functions.php:453 inc/post-type.php:612
+msgid "Upcoming"
+msgstr "即将推出"
+
+#: inc/functions.php:659
+#, php-format
+msgid "%s ago"
+msgstr "%s前"
+
+#: inc/functions.php:786
+msgid "Delete Bookmark"
+msgstr "删除书签"
+
+#: inc/functions.php:791
+#, php-format
+msgid "You bookmarked this with %s others"
+msgstr "你用%s其他人做了书签"
+
+#: inc/functions.php:791
+msgid "You bookmarked this with one another"
+msgstr "你与对方的书签是这样的"
+
+#: inc/functions.php:791
+msgid "You bookmarked this"
+msgstr "你把这个加入了书签"
+
+#: inc/functions.php:805
+msgid "Bookmark"
+msgstr "书签"
+
+#: inc/functions.php:810
+#, php-format
+msgid "%s Users bookmarked This"
+msgstr "%s用户对此添加书签"
+
+#: inc/functions.php:810
+msgid "Bookmark This"
+msgstr "将此加入书签"
+
+#: inc/functions.php:838
+msgid "(uploading)"
+msgstr "(上传)"
+
+#: inc/functions.php:841
+msgid "(completed)"
+msgstr "(完成)"
+
+#: inc/functions.php:879
+msgid "With selected: "
+msgstr "已选中的:"
+
+#: inc/functions.php:879 templates/user/page/bookmark.php:174
+msgid "Delete"
+msgstr "删除"
+
+#: inc/functions.php:880
+msgid "Move"
+msgstr "移动"
+
+#: inc/functions.php:880
+msgid "Apply"
+msgstr "应用"
+
+#: inc/functions.php:882
+msgid "Select volume:"
+msgstr "选择章节:"
+
+#: inc/functions.php:885
+msgid "Select volume"
+msgstr "选择章节"
+
+#: inc/functions.php:886 inc/functions.php:1024 inc/functions.php:1512 
+#: inc/manga-type/manga-chapter.php:137 inc/manga-type/manga-chapter.php:277 
+#: inc/manga-type/text-chapter.php:75
+msgid "No Volume"
+msgstr "无卷"
+
+#: inc/functions.php:901
+msgid "No Volume "
+msgstr "无卷"
+
+#: inc/functions.php:903 inc/functions.php:935
+msgid "Delete Volume"
+msgstr "删除卷"
+
+#: inc/functions.php:934
+msgid "Edit Volume Name"
+msgstr "编辑卷名称"
+
+#: inc/functions.php:948
+msgid "There is no chapter in this volume "
+msgstr "本卷中没有任何章节 "
+
+#: inc/hooks.php:245
+msgid "Regenerate?"
+msgstr "再次生成?"
+
+#: inc/hooks.php:247
+msgid "Generate Audio"
+msgstr "生成音频"
+
+#: inc/hooks.php:286
+msgid "Audio Generated Successfully"
+msgstr "成功生成音频"
+
+#: inc/hooks.php:290
+msgid "An error occurred while generating the audio."
+msgstr "生成音频时发生错误。"
+
+#: inc/login/login.php:58
+msgid "Please enter username"
+msgstr "请输入用户名"
+
+#: inc/login/login.php:59
+msgid "Please enter password"
+msgstr "请输入密码"
+
+#: inc/login/login.php:60
+msgid "Invalid username or password"
+msgstr "无效的用户名或密码"
+
+#: inc/login/login.php:61
+msgid "Server Error!"
+msgstr "服务器错误!"
+
+#: inc/login/login.php:62
+msgid "Username or Email cannot be empty"
+msgstr "用户名或电子邮件不能为空"
+
+#: inc/login/login.php:63
+msgid "Please fill in all password fields."
+msgstr "请填写所有的密码字段。"
+
+#: inc/login/login.php:64
+msgid "Password cannot have less than 12 characters"
+msgstr "密码不能少于12个字符"
+
+#: inc/login/login.php:65
+msgid "Password does not match. Please try again."
+msgstr "密码不匹配。请再试一次。"
+
+#: inc/login/login.php:66
+msgid "Username cannot be empty"
+msgstr "用户名不能为空"
+
+#: inc/login/login.php:67
+msgid "Email cannot be empty"
+msgstr "电子邮件不能为空"
+
+#: inc/login/login.php:68
+msgid "Password cannot be empty"
+msgstr "密码不能为空"
+
+#: inc/login/login.php:76
+msgid "Invalid Login Request"
+msgstr "无效的登录请求"
+
+#: inc/login/login.php:124
+msgid "Invalid email address. Please check again."
+msgstr "无效的电子邮件地址。请再次检查。"
+
+#: inc/login/login.php:135
+#, php-format
+msgid "Username must have at least %d characters"
+msgstr "用户名必须至少有%d个字符"
+
+#: inc/login/login.php:140
+#, php-format
+msgid "Password must have at least %d characters."
+msgstr "密码必须至少有%d个字符。"
+
+#: inc/login/login.php:151
+msgid "Registration successfully! You can login now."
+msgstr "注册成功! 你现在可以登录了。"
+
+#: inc/login/login.php:154
+msgid "There was an error when registration"
+msgstr "注册时出现了一个错误"
+
+#: inc/login/login.php:165
+msgid "Username or email address cannot be empty"
+msgstr "用户名或电子邮件地址不能为空"
+
+#: inc/login/login.php:175
+msgid "Please check your email to get reset password link."
+msgstr "请检查您的电子邮件，以获得重置密码的链接。"
+
+#: inc/login/login.php:189
+msgid "Invalid user login"
+msgstr "无效的用户登录"
+
+#: inc/login/login.php:209
+msgid "Someone has requested a password reset for the following account:"
+msgstr "有人要求重置以下账户的密码:"
+
+#: inc/login/login.php:212
+#, php-format
+msgid "Username: %s"
+msgstr "用户名:%s"
+
+#: inc/login/login.php:213
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果这是一个错误，忽略这封邮件，什么都不会发生。"
+
+#: inc/login/login.php:214
+msgid "To reset your password, visit the following address:"
+msgstr "要重置密码，请访问以下地址:"
+
+#: inc/login/login.php:218
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: inc/login/login.php:225
+msgid "The email could not be sent."
+msgstr "该邮件无法发送。"
+
+#: inc/login/login.php:264 inc/login/login.php:291
+msgid "Invalid reset password request"
+msgstr "无效的重置密码请求"
+
+#: inc/login/login.php:271
+msgid "Invalid password requested"
+msgstr "要求的密码无效"
+
+#: inc/login/login.php:280
+msgid "User not found"
+msgstr "未找到用户"
+
+#: inc/login/login.php:286
+msgid "Password reset successuflly! You can login now."
+msgstr "密码重置成功! 你现在可以登录了。"
+
+#: inc/manga-type/manga-chapter.php:97
+#, php-format
+msgid "Host: %s"
+msgstr "主机:%s"
+
+#: inc/manga-type/manga-chapter.php:97
+#, php-format
+msgid "Server %s"
+msgstr "服务器%s"
+
+#: inc/manga-type/manga-chapter.php:187
+msgid "List style"
+msgstr "列表样式"
+
+#: inc/manga-type/manga-chapter.php:188
+msgid "Paged style"
+msgstr "分页样式"
+
+#: inc/manga-type/manga-chapter.php:283 inc/manga-type/text-chapter.php:285
+msgid "Select Chapter"
+msgstr "选择章节"
+
+#: inc/manga-type/manga-chapter.php:350 inc/manga-type/manga-chapter.php:563 
+#: inc/manga-type/manga-chapter.php:569 inc/manga-type/text-chapter.php:191 
+#: wp-manga.php:537
+msgid "Prev"
+msgstr "上一页"
+
+#: inc/manga-type/manga-chapter.php:371 inc/manga-type/manga-chapter.php:600 
+#: wp-manga.php:536
+msgid "Manga Info"
+msgstr "漫画信息"
+
+#: inc/manga-type/text-chapter.php:95
+msgid "Light off"
+msgstr "熄灯"
+
+#: inc/manga-type/text-chapter.php:95
+msgid "Light on"
+msgstr "开灯"
+
+#: inc/manga-type/text-chapter.php:208
+msgid "Novel Info"
+msgstr "小说信息"
+
+#: inc/manga-type/text-chapter.php:362
+msgid "Cannot insert Chapter"
+msgstr "无法插入章节"
+
+#: inc/manga-type/text-chapter.php:382
+msgid "Cannot create chapter"
+msgstr "无法创建章节"
+
+#: inc/manga-type/text-chapter.php:400 inc/storage.php:1244
+msgid "Cannot open Zip file "
+msgstr "无法打开 zip 文件"
+
+#: inc/manga-type/text-chapter.php:528
+msgid "Upload failed"
+msgstr "上传失败"
+
+#: inc/manga-type/text-chapter.php:542
+msgid "Upload successfully"
+msgstr "成功上传"
+
+#: inc/manga-type/text-chapter.php:545
+#, php-format
+msgid ""
+"The following chapters are failed to upload: %s (make sure the content is "
+"encoded in UTF-8"
+msgstr "以下章节上传失败:%s(请确保内容以UTF-8编码"
+
+#: inc/post-type.php:29
+msgid "ID"
+msgstr "ID"
+
+#: inc/post-type.php:42
+msgid "Drama"
+msgstr "戏剧"
+
+#: inc/post-type.php:43
+msgid "Novel"
+msgstr "小说"
+
+#: inc/post-type.php:46 inc/post-type.php:64 inc/post-type.php:65 
+#: inc/post-type.php:66 wp-manga.php:670
+msgid "Manga"
+msgstr "漫画"
+
+#: inc/post-type.php:62 templates/user/page/bookmark.php:32
+msgid "Manga Name"
+msgstr "漫画名称"
+
+#: inc/post-type.php:67 templates/manga-archive.php:26 
+#: templates/manga-breadcrumb.php:88
+msgid "All Mangas"
+msgstr "所有漫画"
+
+#: inc/post-type.php:68
+msgid "Add New"
+msgstr "添加新的"
+
+#: inc/post-type.php:69
+msgid "Add New Manga"
+msgstr "添加新漫画"
+
+#: inc/post-type.php:70
+msgid "Edit Manga"
+msgstr "编辑漫画"
+
+#: inc/post-type.php:71 inc/widgets/manga-popular-slider.php:37 
+#: inc/widgets/manga-slider.php:37 inc/widgets/recent-manga.php:223
+msgid "New Manga"
+msgstr "新漫画"
+
+#: inc/post-type.php:72
+msgid "View Manga"
+msgstr "查看漫画"
+
+#: inc/post-type.php:73
+msgid "Search Manga"
+msgstr "搜索漫画"
+
+#: inc/post-type.php:75
+msgid "No Manga found in Trash"
+msgstr "在垃圾桶中没有发现漫画"
+
+#: inc/post-type.php:76
+msgid "Mangas"
+msgstr "漫画"
+
+#: inc/post-type.php:115 inc/post-type.php:116 inc/post-type.php:117 
+#: inc/widgets/manga-popular-slider.php:116 inc/widgets/manga-slider.php:116
+msgid "Manga Tags"
+msgstr "漫画标签"
+
+#: inc/post-type.php:118
+msgid "All Manga Tags"
+msgstr "所有漫画标签"
+
+#: inc/post-type.php:119
+msgid "Edit Manga Tag"
+msgstr "编辑漫画标签"
+
+#: inc/post-type.php:120
+msgid "View Manga Tag"
+msgstr "查看漫画标签"
+
+#: inc/post-type.php:121
+msgid "Update Manga Tag"
+msgstr "更新漫画标签"
+
+#: inc/post-type.php:122
+msgid "Add Manga Tag"
+msgstr "添加漫画标签"
+
+#: inc/post-type.php:123
+msgid "New Manga Tag"
+msgstr "新漫画标签"
+
+#: inc/post-type.php:124
+msgid "Parent Manga Tag"
+msgstr "父级漫画标签"
+
+#: inc/post-type.php:125
+msgid "Parent Manga Tag:"
+msgstr "父级漫画标签:"
+
+#: inc/post-type.php:126
+msgid "Search Manga Tag"
+msgstr "搜索漫画标签"
+
+#: inc/post-type.php:147 inc/post-type.php:148 inc/post-type.php:149
+msgid "Manga Release Year"
+msgstr "漫画发布年份"
+
+#: inc/post-type.php:150
+msgid "All Manga Release Year"
+msgstr "所有漫画发行年"
+
+#: inc/post-type.php:151
+msgid "Edit Manga Release Year"
+msgstr "编辑漫画发布年份"
+
+#: inc/post-type.php:152
+msgid "View Manga Release Year"
+msgstr "查看漫画发布年份"
+
+#: inc/post-type.php:153
+msgid "Update Manga Release Year"
+msgstr "更新漫画发布年份"
+
+#: inc/post-type.php:154
+msgid "Add New Manga Release Year"
+msgstr "增加新的漫画发行年"
+
+#: inc/post-type.php:155
+msgid "New Manga Release Year"
+msgstr "新的漫画发布年"
+
+#: inc/post-type.php:156
+msgid "Parent Manga Release Year"
+msgstr "父级漫画发布年份"
+
+#: inc/post-type.php:157
+msgid "Parent Manga Release Year:"
+msgstr "父级漫画发布年份:"
+
+#: inc/post-type.php:158
+msgid "Search Manga Release Year"
+msgstr "搜索漫画发布年份"
+
+#: inc/post-type.php:159
+msgid "Separate Release Years with commas"
+msgstr "用逗号分隔发布年份"
+
+#: inc/post-type.php:160
+msgid "Choose from the most used release years"
+msgstr "从最常用的发布年份中选择"
+
+#: inc/post-type.php:182 inc/post-type.php:184
+msgid "Manga Authors"
+msgstr "漫画的作者"
+
+#: inc/post-type.php:183 inc/widgets/manga-authors.php:128
+msgid "Manga Author"
+msgstr "漫画的作者"
+
+#: inc/post-type.php:185
+msgid "All Manga Authors"
+msgstr "所有漫画作者"
+
+#: inc/post-type.php:186
+msgid "Edit Manga Author"
+msgstr "编辑漫画作者"
+
+#: inc/post-type.php:187
+msgid "View Manga Author"
+msgstr "查看漫画作者"
+
+#: inc/post-type.php:188
+msgid "Update Manga Author"
+msgstr "更新漫画作者"
+
+#: inc/post-type.php:189
+msgid "Add New Manga Author"
+msgstr "添加新的漫画作者"
+
+#: inc/post-type.php:190
+msgid "New Manga Author Name"
+msgstr "新的漫画作者名称"
+
+#: inc/post-type.php:191
+msgid "Search Manga Author"
+msgstr "搜索漫画作者"
+
+#: inc/post-type.php:192
+msgid "Popular Manga Author"
+msgstr "热门漫画作者"
+
+#: inc/post-type.php:193
+msgid "Separate authors with commas"
+msgstr "用逗号将作者分开"
+
+#: inc/post-type.php:194
+msgid "Add or remove authors"
+msgstr "添加或删除作者"
+
+#: inc/post-type.php:195
+msgid "Choose from the most used authors"
+msgstr "从最常用的作者中选择从最常用的作者中选择"
+
+#: inc/post-type.php:196
+msgid "No authors found."
+msgstr "没有发现作者。"
+
+#: inc/post-type.php:218 inc/post-type.php:220
+msgid "Manga Artists"
+msgstr "漫画作者"
+
+#: inc/post-type.php:219 inc/widgets/manga-authors.php:131
+msgid "Manga Artist"
+msgstr "漫画作者"
+
+#: inc/post-type.php:221
+msgid "All Manga Artists"
+msgstr "所有漫画作者"
+
+#: inc/post-type.php:222
+msgid "Edit Manga Artist"
+msgstr "编辑漫画作者"
+
+#: inc/post-type.php:223
+msgid "View Manga Artist"
+msgstr "查看漫画作者"
+
+#: inc/post-type.php:224
+msgid "Update Manga Artist"
+msgstr "更新漫画作者"
+
+#: inc/post-type.php:225
+msgid "Add New Manga Artist"
+msgstr "添加新的漫画作者"
+
+#: inc/post-type.php:226
+msgid "New Manga Artist Name"
+msgstr "新漫画作者名称"
+
+#: inc/post-type.php:227
+msgid "Search Manga Artist"
+msgstr "搜索漫画作者"
+
+#: inc/post-type.php:228
+msgid "Popular Manga Artist"
+msgstr "流行漫画作者"
+
+#: inc/post-type.php:229
+msgid "Separate artists with commas"
+msgstr "用逗号分隔作者"
+
+#: inc/post-type.php:230
+msgid "Add or remove Artists"
+msgstr "添加或删除作者"
+
+#: inc/post-type.php:231
+msgid "Choose from the most used Artists"
+msgstr "从最常用的作者中选择"
+
+#: inc/post-type.php:232
+msgid "No Artists found."
+msgstr "未找到作者。"
+
+#: inc/post-type.php:255 inc/post-type.php:257
+msgid "Manga Genres"
+msgstr "漫画类型"
+
+#: inc/post-type.php:256
+msgid "Manga Genre"
+msgstr "漫画风格"
+
+#: inc/post-type.php:258
+msgid "All Manga Genres"
+msgstr "所有漫画类型"
+
+#: inc/post-type.php:259
+msgid "Edit Manga Genre"
+msgstr "编辑漫画类型"
+
+#: inc/post-type.php:260
+msgid "View Manga Genre"
+msgstr "查看漫画类型"
+
+#: inc/post-type.php:261
+msgid "Update Manga Genre"
+msgstr "更新漫画类型"
+
+#: inc/post-type.php:262
+msgid "Add New Manga Genre"
+msgstr "添加新的漫画类型"
+
+#: inc/post-type.php:263
+msgid "New Manga Genre Name"
+msgstr "新的漫画类型名称"
+
+#: inc/post-type.php:264
+msgid "Parent Manga Genre"
+msgstr "父级漫画类型"
+
+#: inc/post-type.php:265
+msgid "Parent Manga Genre:"
+msgstr "父级漫画类型:"
+
+#: inc/post-type.php:266
+msgid "Search Manga Genres"
+msgstr "搜索漫画类型"
+
+#: inc/post-type.php:294
+msgid "WP Manga"
+msgstr "WP漫画"
+
+#: inc/post-type.php:299
+msgid "Manga Status"
+msgstr "漫画状态"
+
+#: inc/post-type.php:450
+msgid "Download Manga"
+msgstr "下载漫画"
+
+#: inc/settings.php:18
+msgid "WP Manga Settings"
+msgstr "WP漫画设置"
+
+#: inc/settings.php:178
+msgid "MANGA DISCUSSION"
+msgstr "漫画讨论"
+
+#: inc/settings.php:183
+msgid "Local"
+msgstr "本地"
+
+#: inc/settings.php:184
+msgid "Disqus"
+msgstr "Disqus"
+
+#: inc/sidebar.php:17
+msgid "WP Manga - Archives Sidebar"
+msgstr "WP漫画 - 归档侧边栏"
+
+#: inc/sidebar.php:18
+msgid "Appear in Manga Archives Page"
+msgstr "出现在漫画档案页"
+
+#: inc/sidebar.php:26
+msgid "WP Manga - Single Sidebar"
+msgstr "WP漫画 - 单侧边栏"
+
+#: inc/sidebar.php:27
+msgid "Appear in Single Manga Page"
+msgstr "出现在单个漫画页"
+
+#: inc/sidebar.php:36
+msgid "WP Manga - Reading Page Sidebar"
+msgstr "WP漫画 - 阅读页边栏"
+
+#: inc/sidebar.php:37
+msgid "Appear in Manga Reading Page"
+msgstr "出现在漫画阅读页"
+
+#: inc/storage.php:482
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: inc/storage.php:518 inc/storage.php:569
+msgid "Chapter doesn't exists"
+msgstr "章节不存在"
+
+#: inc/storage.php:523
+msgid "Chapter does not exist on this server"
+msgstr "此服务器上不存在章节"
+
+#: inc/storage.php:552
+msgid "Remove successfully!"
+msgstr "成功删除!"
+
+#: inc/storage.php:554
+msgid "Cannot remove the last storage"
+msgstr "无法删除最后一个存储空间"
+
+#: inc/storage.php:573
+msgid "Chapter is already existed on this server"
+msgstr "该服务器上已经存在章节"
+
+#: inc/storage.php:632
+msgid "There was something wrong happened, please try again later "
+msgstr "发生了一些错误，请稍后再试。"
+
+#: inc/storage.php:646
+msgid "Duplicate successfully!"
+msgstr "复制成功!"
+
+#: inc/storage.php:877
+msgid "Download Content Chapter is not supported"
+msgstr "不支持下载内容章节"
+
+#: inc/storage.php:969
+msgid "Cannot create zip file"
+msgstr "无法创建 zip 文件"
+
+#: inc/storage.php:983
+msgid "This Manga doesn't have any chapter"
+msgstr "这部漫画没有任何章节"
+
+#: inc/storage.php:991
+msgid "This Manga doesn't have any chapters"
+msgstr "这部漫画没有任何章节"
+
+#: inc/storage.php:1176
+msgid ""
+"Oops, Imgur only allows user to upload maximum 50 images per hour, but your "
+"file contains more than 50 images. Please try another files"
+msgstr "哎呀，Imgur只允许用户每小时最多上传50张图片，但你的文件包含超过50张图片。请尝试其他文件"
+
+#: inc/storage.php:1186
+msgid "Not found this Album"
+msgstr "未发现此专辑"
+
+#: inc/storage.php:1307
+msgid "Access denied! Please check directory permission"
+msgstr "拒绝访问!请检查目录权限"
+
+#: inc/storage.php:1393
+msgid "Upload Complete!"
+msgstr "上传完成!"
+
+#: inc/storage.php:1398
+msgid "This zip file is invalid for uploading manga"
+msgstr "此压缩文件对上传漫画无效"
+
+#: inc/upgrade.php:61
+msgid "Madara - Core upgraded successfully!"
+msgstr "Madara - 核心升级成功!"
+
+#: inc/upgrade.php:79
+#, php-format
+msgid ""
+"<p><strong>IMPORTANT UPDATE : </strong> If you have just updated to a WP "
+"Manga Core 1.7+ version, make sure you have built the Search Text. It helps "
+"to improve the performance of Search. <a href=\"%s\" class=\"button button-"
+"primary\">Click here to start</a>"
+msgstr ""
+"<p><strong>重要更新:</strong>如果你刚刚更新到WP Manga Core 1."
+"7+版本，请确保你已经构建了搜索文本。它有助于提高搜索性能。<a href=\"%s\" class=\"button button-primary\">"
+"点击这里开始</a>"
+
+#: inc/upgrade.php:164
+#, php-format
+msgid ""
+"<p><strong>IMPORTANT UPDATE : </strong> We will need to update database to "
+"make your site compatible with Madara-Core 1.5.</p> <a href=\"%s\" "
+"class=\"button button-primary\">Click here to start</a>"
+msgstr ""
+"<p><strong>重要更新:</strong>我们将需要更新数据库，使您的网站与马达拉core 1.5兼容。</p> <a href=\"%s\" "
+"class=\"button button-primary\">点击这里开始</a>"
+
+#: inc/upgrade.php:173 inc/upgrade.php:174
+msgid "Madara - Core upgrading..."
+msgstr "Madara - 核心升级..."
+
+#: inc/upgrade.php:379
+msgid "Madara - Core Upgrading..."
+msgstr "Madara - 核心升级..."
+
+#: inc/upgrade.php:476
+msgid "The upgrade is progressing in other tab..."
+msgstr "升级工作正在其他标签中进行..."
+
+#: inc/upgrade.php:482
+msgid "Upgraded successfully!"
+msgstr "升级成功!"
+
+#: inc/upload/amazon-upload.php:234 inc/upload/flickr-upload.php:98 
+#: inc/upload/google-upload.php:111 inc/upload/googlephotos.php:405 
+#: inc/upload/imgur-upload.php:93
+msgid "Images do not exist"
+msgstr "图像不存在"
+
+#: inc/upload/amazon-upload.php:260
+msgid ""
+"You do not have any Amazon Buckets. Please create one and configure in WP "
+"Manga Storage page"
+msgstr "你没有任何亚马逊桶。请在WP Manga Storage页面创建一个并进行配置。"
+
+#: inc/upload/flickr-upload.php:105
+msgid "Flickr Access Token does not exist"
+msgstr "Flickr访问令牌不存在"
+
+#: inc/upload/google-upload.php:121 inc/upload/googlephotos.php:413
+msgid "Please configure Google Refresh Token"
+msgstr "请配置谷歌刷新令牌"
+
+#: inc/upload/google-upload.php:380
+msgid "Not found album"
+msgstr "未找到专辑"
+
+#: inc/upload/googlephotos.php:18 inc/upload/googlephotos.php:145
+msgid "Google Photos"
+msgstr "谷歌图片"
+
+#: inc/upload/googlephotos.php:23
+msgid "* For Google Photos Api register :"
+msgstr "*对于谷歌Photos Api注册:"
+
+#: inc/upload/googlephotos.php:25
+msgid ""
+" - You need to create a Oauth Client ID Credential and when setting, "
+"remember to put the redirect URL to your website. "
+msgstr "-你需要创建一个Oauth客户端ID凭证，设置时，记得把重定向URL到你的网站。"
+
+#: inc/upload/googlephotos.php:51
+msgid ""
+"You will need Client Secret to Authorize and Upload to googlephotos function"
+msgstr "你将需要客户密钥来授权和上传至googlephotos功能"
+
+#: inc/upload/googlephotos.php:116
+msgid ""
+"You still need to authorize Google Photos again if you have authorized with "
+"Google Picasa/Blogspot as they are using different scope permissions. Google "
+"Picasa/Blogspot will be shutdown on March 15. 2019, so please consider "
+"moving data to Google Photos as soon as possible"
+msgstr ""
+"如果你已经用Google Picasa/Blogspot授权，你仍然需要再次授权Google "
+"Photos，因为它们使用不同的范围权限。谷歌Picasa/Blogspot将于3月15日关闭。2019年，所以请考虑尽快将数据转移到Google "
+"Photos。"
+
+#: inc/upload/googlephotos.php:120
+msgid "Create Album"
+msgstr "创建专辑"
+
+#: inc/upload/googlephotos.php:122
+msgid "for All chapters in Manga"
+msgstr "漫画的所有章节"
+
+#: inc/upload/googlephotos.php:123
+msgid "for each chapter in Manga"
+msgstr "漫画的每一章"
+
+#: inc/upload/googlephotos.php:397
+msgid "Cannot create album"
+msgstr "无法创建相册"
+
+#: inc/upload/googlephotos.php:609
+msgid "New album"
+msgstr "新专辑"
+
+#: inc/upload/imgur-upload.php:110
+msgid "Please configure IMGUR Access Token"
+msgstr "请配置IMGUR访问令牌"
+
+#: inc/user-actions.php:28
+msgid "Run every 30 minutes to send out notifications via OneSignal"
+msgstr "每30分钟运行一次，通过OneSignal发出通知"
+
+#: inc/user-actions.php:32
+msgid "Run every 1 minute to update users notification"
+msgstr "每1分钟运行一次，更新用户通知"
+
+#: inc/user-actions.php:76 templates/login.php:34
+msgid "Sign in"
+msgstr "登录"
+
+#: inc/user-actions.php:77
+msgid "Sign up"
+msgstr "注册"
+
+#: inc/user-actions.php:104
+msgid "Hi, "
+msgstr "你好,"
+
+#: inc/user-actions.php:122
+msgid "New Chapter"
+msgstr "新章节"
+
+#: inc/user-actions.php:132
+msgid "User Settings"
+msgstr "用户设置"
+
+#: inc/user-actions.php:140
+msgid "Logout"
+msgstr "登出"
+
+#: inc/user-actions.php:215
+msgid "Manga Settings"
+msgstr "漫画设置"
+
+#: inc/widgets/madara-mangabookmark.php:14
+msgid "Show User Manga Bookmark"
+msgstr "显示用户漫画书签"
+
+#: inc/widgets/madara-mangabookmark.php:17
+msgid "WP Manga : Manga Bookmark"
+msgstr "WP漫画 : 漫画书签"
+
+#: inc/widgets/madara-mangabookmark.php:102 
+#: inc/widgets/madara-mangahistory.php:78 inc/widgets/manga-authors.php:119 
+#: inc/widgets/manga-genres.php:117
+msgid "Title: "
+msgstr "标题:"
+
+#: inc/widgets/madara-mangabookmark.php:108 
+#: inc/widgets/madara-mangahistory.php:84
+msgid "Number of manga: "
+msgstr "漫画数量:"
+
+#: inc/widgets/madara-mangabookmark.php:113 
+#: inc/widgets/manga-popular-slider.php:155 inc/widgets/manga-slider.php:156 
+#: inc/widgets/recent-manga.php:321
+msgid "Style"
+msgstr "样式"
+
+#: inc/widgets/madara-mangabookmark.php:116 
+#: inc/widgets/manga-popular-slider.php:159 inc/widgets/manga-slider.php:160 
+#: inc/widgets/manga-taxonomy.php:81 inc/widgets/recent-manga.php:324
+msgid "Style 1"
+msgstr "样式1"
+
+#: inc/widgets/madara-mangabookmark.php:117 
+#: inc/widgets/manga-popular-slider.php:160 inc/widgets/manga-slider.php:161 
+#: inc/widgets/manga-taxonomy.php:82 inc/widgets/recent-manga.php:325
+msgid "Style 2"
+msgstr "样式2"
+
+#: inc/widgets/madara-mangahistory.php:14
+msgid "Show User Manga History"
+msgstr "显示用户漫画历史"
+
+#: inc/widgets/madara-mangahistory.php:17
+msgid "WP Manga : Manga History"
+msgstr "WP漫画 : 漫画历史"
+
+#: inc/widgets/madara-mangahistory.php:37
+msgid "You don't have anything in histories"
+msgstr "你没有任何历史记录"
+
+#: inc/widgets/madara-posts.php:12
+msgid "Show Posts"
+msgstr "显示帖子"
+
+#: inc/widgets/madara-posts.php:15 inc/widgets/madara-posts.php:20
+msgid "Madara - Posts"
+msgstr "Madara - 帖子"
+
+#: inc/widgets/madara-posts.php:42 inc/widgets/manga-popular-slider.php:49 
+#: inc/widgets/manga-search.php:57 inc/widgets/manga-slider.php:49 
+#: inc/widgets/recent-manga.php:243
+msgid "Title"
+msgstr "标题"
+
+#: inc/widgets/madara-posts.php:47 inc/widgets/manga-slider.php:55 
+#: inc/widgets/recent-manga.php:249
+msgid "Number of posts"
+msgstr "帖子数"
+
+#: inc/widgets/madara-posts.php:54
+msgid "Choose how to query posts"
+msgstr "选择查询帖子的方式"
+
+#: inc/widgets/madara-posts.php:57
+msgid "Latest Posts"
+msgstr "最新帖子"
+
+#: inc/widgets/madara-posts.php:58
+msgid "Random Posts"
+msgstr "随机帖子"
+
+#: inc/widgets/madara-posts.php:59
+msgid "Most Commented"
+msgstr "最多评论"
+
+#: inc/widgets/madara-posts.php:65
+msgid "Choose order of posts"
+msgstr "选择帖子的顺序"
+
+#: inc/widgets/madara-posts.php:68 inc/widgets/manga-popular-slider.php:43 
+#: inc/widgets/manga-slider.php:43 inc/widgets/recent-manga.php:232
+msgid "ASC"
+msgstr "升序"
+
+#: inc/widgets/madara-posts.php:69 inc/widgets/manga-popular-slider.php:42 
+#: inc/widgets/manga-slider.php:42 inc/widgets/recent-manga.php:231
+msgid "DESC"
+msgstr ""
+"\n"
+"降序排列"
+
+#: inc/widgets/madara-posts.php:74
+msgid "Category - Category ID or Slug"
+msgstr "类别 - 类别的ID或Slug"
+
+#: inc/widgets/madara-posts.php:79
+msgid "Tags - Tag List"
+msgstr "标签 - 标签列表"
+
+#: inc/widgets/madara-posts.php:84
+msgid "Post IDs - If this param is used, other params are ignored"
+msgstr "帖子ID - 如果使用这个参数，其他参数将被忽略。"
+
+#: inc/widgets/manga-authors.php:12
+msgid "Show Manga Authors/Artists"
+msgstr "显示漫画作者"
+
+#: inc/widgets/manga-authors.php:15
+msgid "WP Manga: Manga Authors/Artists"
+msgstr "WP Manga:漫画作者"
+
+#: inc/widgets/manga-authors.php:125
+msgid "Data: "
+msgstr "数据:"
+
+#: inc/widgets/manga-authors.php:138
+msgid "Exclude authors/artists: "
+msgstr "排除作者:"
+
+#: inc/widgets/manga-authors.php:140
+msgid "Use WP Manga authors/artists ID or slug, separated by comma"
+msgstr "使用 WP Manga 作者 ID 或 slug，以逗号分隔"
+
+#: inc/widgets/manga-authors.php:145 inc/widgets/manga-genres.php:130
+msgid "Layout: "
+msgstr "布局:"
+
+#: inc/widgets/manga-authors.php:148 inc/widgets/manga-genres.php:133
+msgid "Layout 1 - 2 columns"
+msgstr "布局 1 - 2 列"
+
+#: inc/widgets/manga-authors.php:151 inc/widgets/manga-genres.php:136
+msgid "Layout 2 - 6 columns"
+msgstr "布局 2 - 6 列"
+
+#: inc/widgets/manga-authors.php:159 inc/widgets/manga-genres.php:144
+msgid "Show manga counts"
+msgstr "显示漫画的数量"
+
+#: inc/widgets/manga-genres.php:12
+msgid "Show Manga Genres"
+msgstr "展示漫画类型"
+
+#: inc/widgets/manga-genres.php:15
+msgid "WP Manga: Manga Genres"
+msgstr "WP Manga:漫画类型"
+
+#: inc/widgets/manga-genres.php:123
+msgid "Exclude Genres: "
+msgstr "排除类型:"
+
+#: inc/widgets/manga-genres.php:125
+msgid "Use WP Manga Genres ID or slug, separated by comma"
+msgstr "使用WP漫画类型ID或slug，用逗号分隔"
+
+#: inc/widgets/manga-popular-slider.php:10 inc/widgets/manga-slider.php:10
+msgid "Display recent manga as slider"
+msgstr "以滑块形式显示最近的漫画"
+
+#: inc/widgets/manga-popular-slider.php:12
+msgid "WP Manga: Manga Popular Slider"
+msgstr "WP漫画:漫画流行滑块"
+
+#: inc/widgets/manga-popular-slider.php:32 inc/widgets/manga-slider.php:32 
+#: inc/widgets/recent-manga.php:218 templates/manga-archive-filter.php:14 
+#: templates/manga-filter.php:36
+msgid "Latest"
+msgstr "最新"
+
+#: inc/widgets/manga-popular-slider.php:33 inc/widgets/manga-slider.php:33 
+#: inc/widgets/recent-manga.php:219
+msgid "Alphabet"
+msgstr "字母"
+
+#: inc/widgets/manga-popular-slider.php:34 inc/widgets/manga-slider.php:34 
+#: inc/widgets/recent-manga.php:220
+msgid "Ratings"
+msgstr "Rating"
+
+#: inc/widgets/manga-popular-slider.php:35 inc/widgets/manga-slider.php:35 
+#: inc/widgets/recent-manga.php:221 templates/manga-archive-filter.php:29 
+#: templates/manga-filter.php:51
+msgid "Trending"
+msgstr "趋势"
+
+#: inc/widgets/manga-popular-slider.php:36 inc/widgets/manga-slider.php:36 
+#: inc/widgets/recent-manga.php:222
+msgid "Views"
+msgstr "浏览次数"
+
+#: inc/widgets/manga-popular-slider.php:38 inc/widgets/manga-slider.php:38 
+#: inc/widgets/recent-manga.php:224
+msgid "Random"
+msgstr "随机"
+
+#: inc/widgets/manga-popular-slider.php:55
+msgid "Number of posts to query"
+msgstr "要查询的帖子数量"
+
+#: inc/widgets/manga-popular-slider.php:66 inc/widgets/manga-slider.php:66
+msgid "Number of Post to show"
+msgstr "要显示的帖子数"
+
+#: inc/widgets/manga-popular-slider.php:70
+msgid "4"
+msgstr "4"
+
+#: inc/widgets/manga-popular-slider.php:71
+msgid "6"
+msgstr "6"
+
+#: inc/widgets/manga-popular-slider.php:72 inc/widgets/manga-slider.php:72
+msgid "1"
+msgstr "1"
+
+#: inc/widgets/manga-popular-slider.php:77 inc/widgets/manga-slider.php:77
+msgid "Manga Type"
+msgstr "漫画类型"
+
+#: inc/widgets/manga-popular-slider.php:80 inc/widgets/manga-slider.php:80 
+#: templates/manga-search.php:147
+msgid "All"
+msgstr "所有"
+
+#: inc/widgets/manga-popular-slider.php:81 inc/widgets/manga-slider.php:81
+msgid "Comic (Manga) only"
+msgstr "只有漫画"
+
+#: inc/widgets/manga-popular-slider.php:82 inc/widgets/manga-slider.php:82
+msgid "Novel (Text) only"
+msgstr "仅限小说（文字）"
+
+#: inc/widgets/manga-popular-slider.php:83 inc/widgets/manga-slider.php:83
+msgid "Drama (Video) only"
+msgstr "仅限戏剧（视频）"
+
+#: inc/widgets/manga-popular-slider.php:88 inc/widgets/manga-slider.php:88 
+#: inc/widgets/recent-manga.php:255
+msgid "Genre"
+msgstr "类型"
+
+#: inc/widgets/manga-popular-slider.php:91 inc/widgets/manga-slider.php:91
+msgid "Slugs of manga genres, separated by a comma"
+msgstr "用逗号分隔的漫画类型"
+
+#: inc/widgets/manga-popular-slider.php:98 inc/widgets/manga-slider.php:98
+msgid "Slugs of manga authors, separated by a comma"
+msgstr "漫画作者的Slug，用逗号分隔"
+
+#: inc/widgets/manga-popular-slider.php:102 inc/widgets/manga-slider.php:102 
+#: inc/widgets/recent-manga.php:267 templates/manga-search.php:135 
+#: templates/manga-search.php:136
+msgid "Artist"
+msgstr "作者"
+
+#: inc/widgets/manga-popular-slider.php:105 inc/widgets/manga-slider.php:105
+msgid "Slugs of manga artists, separated by a comma"
+msgstr "漫画作者的Slugs，中间用逗号隔开"
+
+#: inc/widgets/manga-popular-slider.php:112 inc/widgets/manga-slider.php:112
+msgid "Slugs of manga releases, separated by a comma"
+msgstr "漫画发布的Slug，用逗号分隔"
+
+#: inc/widgets/manga-popular-slider.php:119 inc/widgets/manga-slider.php:119
+msgid "Slugs of manga tags, separated by a comma"
+msgstr "漫画标签的Slug，用逗号分隔"
+
+#: inc/widgets/manga-popular-slider.php:123 inc/widgets/manga-slider.php:123 
+#: inc/widgets/recent-manga.php:279 templates/manga-archive-filter.php:10 
+#: templates/manga-filter.php:22
+msgid "Order by"
+msgstr "排序方式"
+
+#: inc/widgets/manga-popular-slider.php:137
+msgid "Order"
+msgstr "排序"
+
+#: inc/widgets/manga-popular-slider.php:168 inc/widgets/manga-slider.php:170
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: inc/widgets/manga-popular-slider.php:172 inc/widgets/manga-slider.php:174 
+#: inc/widgets/recent-manga.php:333
+msgid "Yes"
+msgstr "是"
+
+#: inc/widgets/manga-popular-slider.php:173 inc/widgets/manga-slider.php:175 
+#: inc/widgets/recent-manga.php:334
+msgid "No"
+msgstr "否"
+
+#: inc/widgets/manga-release.php:9
+msgid "Show Manga Release Years"
+msgstr "显示漫画发布年份"
+
+#: inc/widgets/manga-release.php:12
+msgid "WP Manga : Manga Release Years"
+msgstr "WP漫画 : 漫画发行年份"
+
+#: inc/widgets/manga-release.php:88
+msgid "Other..."
+msgstr "其他..."
+
+#: inc/widgets/manga-release.php:89
+msgid "Go"
+msgstr "Go"
+
+#: inc/widgets/manga-release.php:110 inc/widgets/manga-taxonomy.php:60 
+#: inc/widgets/manga-user-section.php:24
+msgid "Title:"
+msgstr "标题:"
+
+#: inc/widgets/manga-release.php:116
+msgid "Exclude Years:"
+msgstr "排除年份:"
+
+#: inc/widgets/manga-release.php:118
+msgid "Use Release Years Term ID or slug, separated by comma"
+msgstr "使用 \"发布年份 \"ID或slug，用逗号分隔。"
+
+#: inc/widgets/manga-release.php:123
+msgid "Number of years"
+msgstr "年数"
+
+#: inc/widgets/manga-release.php:125
+msgid "Fill-in 0 to list all Release Years"
+msgstr "填写0以列出所有发行年份"
+
+#: inc/widgets/manga-release.php:131
+msgid "Enable Go Release"
+msgstr "允许Go发布"
+
+#: inc/widgets/manga-search.php:8
+msgid "Manga Search"
+msgstr "漫画搜索"
+
+#: inc/widgets/manga-search.php:9
+msgid "WP Manga: Manga Search"
+msgstr "WP漫画:漫画搜索"
+
+#: inc/widgets/manga-search.php:61
+msgid "Search Advance Text : "
+msgstr "搜索高级文本 : "
+
+#: inc/widgets/manga-search.php:63
+msgid "Change Advanced Text, leave empty to remove Advanced Text."
+msgstr "改变高级文本，留空表示删除高级文本。"
+
+#: inc/widgets/manga-slider.php:12
+msgid "WP Manga: Manga Hero Slider"
+msgstr "WP漫画:漫画英雄滑块"
+
+#: inc/widgets/manga-slider.php:70
+msgid "2"
+msgstr "2"
+
+#: inc/widgets/manga-slider.php:71
+msgid "3"
+msgstr "3"
+
+#: inc/widgets/manga-slider.php:137 inc/widgets/recent-manga.php:307
+msgid "Order By"
+msgstr "排序方式"
+
+#: inc/widgets/manga-slider.php:162
+msgid "Style 3"
+msgstr "样式3"
+
+#: inc/widgets/manga-taxonomy.php:8
+msgid "Display Manga Taxonomy"
+msgstr "显示漫画分类"
+
+#: inc/widgets/manga-taxonomy.php:9
+msgid "WP Manga: Manga Taxonomy"
+msgstr "WP漫画:漫画分类"
+
+#: inc/widgets/manga-taxonomy.php:64
+msgid "Taxonomy:"
+msgstr "分类:"
+
+#: inc/widgets/manga-taxonomy.php:79
+msgid "Style:"
+msgstr "样式:"
+
+#: inc/widgets/manga-user-section.php:10
+msgid "Show Login or Current Manga User"
+msgstr "显示登录或当前漫画用户"
+
+#: inc/widgets/manga-user-section.php:13
+msgid "WP Manga : User section"
+msgstr "WP漫画:用户部分"
+
+#: inc/widgets/recent-manga.php:10
+msgid "Display Manga Posts"
+msgstr "显示漫画文章"
+
+#: inc/widgets/recent-manga.php:12
+msgid "WP Manga: Manga Posts"
+msgstr "WP漫画:漫画帖子"
+
+#: inc/widgets/recent-manga.php:294
+msgid "Time Range"
+msgstr "时间范围"
+
+#: inc/widgets/recent-manga.php:297
+msgid "All Time"
+msgstr "所有的时间"
+
+#: inc/widgets/recent-manga.php:298
+msgid "1 day"
+msgstr "1天"
+
+#: inc/widgets/recent-manga.php:299
+msgid "1 week"
+msgstr "1周"
+
+#: inc/widgets/recent-manga.php:300
+msgid "1 month"
+msgstr "1个月"
+
+#: inc/widgets/recent-manga.php:301
+msgid "1 year"
+msgstr "1年"
+
+#: inc/widgets/recent-manga.php:303
+msgid "Affected when order by is trending"
+msgstr "受影响的排序方式是趋势"
+
+#: inc/widgets/recent-manga.php:330
+msgid "Show Volume"
+msgstr "显示卷"
+
+#: inc/widgets/recent-manga.php:336
+msgid "Show Volume of chapter"
+msgstr "显示章节的数量"
+
+#: inc/widgets/recent-manga.php:340
+msgid "ReadMore Button"
+msgstr "阅读更多 按钮"
+
+#: inc/widgets/recent-manga.php:343
+msgid "Readmore button text. Leave blank to disable this button"
+msgstr "阅读更多按钮文本。留空表示禁用该按钮"
+
+#: inc/widgets/recent-manga.php:347
+msgid "ReadMore button URL"
+msgstr "阅读更多按钮URL"
+
+#: inc/widgets/recent-manga.php:350
+msgid "Readmore button URL"
+msgstr "阅读更多按钮URL"
+
+#: inc/zip-validation.php:32
+msgid "This Zip file isn't valid for this chapter type"
+msgstr "该Zip文件对该章节类型无效"
+
+#: inc/zip-validation.php:87
+msgid "Invalid Zip file, file contains unwanted file. Please check agains"
+msgstr "无效的Zip文件，文件包含不需要的文件。请再次检查"
+
+#: inc/zip-validation.php:130
+msgid "Invalid Zip file, file contains unwanted file. Please check again"
+msgstr "无效的Zip文件，文件包含不需要的文件。请再次检查"
+
+#: inc/zip-validation.php:178
+msgid ".zip file is corrupted. Please check again"
+msgstr ".zip文件已损坏。请再次检查"
+
+#: templates/content/content-archive.php:102
+#, php-format
+msgid "Chapter %s"
+msgstr "%s章"
+
+#: templates/content/content-none.php:27
+#, php-format
+msgid "There is no Manga in this %s - %s"
+msgstr "这个%s - %s里面没有漫画"
+
+#: templates/content/content-none.php:29
+msgid "There is no Manga yet"
+msgstr "还没有漫画"
+
+#: templates/content/content-none.php:31
+msgid "No matches found. Try a different search..."
+msgstr "没有找到匹配的。尝试不同的搜索..."
+
+#: templates/content/content-search.php:68 
+#: templates/single/info-alternative-name.php:22
+msgid "Alternative"
+msgstr "备用"
+
+#: templates/content/content-search.php:86
+msgid "Authors"
+msgstr "作者"
+
+#: templates/content/content-search.php:176 
+#: templates/single/info-release.php:23
+msgid "Release"
+msgstr "发布"
+
+#: templates/content/content-search.php:215
+msgid "Latest chapter"
+msgstr "最新章节"
+
+#: templates/login.php:16
+msgid "Log In"
+msgstr "登录"
+
+#: templates/login.php:48
+msgid "Username or Email Address *"
+msgstr "用户名或邮箱地址 *"
+
+#: templates/login.php:53 templates/login.php:111
+msgid "Password *"
+msgstr "密码 *"
+
+#: templates/login.php:62
+msgid "Remember Me "
+msgstr "记住我 "
+
+#: templates/login.php:72 templates/login.php:127 templates/login.php:149
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: templates/login.php:75 templates/login.php:130
+msgid "&larr; Back to "
+msgstr "&larr;回到"
+
+#: templates/login.php:94
+msgid "Sign Up"
+msgstr "注册"
+
+#: templates/login.php:96
+msgid "Register For This Site."
+msgstr "在本网站注册。"
+
+#: templates/login.php:99
+msgid "Username *"
+msgstr "用户名 *"
+
+#: templates/login.php:105
+msgid "Email Address *"
+msgstr "电子邮件地址 *"
+
+#: templates/login.php:121
+msgid "Register"
+msgstr "注册"
+
+#: templates/login.php:125
+msgid "Log in"
+msgstr "登录"
+
+#: templates/login.php:151
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr "请输入你的用户名或电子邮件地址。你将通过电子邮件收到一个创建新密码的链接。"
+
+#: templates/login.php:154
+msgid "Username or Email Address"
+msgstr "用户名或邮箱地址"
+
+#: templates/login.php:160
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: templates/login.php:165
+msgid "&larr; Back to  "
+msgstr "&larr; Back to "
+
+#: templates/manga-archive-filter.php:19 templates/manga-filter.php:41
+#, fuzzy
+msgid "A-Z"
+msgstr "A-Z"
+
+#: templates/manga-archive-filter.php:24 templates/manga-filter.php:46 
+#: templates/single/info-rating.php:26
+msgid "Rating"
+msgstr "评分"
+
+#: templates/manga-archive-filter.php:34 templates/manga-filter.php:56
+msgid "Most Views"
+msgstr "最多浏览"
+
+#: templates/manga-archive-filter.php:39 templates/manga-filter.php:61
+msgid "New"
+msgstr "新"
+
+#: templates/manga-archive.php:112
+#, php-format
+msgid "%s result"
+msgid_plural "%s results"
+msgstr[0] "%s的结果"
+
+#: templates/manga-breadcrumb.php:82
+msgid "Home"
+msgstr "主页"
+
+#: templates/manga-feed.php:54
+msgid "Unknown"
+msgstr "未知"
+
+#: templates/manga-filter.php:29
+msgid "Relevance"
+msgstr "相关"
+
+#: templates/manga-oneshot.php:83 templates/manga-single.php:122
+msgid "Edit This Manga"
+msgstr "编辑这部漫画"
+
+#: templates/manga-related.php:136
+msgid "YOU MAY ALSO LIKE"
+msgstr "你可能也喜欢"
+
+#: templates/manga-search.php:63
+msgid "Search for:"
+msgstr "搜索:"
+
+#: templates/manga-search.php:64 
+#: templates/widgets/manga-search/manga-search.php:101
+msgid "Search..."
+msgstr "搜索..."
+
+#: templates/manga-search.php:65 templates/manga-search.php:173 
+#: templates/widgets/manga-search/manga-search.php:107
+msgid "Search"
+msgstr "搜索"
+
+#: templates/manga-search.php:89
+msgid "Advanced"
+msgstr "高级"
+
+#: templates/manga-search.php:122
+msgid "Genres condition"
+msgstr "类型条件"
+
+#: templates/manga-search.php:124
+msgid "OR (having one of selected genres)"
+msgstr "或(选择其中一种类型)"
+
+#: templates/manga-search.php:125
+msgid "AND (having all selected genres)"
+msgstr "并且(已经选择了所有的类型)"
+
+#: templates/manga-search.php:140
+msgid "Year of Released"
+msgstr "发行年份"
+
+#: templates/manga-search.php:141
+msgid "Year"
+msgstr "年"
+
+#: templates/manga-search.php:145
+msgid "Adult content"
+msgstr "成人内容"
+
+#: templates/manga-search.php:148
+msgid "None adult content"
+msgstr "无成人内容"
+
+#: templates/manga-search.php:149
+msgid "Only adult content"
+msgstr "仅限成人内容"
+
+#: templates/manga-search.php:161
+msgid "Ongoing"
+msgstr "正在进行中"
+
+#: templates/manga-search.php:174
+msgid "Reset"
+msgstr "重置"
+
+#: templates/manga-search.php:200
+#, php-format
+msgid "%s result for \"%s\""
+msgid_plural "%s results for \"%s\""
+msgstr[0] "\"%s\"的%s结果"
+
+#: templates/manga-single-reading.php:138
+msgid "SHARE THIS MANGA"
+msgstr "分享这个漫画"
+
+#: templates/manga-single.php:93
+msgid "Summary"
+msgstr "摘要"
+
+#: templates/manga-single.php:109
+msgid "Show more  "
+msgstr "显示更多 "
+
+#: templates/reading-content/content-reading-list.php:111 
+#: templates/reading-content/content-reading-paged.php:132 
+#: templates/reading-content/content-reading-paged.php:159
+msgid "View Full Size Image"
+msgstr "查看全尺寸图像"
+
+#: templates/reset-password.php:27
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: templates/reset-password.php:29
+msgid "Enter your new password below."
+msgstr "在下方输入您的新密码。"
+
+#: templates/reset-password.php:32 templates/user/page/account-settings.php:152
+msgid "New Password"
+msgstr "新密码"
+
+#: templates/reset-password.php:35
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#: templates/reset-password.php:44
+msgid "Set New Password"
+msgstr "设置新密码"
+
+#: templates/single/info-artists.php:21
+msgid "Artist(s)"
+msgstr "作者"
+
+#: templates/single/info-authors.php:20
+msgid "Author(s)"
+msgstr "作者"
+
+#: templates/single/info-chapters.php:29
+msgid "LATEST MANGA RELEASES"
+msgstr "最新发布的漫画"
+
+#: templates/single/info-chapters.php:31
+msgid "Change Order"
+msgstr "更改顺序"
+
+#: templates/single/info-chapters.php:161
+msgid "There is no chapters"
+msgstr "没有章节"
+
+#: templates/single/info-chapters.php:176
+msgid "Manga has no chapter yet."
+msgstr "漫画还没有章节。"
+
+#: templates/single/info-chapters.php:183
+msgid "Show more "
+msgstr "显示更多 "
+
+#: templates/single/info-genres.php:21
+msgid "Genre(s)"
+msgstr "类型"
+
+#: templates/single/info-rank.php:21
+msgid "Rank"
+msgstr "排名"
+
+#: templates/single/info-rating.php:29
+#, php-format
+msgid ""
+"<span> <span> Average <span property=\"ratingValue\" id=\"averagerate\"> "
+"%s</span> / <span property=\"bestRating\">5</span> </span> </span> out of "
+"<span property=\"ratingCount\" id=\"countrate\">%s</span>"
+msgstr ""
+"<span> <span>平均 <span property=\"ratingValue\" id=\"averagerate\">%s / "
+"</span><span property=\"bestRating\">5</span> </span> </span><span "
+"property=\"ratingCount\" id=\"countrate\">%s </span>"
+
+#: templates/single/info-tags.php:25
+msgid "Tag(s)"
+msgstr "标签"
+
+#: templates/single/quick-buttons.php:42
+msgid "Continue reading"
+msgstr "继续阅读"
+
+#: templates/single/quick-buttons.php:57 templates/single/quick-buttons.php:63
+msgid "Read First"
+msgstr "阅读第一章"
+
+#: templates/single/quick-buttons.php:58 templates/single/quick-buttons.php:64
+msgid "Read Last"
+msgstr "阅读最后一章"
+
+#: templates/single/user-actions.php:28
+msgid "Comments"
+msgstr "评论"
+
+#: templates/single/user-actions.php:35
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s的评论"
+
+#: templates/single/user-actions.php:37
+#, php-format
+msgid "%d comment"
+msgstr "%d评论"
+
+#: templates/user/page/account-settings.php:36
+msgid "Succeeded!"
+msgstr "成功了！"
+
+#: templates/user/page/account-settings.php:36
+msgid "Update successfully"
+msgstr "更新成功"
+
+#: templates/user/page/account-settings.php:41
+msgid "Failed!"
+msgstr "失败！"
+
+#: templates/user/page/account-settings.php:69
+msgid "Only for .jpg .png or .gif file"
+msgstr "仅适用于 .jpg .png 或 .gif 文件"
+
+#: templates/user/page/account-settings.php:86
+msgid "Change Your Display name"
+msgstr "更改您的显示名称"
+
+#: templates/user/page/account-settings.php:90
+msgid "Current Display name"
+msgstr "当前显示名称"
+
+#: templates/user/page/account-settings.php:98
+msgid "New Display name"
+msgstr "新的显示名称"
+
+#: templates/user/page/account-settings.php:106 
+#: templates/user/page/account-settings.php:134 
+#: templates/user/page/account-settings.php:168 
+#: templates/user/page/reader-settings.php:119
+msgid "Submit"
+msgstr "提交"
+
+#: templates/user/page/account-settings.php:114
+msgid "Change Your email address"
+msgstr "更改您的电子邮件地址"
+
+#: templates/user/page/account-settings.php:118
+msgid "Your email"
+msgstr "你的邮件"
+
+#: templates/user/page/account-settings.php:126
+msgid "New email address"
+msgstr "新电子邮件地址"
+
+#: templates/user/page/account-settings.php:141
+msgid "Change Your Password"
+msgstr "更改您的密码"
+
+#: templates/user/page/account-settings.php:146
+msgid "Current Password"
+msgstr "当前密码"
+
+#: templates/user/page/account-settings.php:158
+msgid "Comfirm Password"
+msgstr "确认密码"
+
+#: templates/user/page/account-settings.php:167
+msgid "I agree to use this weak password"
+msgstr "我同意使用这个弱密码"
+
+#: templates/user/page/bookmark.php:33
+msgid "Updated Time"
+msgstr "更新时间"
+
+#: templates/user/page/bookmark.php:34
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/user/page/bookmark.php:99
+msgid "Latest chapter: "
+msgstr "最新章节:"
+
+#: templates/user/page/bookmark.php:106
+msgid "page "
+msgstr "页"
+
+#: templates/user/page/bookmark.php:115
+msgid "Unread chapter(s): "
+msgstr "未读章节:"
+
+#: templates/user/page/bookmark.php:172
+msgid "Check all"
+msgstr "检查全部"
+
+#: templates/user/page/bookmark.php:181
+msgid "No Manga Bookmarked"
+msgstr "没有收藏的漫画"
+
+#: templates/user/page/history.php:97
+#, php-format
+msgid "page %d"
+msgstr "第 %d 页"
+
+#: templates/user/page/history.php:130
+msgid "You haven't read any manga yet"
+msgstr "你还没有看过任何漫画"
+
+#: templates/user/page/reader-settings.php:49
+msgid "Success!"
+msgstr "成功！"
+
+#: templates/user/page/reader-settings.php:49
+msgid " Update successfully"
+msgstr "更新成功"
+
+#: templates/user/page/reader-settings.php:56
+msgid "Reading Settings"
+msgstr "阅读设置"
+
+#: templates/user/page/reader-settings.php:60
+msgid "Site Schema"
+msgstr "网站架构"
+
+#: templates/user/page/reader-settings.php:68
+msgid "Dark"
+msgstr "黑暗"
+
+#: templates/user/page/reader-settings.php:72
+msgid "Light"
+msgstr "光"
+
+#: templates/user/page/reader-settings.php:77
+msgid "Reading Style"
+msgstr "阅读样式"
+
+#: templates/user/page/reader-settings.php:85
+msgid "Paged"
+msgstr "分页"
+
+#: templates/user/page/reader-settings.php:89
+msgid "List"
+msgstr "列表"
+
+#: templates/user/page/reader-settings.php:94
+msgid "Images Per Page"
+msgstr "每页图像"
+
+#: templates/user/page/reader-settings.php:95
+msgid "Only works with paged reading style"
+msgstr "只适用于分页阅读方式"
+
+#: templates/user/page/reader-settings.php:103
+msgid "Load 1 image per page (default)"
+msgstr "每页加载1张图片（默认）"
+
+#: templates/user/page/reader-settings.php:107
+msgid "Load 3 images per page"
+msgstr "每页加载3张图片"
+
+#: templates/user/page/reader-settings.php:111
+msgid "Load 6 images per page"
+msgstr "每页加载6张图片"
+
+#: templates/user/page/reader-settings.php:115
+msgid "Load 10 images per page"
+msgstr "每页加载10张图片"
+
+#: wp-manga.php:331
+#, php-format
+msgid "Page %s"
+msgstr "页面%s"
+
+#: wp-manga.php:380
+msgid "WP Manga Storage"
+msgstr "WP漫画存储"
+
+#: wp-manga.php:385
+msgid "WP Manga Search"
+msgstr "WP漫画搜索"
+
+#: wp-manga.php:423
+msgid "Are you sure that you want to delete this Chapter?"
+msgstr "您确定要删除本章吗?"
+
+#: wp-manga.php:424
+msgid "Are you sure you want to delete this Volume and all chapters inside?"
+msgstr "您确定要删除此卷和其中的所有章节吗?"
+
+#: wp-manga.php:425
+msgid "By this, you will delete all chapters without Volume."
+msgstr "通过这种方式，你将删除所有的章节，而不需要卷。"
+
+#: wp-manga.php:426
+msgid "Are you sure to do that?"
+msgstr "你确定要这么做吗?"
+
+#: wp-manga.php:427
+msgid "This file exceeds the upload_max_filesize directive in php.ini"
+msgstr "这个文件超过了php.ini中的upload_max_filesize。"
+
+#: wp-manga.php:428
+msgid "This file exceeds the post_max_size directive in php.ini"
+msgstr "这个文件超过了php.ini中post_max_size。"
+
+#: wp-manga.php:696
+msgid "Showing search results for: "
+msgstr "显示搜索结果:"
+
+#: wp-manga.php:823
+msgid "Cannot get Google Refresh Token, please try again"
+msgstr "无法获得Google Refresh Token，请重试"
+
+#: wp-manga.php:844
+msgid "Imgur"
+msgstr "Imgur"
+
+#: wp-manga.php:855
+msgid "Flickr"
+msgstr "Flickr"
+
+#: wp-manga.php:863
+msgid "Blogspot"
+msgstr "Blogspot"
+
+#: wp-manga.php:872
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: wp-manga.php:955
+msgid "Tags: "
+msgstr "标签:"
+
+#: wp-manga.php:1372
+#, php-format
+msgid "Server %d"
+msgstr "服务器 %d"
