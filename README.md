@@ -8,8 +8,16 @@
 
 ### madara主题
 
-1. 请打开Wordpress的主题目录
+1. 请打开Wordpress的**主题**目录
 
 2. 打开`madara/languages`文件夹
 
 3. 将[此处](https://github.com/misaka10843/Madara-WPTheme-CHS-Translation/tree/main/theme/madara)的两个语言文件上传到`2`中的文件夹即可
+
+### madara-core插件
+
+1. 请打开Wordpress的**插件**目录
+
+2. 打开`madara-core/languages`文件夹
+
+3. 将[此处](https://github.com/misaka10843/Madara-WPTheme-CHS-Translation/tree/main/plugins/madara-core)的两个语言文件上传到`2`中的文件夹即可
