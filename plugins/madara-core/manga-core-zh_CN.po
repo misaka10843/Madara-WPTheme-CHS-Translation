@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Manga Core\n"
 "POT-Creation-Date: 2021-10-08 11:07+0700\n"
-"PO-Revision-Date: 2023-01-03 04:07+0000\n"
+"PO-Revision-Date: 2023-01-03 09:21+0000\n"
 "Last-Translator: \n"
 "Language-Team: 简体中文\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgstr "状态:"
 #: admin/manga-single/chapter-edit-modal.php:52 inc/functions.php:444 
 #: inc/post-type.php:609 templates/manga-search.php:157
 msgid "Completed"
-msgstr "已完成"
+msgstr "已完结"
 
 #: admin/manga-single/chapter-edit-modal.php:53
 msgid "Uploading"
@@ -1472,7 +1472,6 @@ msgid "Alter database failed. Please contact plugin author for help!"
 msgstr "修改数据库失败。请联系插件作者寻求帮助!"
 
 #: inc/ajax/backend.php:119
-#, fuzzy
 msgid "Build search text done!"
 msgstr "构建搜索文本完成!"
 
@@ -1796,19 +1795,19 @@ msgstr[0] "%1s，它每月有%2s的访问量"
 
 #: inc/functions.php:447 inc/post-type.php:608
 msgid "OnGoing"
-msgstr "正在进行中"
+msgstr "连载中"
 
 #: inc/functions.php:449 inc/post-type.php:610 templates/manga-search.php:165
 msgid "Canceled"
-msgstr "已取消"
+msgstr "已停更"
 
 #: inc/functions.php:451 inc/post-type.php:611 templates/manga-search.php:169
 msgid "On Hold"
-msgstr "搁置中"
+msgstr "停更中(未来更新)"
 
 #: inc/functions.php:453 inc/post-type.php:612
 msgid "Upcoming"
-msgstr "即将推出"
+msgstr "未来将连载"
 
 #: inc/functions.php:659
 #, php-format
@@ -3273,7 +3272,6 @@ msgid "&larr; Back to  "
 msgstr "&larr; Back to "
 
 #: templates/manga-archive-filter.php:19 templates/manga-filter.php:41
-#, fuzzy
 msgid "A-Z"
 msgstr "A-Z"
 
@@ -3368,7 +3366,7 @@ msgstr "仅限成人内容"
 
 #: templates/manga-search.php:161
 msgid "Ongoing"
-msgstr "正在进行中"
+msgstr "连载中"
 
 #: templates/manga-search.php:174
 msgid "Reset"
