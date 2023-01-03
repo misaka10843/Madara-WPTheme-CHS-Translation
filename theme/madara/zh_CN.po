@@ -1,0 +1,5326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Madara\n"
+"POT-Creation-Date: 2021-10-06 16:03+0800\n"
+"PO-Revision-Date: 2021-10-06 16:04+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:34 404.php:36 app/config/theme-options.php:60
+#: app/views/ParseBreadcrumbs.php:33
+msgid "404"
+msgstr "404"
+
+#: 404.php:48
+msgid "Oops! page not found."
+msgstr "哎呀! 找不到页面."
+
+#: 404.php:65
+msgid "Go home"
+msgstr "返回首页"
+
+#: amp/manga-chapters.php:26 madara-core/single/info-chapters.php:13
+msgid "LATEST MANGA RELEASES"
+msgstr "最新漫画版本"
+
+#: amp/manga-chapters.php:145 madara-core/single/info-chapters.php:160
+msgid "Manga has no chapter yet."
+msgstr "这本漫画还没有章节。"
+
+#: amp/meta-manga.php:34 madara-core/manga-functions.php:591
+#: madara-core/single/info-rank.php:4
+msgid "Rank"
+msgstr "等级"
+
+#: amp/meta-manga.php:41 app/metadatas/page-metadatas.php:340
+#: madara-core/manga-filter.php:32 madara-core/single/info-rating.php:10
+msgid "Rating"
+msgstr "评价"
+
+#: amp/meta-manga.php:48 madara-core/content/content-search.php:58
+#: madara-core/manga-functions.php:602
+#: madara-core/single/info-alternative-name.php:8
+msgid "Alternative"
+msgstr "替代"
+
+#: amp/meta-manga.php:54 madara-core/manga-functions.php:615
+#: madara-core/single/info-authors.php:7
+msgid "Author(s)"
+msgstr "作者(s)"
+
+#: amp/meta-manga.php:60 madara-core/manga-functions.php:628
+#: madara-core/single/info-artists.php:7
+msgid "Artist(s)"
+msgstr "艺术家"
+
+#: amp/meta-manga.php:66 madara-core/manga-functions.php:643
+#: madara-core/single/info-genres.php:7
+msgid "Genre(s)"
+msgstr "类型(s)"
+
+#: amp/meta-manga.php:72
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2579
+#: madara-core/single/info-type.php:7
+msgid "Type"
+msgstr "类型"
+
+#: amp/meta-manga.php:78 madara-core/content/content-search.php:166
+#: madara-core/single/info-release.php:6
+msgid "Release"
+msgstr "（显然是预释或释放)"
+
+#: amp/meta-manga.php:86
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2584
+#: madara-core/content/content-search.php:148 madara-core/manga-search.php:140
+#: madara-core/single/info-status.php:4
+msgid "Status"
+msgstr "状态"
+
+#: amp/meta-taxonomy.php:21 amp/meta-taxonomy.php:35
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: %s: list of categories.
+#: amp/meta-taxonomy.php:27
+#, php-format
+msgid "Categories: %s"
+msgstr "分类：%s"
+
+#. translators: %s: list of tags.
+#: amp/meta-taxonomy.php:44
+#, php-format
+msgid "Tags: %s"
+msgstr "标签：%s"
+
+#: app/config-image-sizes.php:9
+msgid "Thumb 254x140px"
+msgstr "缩略图 254x140px"
+
+#: app/config-image-sizes.php:10
+msgid ""
+"This thumb size is used for post thumbnail in Widget Posts & Post Navigation"
+msgstr "此缩微图大小用于小工具文章和文章导航中的文章缩略图"
+
+#: app/config-image-sizes.php:16
+msgid "Thumb 360x206px"
+msgstr "缩略图 360x206px"
+
+#: app/config-image-sizes.php:17
+msgid "This thumb size is used for post thumbnail in Blog Listing"
+msgstr "此缩微图大小用于博客列表中的文章缩略图"
+
+#: app/config-image-sizes.php:23
+msgid "Thumb 125x180px"
+msgstr "缩略图 125x180px"
+
+#: app/config-image-sizes.php:24
+msgid "This thumb size is used for post thumbnail in Popular Slider"
+msgstr "此缩略图大小用于“流行板块”中的发布的缩略图"
+
+#: app/config-image-sizes.php:30
+msgid "Thumb 1200x630px"
+msgstr "缩略图 1200x630px"
+
+#: app/config-image-sizes.php:31
+msgid "This thumb size is used for meta tag og:image"
+msgstr "此缩略图大小用于Meta标记图像"
+
+#: app/config-image-sizes.php:37
+msgid "Thumb 175x238px"
+msgstr "缩略图 175x238px"
+
+#: app/config-image-sizes.php:38
+msgid ""
+"This thumb size is used for Manga's Big Thumbnail item layout in Manga "
+"Archives page"
+msgstr "此缩略图大小用于“漫画归档页面”中漫画大缩略图项目布局"
+
+#: app/config/theme-options.php:15
+msgid "Option Types"
+msgstr "选项类型"
+
+#: app/config/theme-options.php:16
+msgid "Help content goes here!"
+msgstr "帮助内容在这里！"
+
+#: app/config/theme-options.php:19
+msgid "Sidebar content goes here!"
+msgstr "侧边栏的内容放在这里！"
+
+#: app/config/theme-options.php:24
+msgid "General"
+msgstr "常规"
+
+#: app/config/theme-options.php:28
+msgid "General Layout"
+msgstr "总体布局"
+
+#: app/config/theme-options.php:32 app/config/theme-options.php:291
+#: app/metadatas/page-metadatas.php:410
+msgid "Custom Colors"
+msgstr "自定义颜色"
+
+#: app/config/theme-options.php:36
+msgid "Custom Fonts"
+msgstr "自定义字体"
+
+#: app/config/theme-options.php:40
+msgid "Header"
+msgstr "页眉"
+
+#: app/config/theme-options.php:44 app/metadatas/page-metadatas.php:98
+#: app/views/ParseBreadcrumbs.php:60 app/views/ParsePageTitle.php:40
+msgid "Blog"
+msgstr "博客"
+
+#: app/config/theme-options.php:48
+msgid "Single Post"
+msgstr "单一职位"
+
+#: app/config/theme-options.php:52
+msgid "Single Page"
+msgstr "单页"
+
+#: app/config/theme-options.php:56 header.php:58
+#: madara-core/manga-search.php:51 madara-core/manga-search.php:159
+#: madara-core/widgets/manga-search/manga-search.php:90 search.php:20
+msgid "Search"
+msgstr "搜索"
+
+#: app/config/theme-options.php:64
+msgid "Social Accounts"
+msgstr "社交帐户"
+
+#: app/config/theme-options.php:68
+msgid "Advertising"
+msgstr "广告"
+
+#: app/config/theme-options.php:72
+msgid "Misc"
+msgstr "杂项"
+
+#: app/config/theme-options.php:76
+msgid "AMP"
+msgstr "AMP"
+
+#: app/config/theme-options.php:86
+msgid "Logo Image"
+msgstr "Logo图片"
+
+#: app/config/theme-options.php:87
+msgid "Upload your logo image"
+msgstr "上传您的LOGO图片"
+
+#: app/config/theme-options.php:94
+msgid "Logo Size (width x height)"
+msgstr "徽标大小（宽度 x 高度）"
+
+#: app/config/theme-options.php:95
+msgid ""
+"(optional) Specify your logo width & height. This may help to improve Google "
+"Pagespeed Insights value. For example 230x140"
+msgstr ""
+"（可选）指定徽标宽度和高度。这可能有助于提高谷歌页面速洞察值。例如 230x140"
+
+#: app/config/theme-options.php:102
+msgid "Retina Logo (optional)"
+msgstr "高清logo(可选)"
+
+#: app/config/theme-options.php:103
+msgid ""
+"Retina logo should be two time bigger than the custom logo. Retina Logo is "
+"optional, use this setting if you want to strictly support retina devices."
+msgstr ""
+"Retina徽标应该比自定义徽标大两倍。 Retina徽标是可选的，如果您想严格支持视网膜"
+"设备，请使用此设置。"
+
+#: app/config/theme-options.php:110
+msgid "Login Logo Image"
+msgstr "登陆logo图"
+
+#: app/config/theme-options.php:111
+msgid "Upload your Admin Login logo image"
+msgstr "上传您的管理员登录页面LOGO图片"
+
+#: app/config/theme-options.php:123 app/metadatas/page-metadatas.php:418
+msgid "Body Schema"
+msgstr "主体样式"
+
+#: app/config/theme-options.php:124 app/metadatas/page-metadatas.php:419
+msgid "Choose Body Color Schema"
+msgstr "选择主体颜色"
+
+#: app/config/theme-options.php:131 app/metadatas/page-metadatas.php:429
+#: madara-core/user/page/reader-settings.php:58
+msgid "Light"
+msgstr "白天"
+
+#: app/config/theme-options.php:135 app/metadatas/page-metadatas.php:433
+#: madara-core/user/page/reader-settings.php:54
+msgid "Dark"
+msgstr "夜间"
+
+#: app/config/theme-options.php:142 app/metadatas/page-metadatas.php:785
+msgid "Main Top Sidebar Container"
+msgstr "主顶部栏"
+
+#: app/config/theme-options.php:143 app/metadatas/page-metadatas.php:786
+msgid "Set container for Main Top Sidebar. Custom width is 1760px"
+msgstr "设置主体顶部侧栏，自定义宽度为1760px"
+
+#: app/config/theme-options.php:150 app/config/theme-options.php:196
+#: app/config/theme-options.php:241 app/metadatas/page-metadatas.php:797
+#: app/metadatas/page-metadatas.php:843 app/metadatas/page-metadatas.php:888
+#: app/theme-options.php:146 app/theme-options.php:191
+#: app/theme-options.php:236
+msgid "Full-Width"
+msgstr "全屏宽度"
+
+#: app/config/theme-options.php:155 app/config/theme-options.php:201
+#: app/config/theme-options.php:246 app/config/theme-options.php:1134
+#: app/metadatas/page-metadatas.php:561 app/metadatas/page-metadatas.php:801
+#: app/metadatas/page-metadatas.php:847 app/metadatas/page-metadatas.php:892
+#: app/theme-options.php:151 app/theme-options.php:196
+#: app/theme-options.php:241
+msgid "Container"
+msgstr "容器"
+
+#: app/config/theme-options.php:160 app/config/theme-options.php:206
+#: app/config/theme-options.php:251 app/config/theme-options.php:1139
+#: app/metadatas/page-metadatas.php:566 app/metadatas/page-metadatas.php:805
+#: app/metadatas/page-metadatas.php:851 app/metadatas/page-metadatas.php:896
+#: app/theme-options.php:156 app/theme-options.php:201
+#: app/theme-options.php:246
+msgid "Custom Width"
+msgstr "自定义宽度"
+
+#: app/config/theme-options.php:169 app/metadatas/page-metadatas.php:813
+msgid "Main Top Sidebar Background"
+msgstr "主顶部栏背景"
+
+#: app/config/theme-options.php:170 app/metadatas/page-metadatas.php:814
+msgid "Upload background image for Main Top Sidebar"
+msgstr "设置主顶侧边栏的背景图像"
+
+#: app/config/theme-options.php:178 app/metadatas/page-metadatas.php:822
+msgid "Main Top Sidebar - Padding"
+msgstr "主顶部栏 - 内间距"
+
+#: app/config/theme-options.php:179 app/metadatas/page-metadatas.php:823
+msgid "Padding in Main Bottom Top. Default value is 50 0 20 0 & unit is px"
+msgstr "设置主顶部栏内间距，默认值为 50 0 20 0 单位是px"
+
+#: app/config/theme-options.php:188 app/metadatas/page-metadatas.php:831
+msgid "Main Top Second Sidebar Container"
+msgstr "主顶部二栏"
+
+#: app/config/theme-options.php:189 app/metadatas/page-metadatas.php:832
+msgid "Set container for Main Top Second Sidebar. Custom width is 1760px"
+msgstr "设置主体顶部侧栏二，自定义宽度为1760px"
+
+#: app/config/theme-options.php:214 app/metadatas/page-metadatas.php:858
+msgid "Main Top Second Sidebar Background"
+msgstr "主顶部栏二背景"
+
+#: app/config/theme-options.php:215 app/metadatas/page-metadatas.php:859
+msgid "Upload background image for Main Top Second Sidebar"
+msgstr "设置主顶侧边栏二的背景图像"
+
+#: app/config/theme-options.php:223 app/metadatas/page-metadatas.php:867
+msgid "Main Top Second Sidebar - Padding"
+msgstr "主顶部栏二 - 内间距"
+
+#: app/config/theme-options.php:224 app/metadatas/page-metadatas.php:868
+msgid ""
+"Padding in Main Top Second Sidebar. Default value is 50 0 20 0 & unit is px"
+msgstr "设置主顶部栏二内间距，默认值为 50 0 20 0 单位是px"
+
+#: app/config/theme-options.php:233 app/metadatas/page-metadatas.php:876
+msgid "Main Bottom Sidebar Container"
+msgstr "主底部栏"
+
+#: app/config/theme-options.php:234 app/metadatas/page-metadatas.php:877
+msgid "Set container for Main bottom Sidebar. Custom width is 1760px"
+msgstr "设置主底部侧栏，自定义宽度为1760px"
+
+#: app/config/theme-options.php:259 app/metadatas/page-metadatas.php:904
+msgid "Main bottom Sidebar Background"
+msgstr "主底部栏背景"
+
+#: app/config/theme-options.php:260 app/metadatas/page-metadatas.php:905
+msgid "Upload background image for Main Bottom Sidebar"
+msgstr "上传主底侧边栏背景图像"
+
+#: app/config/theme-options.php:268 app/metadatas/page-metadatas.php:913
+msgid "Main Bottom Sidebar - Padding"
+msgstr "主底部栏 - 内间距"
+
+#: app/config/theme-options.php:269 app/metadatas/page-metadatas.php:914
+msgid "Padding in Main Bottom Sidebar. Default value is 50 0 20 0 & unit is px"
+msgstr "设置主底部栏内间距，默认值为 50 0 20 0 单位是px"
+
+#: app/config/theme-options.php:278
+msgid "Login/Register Popup Background"
+msgstr "登录/注册弹窗背景"
+
+#: app/config/theme-options.php:279
+msgid "Upload background image for Login/Register Popup"
+msgstr "上传登录/注册弹出窗口背景图像"
+
+#: app/config/theme-options.php:292 app/metadatas/page-metadatas.php:411
+msgid "Show Custom Colors settings"
+msgstr "显示自定义颜色设置"
+
+#: app/config/theme-options.php:300 app/metadatas/page-metadatas.php:441
+msgid "Primary Color (Gradient - Start Color)"
+msgstr "原色（渐变 - 开始颜色）"
+
+#: app/config/theme-options.php:301 app/metadatas/page-metadatas.php:442
+msgid ""
+"Choose Primary Color of the theme (Gradient - Start Color). Default is: "
+"#eb3349"
+msgstr "选择主题的原色（渐变 - 开始颜色），默认值是：#eb3349"
+
+#: app/config/theme-options.php:310 app/metadatas/page-metadatas.php:450
+msgid "Primary Color (Gradient - End Color)"
+msgstr "原色（渐变 - 结束颜色）"
+
+#: app/config/theme-options.php:311 app/metadatas/page-metadatas.php:451
+msgid "Choose Primary Color of the theme (Gradient - End Color)"
+msgstr "选择主题的原色（渐变 - 结束颜色）"
+
+#: app/config/theme-options.php:320 app/metadatas/page-metadatas.php:459
+msgid "Link Hover Color"
+msgstr "链接悬停颜色"
+
+#: app/config/theme-options.php:321 app/metadatas/page-metadatas.php:460
+msgid "Choose Link Hover Color of the theme. Default is Primary Color"
+msgstr "选择主题的链接悬停颜色，默认值是主要颜色"
+
+#: app/config/theme-options.php:330 app/metadatas/page-metadatas.php:468
+msgid "Star Color"
+msgstr "星色"
+
+#: app/config/theme-options.php:331 app/metadatas/page-metadatas.php:469
+msgid "Choose Star Color rating in Manga Listing. Default is: #ffd900"
+msgstr "漫画列表中选择星级颜色等级，默认是：#ffd900"
+
+#: app/config/theme-options.php:340 app/metadatas/page-metadatas.php:477
+msgid "HOT Badges background color"
+msgstr "HOT 徽章背景颜色"
+
+#: app/config/theme-options.php:341 app/metadatas/page-metadatas.php:478
+msgid "Choose Background Color for HOT Badges in Manga Listing"
+msgstr "漫画列表中选择 HOT 徽章的背景颜色"
+
+#: app/config/theme-options.php:350 app/metadatas/page-metadatas.php:486
+msgid "NEW Badges backgroundcolor"
+msgstr "NEW 徽章背景颜色"
+
+#: app/config/theme-options.php:351 app/metadatas/page-metadatas.php:487
+msgid "Choose Background Color for NEW Badges in Manga Listing"
+msgstr "漫画列表中为 NEW 徽章选择背景颜色"
+
+#: app/config/theme-options.php:360 app/metadatas/page-metadatas.php:495
+msgid "CUSTOM Badges backgroundcolor"
+msgstr "CUSTOM 徽章背景颜色"
+
+#: app/config/theme-options.php:361 app/metadatas/page-metadatas.php:496
+msgid "Choose Background Color for Custom Badges in Manga Listing"
+msgstr "漫画列表中选择 CUSTOM 徽章的背景颜色"
+
+#: app/config/theme-options.php:370 app/metadatas/page-metadatas.php:505
+msgid "Button Background"
+msgstr "按钮背景"
+
+#: app/config/theme-options.php:371 app/metadatas/page-metadatas.php:506
+msgid "Choose default Background Color for Buttons"
+msgstr "设置按钮默认背景颜色"
+
+#: app/config/theme-options.php:380 app/metadatas/page-metadatas.php:514
+msgid "Button Text Color"
+msgstr "按钮文本颜色"
+
+#: app/config/theme-options.php:381 app/metadatas/page-metadatas.php:515
+msgid "Choose default Text Color for Buttons"
+msgstr "设置按钮默认文本颜色"
+
+#: app/config/theme-options.php:390 app/metadatas/page-metadatas.php:523
+msgid "Button Background Hover Color"
+msgstr "按钮背景悬停颜色"
+
+#: app/config/theme-options.php:391 app/metadatas/page-metadatas.php:524
+msgid "Choose default Background Hover Color for Buttons"
+msgstr "选择默认的按钮悬停背景颜色"
+
+#: app/config/theme-options.php:400 app/metadatas/page-metadatas.php:532
+msgid "Button Text Hover Color"
+msgstr "按钮文本悬停颜色"
+
+#: app/config/theme-options.php:401 app/metadatas/page-metadatas.php:533
+msgid "Choose default Text Hover Color for Buttons"
+msgstr "设置按钮默认文本悬停颜色"
+
+#: app/config/theme-options.php:411 app/metadatas/page-metadatas.php:595
+msgid "Customize Header Colors"
+msgstr "自定义页眉颜色"
+
+#: app/config/theme-options.php:412 app/metadatas/page-metadatas.php:596
+msgid "Change various color settings on Header"
+msgstr "更改页眉上的各种颜色设置"
+
+#: app/config/theme-options.php:420 app/metadatas/page-metadatas.php:603
+msgid "Navigation - Item Color"
+msgstr "导航 - 项目颜色"
+
+#: app/config/theme-options.php:421 app/config/theme-options.php:508
+#: app/metadatas/page-metadatas.php:604 app/metadatas/page-metadatas.php:682
+msgid "Choose color for menu items on Navigation"
+msgstr "设置导航上的菜单项目颜色"
+
+#: app/config/theme-options.php:430 app/metadatas/page-metadatas.php:612
+msgid "Navigation - Item Hover Color"
+msgstr "导航 - 悬停颜色"
+
+#: app/config/theme-options.php:431 app/metadatas/page-metadatas.php:613
+msgid "Choose hover color for menu items on Navigation"
+msgstr "设置导航菜单项目鼠标悬停颜色"
+
+#: app/config/theme-options.php:440 app/metadatas/page-metadatas.php:621
+msgid "Navigation - Background Color For Sub Menu"
+msgstr "导航 - 子菜单背景颜色"
+
+#: app/config/theme-options.php:441 app/metadatas/page-metadatas.php:622
+msgid "Choose background color for sub menu of Navigation"
+msgstr "设置子菜单背景颜色"
+
+#: app/config/theme-options.php:450 app/metadatas/page-metadatas.php:630
+msgid "Navigation - Sub Menu Item Border Color"
+msgstr "导航 - 子菜单边框颜色"
+
+#: app/config/theme-options.php:451 app/metadatas/page-metadatas.php:631
+msgid "Choose color for sub menu item border color"
+msgstr "设置子菜单项目边框颜色"
+
+#: app/config/theme-options.php:460 app/metadatas/page-metadatas.php:639
+msgid "Navigation - Sub Menu Item Color"
+msgstr "导航 - 子菜单颜色"
+
+#: app/config/theme-options.php:461 app/metadatas/page-metadatas.php:640
+msgid "Choose color for sub menu item of Navigation"
+msgstr "设置导航子菜单项目颜色"
+
+#: app/config/theme-options.php:470 app/metadatas/page-metadatas.php:648
+msgid "Navigation - Sub Menu Item Hover Color"
+msgstr "导航 - 子菜单悬停颜色"
+
+#: app/config/theme-options.php:471 app/metadatas/page-metadatas.php:649
+msgid "Choose hover color for sub menu item of Navigation"
+msgstr "设置导航子菜单项目鼠标悬停颜色"
+
+#: app/config/theme-options.php:480 app/metadatas/page-metadatas.php:657
+msgid "Navigation - Sub Menu Item Hover Background Color"
+msgstr "导航 - 子菜单项目悬停背景颜色"
+
+#: app/config/theme-options.php:481 app/metadatas/page-metadatas.php:658
+msgid "Choose hover background color for sub menu item of Navigation"
+msgstr "设置导航子菜单项目鼠标悬停背景颜色"
+
+#: app/config/theme-options.php:490 app/metadatas/page-metadatas.php:666
+msgid "Customize Header Bottom Colors"
+msgstr "自定义页眉底边颜色"
+
+#: app/config/theme-options.php:491 app/metadatas/page-metadatas.php:667
+msgid "Change various color settings on Header Bottom"
+msgstr "更改页眉底边上的各种颜色设置"
+
+#: app/config/theme-options.php:498 app/metadatas/page-metadatas.php:673
+msgid "Header Bottom Background"
+msgstr "页眉底部背景"
+
+#: app/config/theme-options.php:499 app/metadatas/page-metadatas.php:674
+msgid "Choose background color for the Header Bottom"
+msgstr "选择页眉底部背景颜色"
+
+#: app/config/theme-options.php:507 app/metadatas/page-metadatas.php:681
+msgid "Second Navigation - Item Color"
+msgstr "次要导航 - 项目颜色"
+
+#: app/config/theme-options.php:517 app/metadatas/page-metadatas.php:690
+msgid "Second Navigation - Item Hover Color"
+msgstr "次要导航 - 项目悬停颜色"
+
+#: app/config/theme-options.php:518 app/metadatas/page-metadatas.php:691
+msgid "Choose hover color for menu items on Second Navigation"
+msgstr "选择悬停颜色，用于次要导航上的菜单项"
+
+#: app/config/theme-options.php:527 app/metadatas/page-metadatas.php:699
+msgid "Second Navigation - Background Color For Sub Menu"
+msgstr "次要导航 - 子菜单的背景颜色"
+
+#: app/config/theme-options.php:528 app/metadatas/page-metadatas.php:700
+msgid "Choose background color for sub menu of Second Navigation"
+msgstr "选择次要导航的子菜单背景颜色"
+
+#: app/config/theme-options.php:537 app/metadatas/page-metadatas.php:708
+msgid "Second Navigation - Sub Menu Item Color"
+msgstr "次要导航 - 子菜单项目颜色"
+
+#: app/config/theme-options.php:538 app/metadatas/page-metadatas.php:709
+msgid "Choose color for sub menu item of Second Navigation"
+msgstr "设置次要导航的子菜单项目颜色"
+
+#: app/config/theme-options.php:547 app/metadatas/page-metadatas.php:717
+msgid "Second Navigation - Sub Menu Item Hover Color"
+msgstr "次要导航 - 子菜单项目悬停颜色"
+
+#: app/config/theme-options.php:548 app/metadatas/page-metadatas.php:718
+msgid "Choose hover color for sub menu item of Second Navigation"
+msgstr "选择悬停颜色作为次要导航的子菜单项"
+
+#: app/config/theme-options.php:557 app/metadatas/page-metadatas.php:726
+msgid "Second Navigation - Border Bottom Color For Sub Menu"
+msgstr "次要导航 - 子菜单的边框底部颜色"
+
+#: app/config/theme-options.php:558 app/metadatas/page-metadatas.php:727
+msgid ""
+"Choose border bottom color for sub menu of Second Navigation. Default is "
+"Primary Color"
+msgstr "选择边框底部颜色作为次要导航的子菜单，默认值为主要颜色"
+
+#: app/config/theme-options.php:567 app/metadatas/page-metadatas.php:735
+msgid "Mobile Menu Custom Color"
+msgstr "移动菜单颜色"
+
+#: app/config/theme-options.php:568 app/metadatas/page-metadatas.php:736
+msgid "Change various color settings on Mobile Menu"
+msgstr "更改移动菜单上的各种颜色设置"
+
+#: app/config/theme-options.php:576
+msgid "Mobile Browser Header Color"
+msgstr "移动设备页眉颜色"
+
+#: app/config/theme-options.php:577
+msgid "Change header color on Mobile Browser Header"
+msgstr "设置移动设置浏览器页眉颜色"
+
+#: app/config/theme-options.php:585 app/metadatas/page-metadatas.php:743
+msgid "Canvas Menu - Background"
+msgstr "Canvas 菜单 - 背景"
+
+#: app/config/theme-options.php:586 app/metadatas/page-metadatas.php:744
+msgid "Set Background Color of Canvas Menu"
+msgstr "设置 Canvas 菜单的背景颜色"
+
+#: app/config/theme-options.php:595 app/metadatas/page-metadatas.php:752
+msgid "Canvas Menu - Menu Item Color"
+msgstr "Canvas 菜单 - 菜单项目颜色"
+
+#: app/config/theme-options.php:596 app/metadatas/page-metadatas.php:753
+msgid "Set Color of Item of Canvas Menu"
+msgstr "设置 Canvas 菜单项目的颜色"
+
+#: app/config/theme-options.php:605 app/metadatas/page-metadatas.php:761
+msgid "Canvas Menu - Menu Item Hover Color"
+msgstr "Canvas 菜单 - 菜单项目悬停颜色"
+
+#: app/config/theme-options.php:606 app/metadatas/page-metadatas.php:762
+msgid "Set Hover Color of Item of Canvas Menu"
+msgstr "设置 Canvas 菜单项目的悬停颜色"
+
+#: app/config/theme-options.php:618
+msgid "Google Fonts API Key"
+msgstr "Google Fonts API密钥"
+
+#: app/config/theme-options.php:619
+msgid ""
+"If the Google Fonts list below does not appear, enter your own Google Fonts "
+"API Key here. Please follow the link below to create your Key:"
+msgstr ""
+"如果下面的谷歌字体列表未显示，请在此处输入您自己的谷歌字体 API 密钥，请按照下"
+"面的链接创建您的密钥："
+
+#: app/config/theme-options.php:627
+msgid "Custom Font Settings"
+msgstr "自定义字体设置"
+
+#: app/config/theme-options.php:628
+msgid "Customize default Font Settings"
+msgstr "设置自定义默认字体"
+
+#: app/config/theme-options.php:636
+msgid "Use Google Font for Main Font"
+msgstr "使用谷歌字体"
+
+#: app/config/theme-options.php:637
+msgid "If you use Google Font for Main Font Family, turn this on"
+msgstr "如果您将谷歌字体用于主字体系列，请启用此功能"
+
+#: app/config/theme-options.php:646 app/config/theme-options.php:656
+msgid "Main Font Family"
+msgstr "主要字体系列"
+
+#: app/config/theme-options.php:647
+msgid "Choose Google Fonts for Main Font"
+msgstr "选择谷歌字体作为主字体"
+
+#: app/config/theme-options.php:657
+msgid "Enter name of font family here"
+msgstr "此处输入字体家族名称"
+
+#: app/config/theme-options.php:666
+msgid "Main Font Size"
+msgstr "主字体大小"
+
+#: app/config/theme-options.php:667
+msgid "Choose Font Size. Default is 14px"
+msgstr "选择字体大小，默认值为14px"
+
+#: app/config/theme-options.php:677
+msgid "Main Font Weight"
+msgstr "字体粗细"
+
+#: app/config/theme-options.php:678
+msgid "Choose Font Weight."
+msgstr "选择字体粗细。"
+
+#: app/config/theme-options.php:685
+msgid "Normal"
+msgstr "常规"
+
+#: app/config/theme-options.php:690
+msgid "Bold"
+msgstr "粗体字"
+
+#: app/config/theme-options.php:695
+msgid "Bolder"
+msgstr "加粗"
+
+#: app/config/theme-options.php:700
+msgid "Initial"
+msgstr "初始"
+
+#: app/config/theme-options.php:705
+msgid "Lighter"
+msgstr "很细"
+
+#: app/config/theme-options.php:710
+msgid "100"
+msgstr "100"
+
+#: app/config/theme-options.php:715
+msgid "200"
+msgstr "200"
+
+#: app/config/theme-options.php:720
+msgid "300"
+msgstr "300"
+
+#: app/config/theme-options.php:725
+msgid "400"
+msgstr "400"
+
+#: app/config/theme-options.php:730
+msgid "500"
+msgstr "500"
+
+#: app/config/theme-options.php:735
+msgid "600"
+msgstr "600"
+
+#: app/config/theme-options.php:740
+msgid "700"
+msgstr "700"
+
+#: app/config/theme-options.php:745
+msgid "800"
+msgstr "800"
+
+#: app/config/theme-options.php:750
+msgid "900"
+msgstr "900"
+
+#: app/config/theme-options.php:759
+msgid "Main Font Line Height"
+msgstr "字体行高"
+
+#: app/config/theme-options.php:760
+msgid "Choose Font Line Height. Default is 1.5"
+msgstr "选择字体行高，默认值为 1.5"
+
+#: app/config/theme-options.php:770
+msgid "Use Google Font for Heading Font"
+msgstr "使用谷歌字体作为标题字体"
+
+#: app/config/theme-options.php:771
+msgid "If you use Google Font for Heading Font Family, turn this on"
+msgstr "如果您将谷歌字体用作标题字体系列，请启用此功能"
+
+#: app/config/theme-options.php:780 app/config/theme-options.php:790
+msgid "Heading Font Family"
+msgstr "标题字体系列"
+
+#: app/config/theme-options.php:781
+msgid "Heading Font is used for all heading tags (ie. H1, H2, H3, H4, H5, H6)"
+msgstr "标题字体用于所有标题标签（即 H1、H2、H3、H4、H5、H6）"
+
+#: app/config/theme-options.php:791
+msgid ""
+"Heading Font is used for all heading tags (ie. H1, H2, H3, H4, H5, H6). "
+"Enter name of font family here"
+msgstr ""
+"标题字体用于所有标题标签（即 H1、H2、H3、H4、H5、H6），在此处输入字体家族名称"
+
+#: app/config/theme-options.php:800
+msgid "H1 - Font Size"
+msgstr "H1 - 字体大小"
+
+#: app/config/theme-options.php:801
+msgid "Choose font size for H1. Default is 34px"
+msgstr "Choose font size for H1. Default is 34px"
+
+#: app/config/theme-options.php:810
+msgid "H1 - Line Height"
+msgstr "H1 - 行高"
+
+#: app/config/theme-options.php:811 app/config/theme-options.php:846
+#: app/config/theme-options.php:881 app/config/theme-options.php:916
+#: app/config/theme-options.php:951 app/config/theme-options.php:986
+msgid "Choose Font Line Height.  Default is 1.2em"
+msgstr "Choose Font Line Height.  Default is 1.2em"
+
+#: app/config/theme-options.php:822
+msgid "H1 - Font Weight"
+msgstr "H1 - 字体粗细"
+
+#: app/config/theme-options.php:823 app/config/theme-options.php:858
+#: app/config/theme-options.php:893 app/config/theme-options.php:928
+#: app/config/theme-options.php:963 app/config/theme-options.php:998
+#: app/config/theme-options.php:1051
+msgid "Choose Font Weight"
+msgstr "选择字体粗细"
+
+#: app/config/theme-options.php:834
+msgid "H2 - Font Size"
+msgstr "H2 - 字体大小"
+
+#: app/config/theme-options.php:835
+msgid "Choose font size for H2. Default is 30px"
+msgstr "Choose font size for H2. Default is 30px"
+
+#: app/config/theme-options.php:845
+msgid "H2 - Line Height"
+msgstr "H2 - 行高"
+
+#: app/config/theme-options.php:857
+msgid "H2 - Font Weight"
+msgstr "H2 - 字体粗细"
+
+#: app/config/theme-options.php:869
+msgid "H3 - Font Size"
+msgstr "H3 - 字体大小"
+
+#: app/config/theme-options.php:870
+msgid "Choose font size for H3. Default is 24px"
+msgstr "Choose font size for H3. Default is 24px"
+
+#: app/config/theme-options.php:880
+msgid "H3 - Line Height"
+msgstr "H3 - 行高"
+
+#: app/config/theme-options.php:892
+msgid "H3 - Font Weight"
+msgstr "H3 - 字体粗细"
+
+#: app/config/theme-options.php:904
+msgid "H4 - Font Size"
+msgstr "H4 - 字体大小"
+
+#: app/config/theme-options.php:905
+msgid "Choose font size for H4. Default is 18px"
+msgstr "Choose font size for H4. Default is 18px"
+
+#: app/config/theme-options.php:915
+msgid "H4 - Line Height"
+msgstr "H4 - 行高"
+
+#: app/config/theme-options.php:927
+msgid "H4 - Font Weight"
+msgstr "H4 - 字体粗细"
+
+#: app/config/theme-options.php:939
+msgid "H5 - Font Size"
+msgstr "H5 - 字体大小"
+
+#: app/config/theme-options.php:940
+msgid "Choose font size for H5. Default is 16px"
+msgstr "Choose font size for H5. Default is 16px"
+
+#: app/config/theme-options.php:950
+msgid "H5 - Line Height"
+msgstr "H5 - 行高"
+
+#: app/config/theme-options.php:962
+msgid "H5 - Font Weight"
+msgstr "H6 - 字体粗细"
+
+#: app/config/theme-options.php:974
+msgid "H6 - Font Size"
+msgstr "H6 - 字体大小"
+
+#: app/config/theme-options.php:975
+msgid "Choose font size for H6. Default is 14px"
+msgstr "Choose font size for H6. Default is 14px"
+
+#: app/config/theme-options.php:985
+msgid "H6 - Line Height"
+msgstr "H6 - 行高"
+
+#: app/config/theme-options.php:997
+msgid "H6 - Font Weight"
+msgstr "H6 - 字体粗细"
+
+#: app/config/theme-options.php:1009
+msgid "Use Google Font for Navigation"
+msgstr "使用谷歌字体导航"
+
+#: app/config/theme-options.php:1010
+msgid "If you use Google Font for Navigation Items, turn this on"
+msgstr "如果您在导航项目中使用谷歌字体，请启用此功能"
+
+#: app/config/theme-options.php:1019
+msgid "Navigation - Google Font"
+msgstr "导航 - 谷歌字体"
+
+#: app/config/theme-options.php:1020
+msgid "Choose font to be used for Navigation Items"
+msgstr "选择用于导航项目的字体"
+
+#: app/config/theme-options.php:1029
+msgid "Navigation - Font Family"
+msgstr "导航 - 字体系列"
+
+#: app/config/theme-options.php:1030
+msgid "Enter name of font family to be used for Navigation Items"
+msgstr "输入用于导航项目的字体家族名称"
+
+#: app/config/theme-options.php:1039
+msgid "Navigation - Font Size"
+msgstr "导航 - 字体大小"
+
+#: app/config/theme-options.php:1040
+msgid "Choose font size for Navigation Items. Default is 14px"
+msgstr "选择导航项目字体大小，默认值为14px"
+
+#: app/config/theme-options.php:1050
+msgid "Navigation - Font Weight"
+msgstr "导航 - 字体粗细"
+
+#: app/config/theme-options.php:1062
+msgid "Use Google Font for Meta Font"
+msgstr "使用谷歌字体作为 Meta 字体"
+
+#: app/config/theme-options.php:1063
+msgid "If you use Google Font for Meta Font Family, turn this on"
+msgstr "如果您将谷歌字体用于 Meta 字体系列，请启用此功能"
+
+#: app/config/theme-options.php:1072 app/config/theme-options.php:1082
+msgid "Meta Font Family"
+msgstr "Meta字体系列"
+
+#: app/config/theme-options.php:1073
+msgid "Meta Font is used for all meta tags"
+msgstr "Meta 字体用于所有 Meta 标记"
+
+#: app/config/theme-options.php:1083
+msgid "Meta Font is used for all meta tags. Enter name of font family here"
+msgstr "Meta 字体用于所有 Meta 标记，在此处输入字体家族名称"
+
+#: app/config/theme-options.php:1093
+msgid "Custom Font 1"
+msgstr "自定义字体 1"
+
+#: app/config/theme-options.php:1094
+msgid ""
+"Upload your own font and enter name \"custom_font_1\" in \"Main Font Family "
+"or Special Font Family\" setting above"
+msgstr ""
+"Upload your own font and enter name \"custom_font_1\" in \"Main Font Family "
+"or Special Font Family\" setting above"
+
+#: app/config/theme-options.php:1104
+msgid "Custom Font 2"
+msgstr "自定义字体 2"
+
+#: app/config/theme-options.php:1105
+msgid ""
+"Upload your own font and enter name \"custom_font_2\" in \"Main Font Family, "
+"Heading Font Family or Meta Font Family\" setting above"
+msgstr ""
+"Upload your own font and enter name \"custom_font_2\" in \"Main Font Family, "
+"Heading Font Family or Meta Font Family\" setting above"
+
+#: app/config/theme-options.php:1115
+msgid "Custom Font 3"
+msgstr "自定义字体 3"
+
+#: app/config/theme-options.php:1116
+msgid ""
+"Upload your own font and enter name \"custom_font_3\" in \"Main Font Family, "
+"Heading Font Family or Meta Font Family\" setting above"
+msgstr ""
+"Upload your own font and enter name \"custom_font_3\" in \"Main Font Family, "
+"Heading Font Family or Meta Font Family\" setting above"
+
+#: app/config/theme-options.php:1126 app/metadatas/page-metadatas.php:549
+msgid "Header Style"
+msgstr "标题样式"
+
+#: app/config/theme-options.php:1127 app/metadatas/page-metadatas.php:550
+msgid "Choose Header style. Custom width is 1760px"
+msgstr "选择页眉样式，自定义宽度为 1760px"
+
+#: app/config/theme-options.php:1147
+msgid "Sticky Menu"
+msgstr "粘性菜单"
+
+#: app/config/theme-options.php:1148
+msgid "Enable/ Disable the Sticky Menu"
+msgstr "启用/禁用悬浮菜单"
+
+#: app/config/theme-options.php:1155
+msgid "Disable"
+msgstr "禁用"
+
+#: app/config/theme-options.php:1160
+msgid "Always sticky"
+msgstr "显示"
+
+#: app/config/theme-options.php:1165
+msgid "When page is scrolled up"
+msgstr "滚动"
+
+#: app/config/theme-options.php:1173 app/metadatas/page-metadatas.php:573
+msgid "Header Bottom - Border Bottom"
+msgstr "页眉底部 - 底部边框"
+
+#: app/config/theme-options.php:1174 app/metadatas/page-metadatas.php:574
+msgid "Enable border bottom of the Header Bottom"
+msgstr "启用页眉底部边框"
+
+#: app/config/theme-options.php:1182
+msgid "Default Login Buttons"
+msgstr "登录按钮"
+
+#: app/config/theme-options.php:1183
+msgid ""
+"In case you plan to use a custom Login/Register buttons somewhere else, you "
+"can hide the default button on header"
+msgstr ""
+"如果您计划在其他地方使用自定义登录/注册按钮，您可以隐藏标题上的默认按钮"
+
+#: app/config/theme-options.php:1194
+msgid "Blog Sidebar"
+msgstr "博客侧边栏"
+
+#: app/config/theme-options.php:1202 app/config/theme-options.php:1347
+#: app/config/theme-options.php:1440 app/metadatas/page-metadatas.php:38
+#: app/plugins/madara-woocommerce/WooCommerce.php:95 app/theme-options.php:337
+#: app/theme-options.php:604 app/theme-options.php:843
+msgid "Left"
+msgstr "左："
+
+#: app/config/theme-options.php:1207 app/config/theme-options.php:1352
+#: app/config/theme-options.php:1445 app/metadatas/page-metadatas.php:43
+#: app/plugins/madara-woocommerce/WooCommerce.php:99 app/theme-options.php:342
+#: app/theme-options.php:609 app/theme-options.php:848
+msgid "Right"
+msgstr "右侧"
+
+#: app/config/theme-options.php:1212 app/config/theme-options.php:1357
+#: app/config/theme-options.php:1450 app/metadatas/page-metadatas.php:48
+#: app/plugins/madara-woocommerce/WooCommerce.php:103 app/theme-options.php:347
+#: app/theme-options.php:614 app/theme-options.php:853
+msgid "Hidden"
+msgstr "隐藏域"
+
+#: app/config/theme-options.php:1219
+msgid "Blog Heading Text"
+msgstr "博客标题文本"
+
+#: app/config/theme-options.php:1220
+msgid "Appear in Blog Listing"
+msgstr "显示在博客列表页面"
+
+#: app/config/theme-options.php:1226
+msgid "Blog Heading Icon"
+msgstr "博客标题图标"
+
+#: app/config/theme-options.php:1227 app/metadatas/page-metadatas.php:183
+msgid "Icon class, for example 'fa fa-home'"
+msgstr "图标类，例如'fa fa-home'"
+
+#: app/config/theme-options.php:1227 app/metadatas/page-metadatas.php:183
+msgid "Font Awesome"
+msgstr "FontAwesome"
+
+#: app/config/theme-options.php:1227 app/metadatas/page-metadatas.php:183
+msgid "Ionicons"
+msgstr "Ionicons"
+
+#: app/config/theme-options.php:1234
+msgid "Blog Margin Top"
+msgstr "博客页边距顶部"
+
+#: app/config/theme-options.php:1235
+msgid "Margin Top in Blog Listing Content. Default's 50 (in pixel)"
+msgstr "博客列表内容的页边距顶部。默认值为50(像素)"
+
+#: app/config/theme-options.php:1243 app/metadatas/page-metadatas.php:189
+msgid "Blog Content Columns"
+msgstr "显示列数"
+
+#: app/config/theme-options.php:1244 app/metadatas/page-metadatas.php:190
+msgid "Columns number of Blog Post"
+msgstr "博客列表显示文章列数"
+
+#: app/config/theme-options.php:1250 app/metadatas/page-metadatas.php:199
+msgid "3 Columns"
+msgstr "3列"
+
+#: app/config/theme-options.php:1255 app/metadatas/page-metadatas.php:204
+msgid "2 Columns"
+msgstr "2列"
+
+#: app/config/theme-options.php:1262 app/metadatas/page-metadatas.php:212
+msgid "Blog Navigation"
+msgstr "博客导航"
+
+#: app/config/theme-options.php:1263 app/metadatas/page-metadatas.php:213
+msgid ""
+"Choose type of navigation for blog and any listing page. For WP PageNavi, "
+"you will need to install WP PageNavi plugin"
+msgstr ""
+"选择博客和任何列表页面的导航类型。 对于WP PageNavi，您需要安装WP PageNavi插件"
+
+#: app/config/theme-options.php:1274 app/metadatas/page-metadatas.php:33
+#: app/metadatas/page-metadatas.php:195 app/metadatas/page-metadatas.php:425
+#: app/metadatas/page-metadatas.php:556 app/metadatas/page-metadatas.php:580
+#: app/metadatas/page-metadatas.php:793 app/metadatas/page-metadatas.php:839
+#: app/metadatas/page-metadatas.php:884 app/metadatas/post-metadatas.php:52
+#: app/metadatas/post-metadatas.php:104
+#: app/plugins/madara-widgets/WidgetExtension.php:180
+#: madara-core/user/page/reader-settings.php:50
+#: madara-core/user/page/reader-settings.php:67
+#: madara-core/user/page/reader-settings.php:85
+msgid "Default"
+msgstr "默认"
+
+#: app/config/theme-options.php:1279 app/metadatas/page-metadatas.php:228
+msgid "Ajax"
+msgstr "Ajax"
+
+#: app/config/theme-options.php:1284 app/metadatas/page-metadatas.php:233
+msgid "WP PageNavi"
+msgstr "WP页面导航"
+
+#: app/config/theme-options.php:1291
+msgid "Blog BreadCrumbs"
+msgstr "显示博客面包屑导航"
+
+#: app/config/theme-options.php:1292
+msgid "Enable Breadcrumbs for Blog/Posts"
+msgstr "为博客/帖子启用面包屑"
+
+#: app/config/theme-options.php:1299
+msgid "Blog Navigation - Same Taxonomy Term"
+msgstr "博客导航 - 相同分类法"
+
+#: app/config/theme-options.php:1300
+msgid "Whether next/previous post should be in a same taxonomy term"
+msgstr "下一篇/上一篇文章是否应该在同一个分类法中"
+
+#: app/config/theme-options.php:1307
+msgid "Blog Navigation - Taxonomy Type"
+msgstr "分类法类型"
+
+#: app/config/theme-options.php:1308
+msgid "Taxonomy type, if \"Blog Navigation - Same Taxonomy Term\" is ON"
+msgstr "分类法类型，如果\"博客导航 - 相同分类法\"是打开"
+
+#: app/config/theme-options.php:1316
+msgid "Category"
+msgstr "类别"
+
+#: app/config/theme-options.php:1320 app/views/ParseBreadcrumbs.php:31
+#: app/views/ParsePageTitle.php:28
+msgid "Tag"
+msgstr "标签"
+
+#: app/config/theme-options.php:1326
+msgid "Posts Excerpt"
+msgstr "文章摘录"
+
+#: app/config/theme-options.php:1327
+msgid "Show Posts Excerpt in Blog Listing"
+msgstr "博客列表中显示博客文章摘录"
+
+#: app/config/theme-options.php:1339 app/config/theme-options.php:1432
+msgid "Sidebar"
+msgstr "侧栏"
+
+#: app/config/theme-options.php:1364
+msgid "Post Excerpt"
+msgstr "文章摘要"
+
+#: app/config/theme-options.php:1365
+msgid "Show Post Excerpt"
+msgstr "显示文章摘录"
+
+#: app/config/theme-options.php:1372
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: app/config/theme-options.php:1373
+msgid "Show (fullsize) Featured Image"
+msgstr "显示（完整）特色图像"
+
+#: app/config/theme-options.php:1380
+msgid "Tags"
+msgstr "标签"
+
+#: app/config/theme-options.php:1381
+msgid "Show Tags list"
+msgstr "显示标签列表"
+
+#: app/config/theme-options.php:1389
+msgid "Enable Post Meta"
+msgstr "文章Meta"
+
+#: app/config/theme-options.php:1390
+msgid "Show Post \"Posted-On Date\" and \"Post Categories\""
+msgstr "显示文章\"发布日期\"和\"文章类别\""
+
+#: app/config/theme-options.php:1399
+msgid "Post Category"
+msgstr "文章类型"
+
+#: app/config/theme-options.php:1400
+msgid "Show Category list"
+msgstr "显示类别列表"
+
+#: app/config/theme-options.php:1409
+msgid "Enable Comments"
+msgstr "启用评论"
+
+#: app/config/theme-options.php:1410
+msgid "You can disable Comments Form in single post only"
+msgstr "您只能在文章内容页面中禁用评论表单"
+
+#: app/config/theme-options.php:1419
+msgid "Reverse Navigation Links"
+msgstr "反向导航"
+
+#: app/config/theme-options.php:1420
+msgid ""
+"By default, in LTR language, Next Button is on the left, while Previous "
+"Button is on the right. If this option is turned on, then Next Button will "
+"be on the right, while the Previous Button is on the left"
+msgstr ""
+"默认情况下，在LTR语言中，“下一步”按钮位于左侧，而“上一步”按钮位于右侧。如果启"
+"用此选项，则“下一步”按钮将位于右侧，而“上一步”按钮位于左侧"
+
+#: app/config/theme-options.php:1458 app/config/theme-options.php:1459
+msgid "Enable Page Meta Tags"
+msgstr "Meta 标签"
+
+#: app/config/theme-options.php:1469
+msgid "Enable Comments by default"
+msgstr "启用评论"
+
+#: app/config/theme-options.php:1470
+msgid "Enable Comment Panel under Single Pages"
+msgstr "单个页面下启用评论面板"
+
+#: app/config/theme-options.php:1482
+msgid "Search Header Background"
+msgstr "搜索页眉背景"
+
+#: app/config/theme-options.php:1483
+msgid "Upload background image for Header of Search Page"
+msgstr "上传搜索页面标题的背景图像"
+
+#: app/config/theme-options.php:1494
+msgid "Head Title Tag"
+msgstr "标题标签"
+
+#: app/config/theme-options.php:1495
+msgid "Content of Title Tag (to be appeared on browser Tab Name)"
+msgstr "标题标签的内容(显示在浏览器标签名称)"
+
+#: app/config/theme-options.php:1502
+msgid "Page Featured Image"
+msgstr "页面特色图片"
+
+#: app/config/theme-options.php:1503
+msgid "Upload your Featured Image into 404 Page"
+msgstr "上传你的特色图片到404页面"
+
+#: app/config/theme-options.php:1510 app/metadatas/page-metadatas.php:929
+msgid "Page Title"
+msgstr "页面标题"
+
+#: app/config/theme-options.php:1511
+msgid "Title of the Page"
+msgstr "页面标题"
+
+#: app/config/theme-options.php:1518 app/metadatas/page-metadatas.php:79
+#: app/metadatas/page-metadatas.php:86 app/metadatas/page-metadatas.php:93
+msgid "Page Content"
+msgstr "页面内容"
+
+#: app/config/theme-options.php:1519
+msgid "Content of the Page"
+msgstr "页面内容"
+
+#: app/config/theme-options.php:1530
+msgid "Google AdSense Publisher ID"
+msgstr "Google AdSense发布商ID"
+
+#: app/config/theme-options.php:1531
+msgid "Enter your Google AdSense Publisher ID"
+msgstr "输入您的Google AdSense发布商ID"
+
+#: app/config/theme-options.php:1542
+msgid "Copyright Text"
+msgstr "版权信息文字"
+
+#: app/config/theme-options.php:1543 app/theme.php:255
+msgid "Appear in Footer"
+msgstr "出现在页脚中"
+
+#: app/config/theme-options.php:1549
+msgid "SEO - Echo Meta Tags"
+msgstr "SEO-Meat标签"
+
+#: app/config/theme-options.php:1550
+msgid ""
+"By default, Madara generates its own SEO meta tags (for example: Facebook "
+"Meta Tags). If you are using another SEO plugin like YOAST or a Facebook "
+"plugin, you can turn off this option"
+msgstr ""
+"默认情况下，Madara生成自己的SEO元标签(例如:Facebook元标签)。如果您正在使用另"
+"一个SEO插件，如YOAST或Facebook插件，您可以关闭此选项"
+
+#: app/config/theme-options.php:1558
+msgid "Lazyload"
+msgstr "延迟加载"
+
+#: app/config/theme-options.php:1559
+msgid "Enable to use Image Lazyload."
+msgstr "启用图片延迟加载。"
+
+#: app/config/theme-options.php:1568
+msgid "Enable Smooth Scroll Effect"
+msgstr "启用平滑滚动效果"
+
+#: app/config/theme-options.php:1578
+msgid "Enable Go To Top button"
+msgstr "返回顶部"
+
+#: app/config/theme-options.php:1588
+msgid "Turn On/Off loading FontAwesome"
+msgstr "Font Awesome"
+
+#: app/config/theme-options.php:1589
+msgid ""
+"If you don't use FontAwesome (a Font Icons library), you can turn it off to "
+"save bandwidth"
+msgstr "如果你不使用FontAwesome(字体图标库)，你可以关闭它来节省带宽"
+
+#: app/config/theme-options.php:1598
+msgid "Turn On/Off loading Ionicons"
+msgstr "Ionicons"
+
+#: app/config/theme-options.php:1599
+msgid ""
+"If you don't use Ionicons (a Font Icons library), you can turn it off to "
+"save bandwidth"
+msgstr "如果你不使用Ionicons(字体图标库)，你可以关闭它来节省带宽"
+
+#: app/config/theme-options.php:1608
+msgid "Turn On/Off loading CT-Icons"
+msgstr "CT-Icons"
+
+#: app/config/theme-options.php:1609
+msgid ""
+"If you don't use CT-Icons (a Font Icons library), you can turn it off to "
+"save bandwidth"
+msgstr "如果不使用CT-Icons(字体图标库)，可以关闭它以节省带宽"
+
+#: app/config/theme-options.php:1618
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+#: app/config/theme-options.php:1619
+msgid "Enter custom CSS. Ex: <i>.class{ font-size: 13px; }</i>"
+msgstr "输入自定义CSS。例如：<i>.class{ font-size: 13px; }</i>"
+
+#: app/config/theme-options.php:1627
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: app/config/theme-options.php:1628
+msgid ""
+"(Optional) Enter your Facebook App ID. It is useful when you share your post "
+"on Facebook"
+msgstr ""
+"(可选)输入您的Facebook App ID。当您在Facebook上分享您的帖子时，它非常有用"
+
+#: app/config/theme-options.php:1636
+msgid "Default Heading Icon"
+msgstr "默认标题图标"
+
+#: app/config/theme-options.php:1637
+msgid ""
+"Default Heading Icon in some heading position. Default is \"ion-ios-star\""
+msgstr "某些标题位置的默认图标，默认是“ion-ios-star”"
+
+#: app/config/theme-options.php:1637
+msgid "IonIcons"
+msgstr "IonIcons"
+
+#: app/config/theme-options.php:1637
+msgid "FontAwesome"
+msgstr "FontAwesome"
+
+#: app/config/theme-options.php:1644
+msgid "Pre-loading Effect"
+msgstr "预加载效果"
+
+#: app/config/theme-options.php:1645
+msgid "Enable Pre-loading Effect"
+msgstr "启用预加载效果"
+
+#: app/config/theme-options.php:1653
+msgid "Disable All"
+msgstr "禁用所有"
+
+#: app/config/theme-options.php:1658
+msgid "Enable All"
+msgstr "全部启用"
+
+#: app/config/theme-options.php:1663
+msgid "Front-page Only"
+msgstr "仅限首页"
+
+#: app/config/theme-options.php:1671
+msgid "Pre-loading Logo"
+msgstr "预加载logo"
+
+#: app/config/theme-options.php:1672
+msgid ""
+"Preloading Logo. If not selected, Logo Image at Theme Options > General > "
+"Logo Image will be used"
+msgstr ""
+"预加载Logo。如果没有选择, Logo图像将会使用” 主题选项 > 一般 >> Logo” 图标"
+
+#: app/config/theme-options.php:1681
+msgid "Pre-loading Background Color"
+msgstr "预加载背景颜色"
+
+#: app/config/theme-options.php:1682
+msgid "Default is #eb3349"
+msgstr "默认是# eb3349"
+
+#: app/config/theme-options.php:1690
+msgid "Pre-loading Icon Color"
+msgstr "预加载图标颜色"
+
+#: app/config/theme-options.php:1691
+msgid "Default is #ffffff"
+msgstr "默认是 #ffffff"
+
+#: app/config/theme-options.php:1700
+msgid "Preloading Icon"
+msgstr "图标"
+
+#: app/config/theme-options.php:1714
+msgid "Ball Pulse"
+msgstr "球脉冲"
+
+#: app/config/theme-options.php:1719
+msgid "Ball Pulse Sync"
+msgstr "球脉冲同步"
+
+#: app/config/theme-options.php:1724
+msgid "Ball Beat"
+msgstr "球节拍"
+
+#: app/config/theme-options.php:1729
+msgid "Ball Rotate"
+msgstr "球旋转"
+
+#: app/config/theme-options.php:1734
+msgid "Ball Grid Pulse"
+msgstr "球栅脉冲"
+
+#: app/config/theme-options.php:1739
+msgid "Ball Grid Beat"
+msgstr "球网格跳动"
+
+#: app/config/theme-options.php:1744
+msgid "Ball Clip Rotate"
+msgstr "球夹旋转"
+
+#: app/config/theme-options.php:1749
+msgid "Ball Clip Rotate Pulse"
+msgstr "球夹旋转脉冲"
+
+#: app/config/theme-options.php:1754
+msgid "Ball Clip Rotate Multiple"
+msgstr "球夹旋转倍数"
+
+#: app/config/theme-options.php:1759
+msgid "Ball Pulse Rise"
+msgstr "球脉冲上升"
+
+#: app/config/theme-options.php:1764
+msgid "Cube Transition"
+msgstr "立方体转换"
+
+#: app/config/theme-options.php:1769
+msgid "Ball Zig Zag"
+msgstr "球锯齿形"
+
+#: app/config/theme-options.php:1774
+msgid "Ball Zig Zag Deflect"
+msgstr "球锯齿形偏转"
+
+#: app/config/theme-options.php:1779
+msgid "Ball Triangle Path"
+msgstr "球三角路径"
+
+#: app/config/theme-options.php:1784
+msgid "Line Scale"
+msgstr "线比例"
+
+#: app/config/theme-options.php:1789
+msgid "Line Scale Party"
+msgstr "线路比例方"
+
+#: app/config/theme-options.php:1794
+msgid "Line Scale Pulse Out"
+msgstr "线刻度脉冲输出"
+
+#: app/config/theme-options.php:1799
+msgid "Line Scale Pulse Put Rapid"
+msgstr "线标脉冲快速输出"
+
+#: app/config/theme-options.php:1804
+msgid "Ball Scale"
+msgstr "球比例"
+
+#: app/config/theme-options.php:1809
+msgid "Ball Scale Multiple"
+msgstr "球秤倍数"
+
+#: app/config/theme-options.php:1814
+msgid "Ball Scale Ripple"
+msgstr "球鳞片波纹"
+
+#: app/config/theme-options.php:1819
+msgid "Ball Scale Ripple Multiple"
+msgstr "球鳞片波纹倍数"
+
+#: app/config/theme-options.php:1824
+msgid "Ball Spin Fade Loader"
+msgstr "球旋转褪色装载机"
+
+#: app/config/theme-options.php:1829
+msgid "Line Spin Fade Loader"
+msgstr "直线旋转褪色加载器"
+
+#: app/config/theme-options.php:1834
+msgid "Triangle Skew Spin"
+msgstr "三角形倾斜旋转"
+
+#: app/config/theme-options.php:1839
+msgid "Semi Circle Spin"
+msgstr "半圈旋转"
+
+#: app/config/theme-options.php:1844
+msgid "Square Spin"
+msgstr "方形旋转"
+
+#: app/config/theme-options.php:1854
+msgid "Enable AMP URLs"
+msgstr "启用 AMP URLs"
+
+#: app/config/theme-options.php:1855
+msgid ""
+"AMP is a special link that is lightweight and stripped down.  The mobile "
+"user gets a much-improved experience: content is faster, more engaging, and "
+"easier-to-read. AMP was specifically built for publishers, and publishers "
+"still make up a big chunk of AMP content out there. In Madara, AMP URLs work "
+"for Manga Detail and Manga Reading page only. You can try to append \"/amp\" "
+"to the URL to see how it works. Require \"AMP Plugin\" (https://wordpress."
+"org/plugins/amp/). Read more about AMP here: https://amp.dev/about/how-amp-"
+"works/"
+msgstr ""
+"AMP is a special link that is lightweight and stripped down.  The mobile "
+"user gets a much-improved experience: content is faster, more engaging, and "
+"easier-to-read. AMP was specifically built for publishers, and publishers "
+"still make up a big chunk of AMP content out there. In Madara, AMP URLs work "
+"for Manga Detail and Manga Reading page only. You can try to append \"/amp\" "
+"to the URL to see how it works. Require \"AMP Plugin\" (https://wordpress."
+"org/plugins/amp/). Read more about AMP here: https://amp.dev/about/how-amp-"
+"works/"
+
+#: app/config/theme-options.php:1864
+msgid "FontAwesome Key"
+msgstr "丰特威索姆键"
+
+#: app/config/theme-options.php:1865
+msgid ""
+"In an AMP link, local lib for Font Icons cannot be loaded. Thus, we need to "
+"load it from FontAwesome CDN. Register your email here: https://fontawesome."
+"com/start and get the Key"
+msgstr ""
+"在 AMP 链接中，无法加载字体图标的本地 lib。因此，我们需要从丰特威索姆CDN加载"
+"它。在此处注册您的电子邮件：https://fontawesome.com/start 并获取密钥"
+
+#: app/config/theme-options.php:1874
+msgid "Image Height (in px)"
+msgstr "图像高度 （PC） [px]"
+
+#: app/config/theme-options.php:1875
+msgid ""
+"In an AMP link, images of a chapter should have same height. You can specify "
+"the height of images here for better display. You can set this value in each "
+"Manga and Chapter as well"
+msgstr ""
+"在 AMP 链接中，章节的图像应具有相同的高度。您可以在此处指定图像的高度，以便更"
+"好地显示。您也可以在每个漫画和章节中设置此值"
+
+#: app/config/theme-options.php:1885
+msgid "Chapter Reading in List or Slides mode"
+msgstr "阅读模式"
+
+#: app/config/theme-options.php:1886
+msgid ""
+"For Manga Chapter (Images) Reading page, use Images Listing or Slides mode"
+msgstr "对于漫画章节（图像）阅读页面，请使用\"图片列表\"或\"幻灯片\"模式"
+
+#: app/config/theme-options.php:1893 app/metadatas/post-metadatas.php:60
+#: app/theme-options.php:910 madara-core/user/page/reader-settings.php:75
+msgid "List"
+msgstr "清单"
+
+#: app/config/theme-options.php:1898
+msgid "Slides"
+msgstr "幻灯片"
+
+#: app/core.php:534 app/core.php:583
+msgid "Invalid Purchase Code"
+msgstr "无效的购买代码"
+
+#: app/core.php:550 app/core.php:597
+msgid "An error occured."
+msgstr "发生错误。"
+
+#: app/core.php:558 app/core.php:603
+msgid "Bad request."
+msgstr "错误的请求。"
+
+#: app/hooks/actions.php:7
+msgid "Toggle Dark/Light Mode"
+msgstr "昼夜模式"
+
+#: app/hooks/template-hooks.php:74
+msgid "Continue Reading"
+msgstr "继续阅读"
+
+#: app/hooks/template-hooks.php:83 app/plugins/madara-welcome/Welcome.php:82
+msgid "Madara Dashboard"
+msgstr "Madara 仪表盘"
+
+#: app/hooks/template-hooks.php:149
+msgid "WP Manga - Main Top Sidebar"
+msgstr "WP Manga - Top侧边栏"
+
+#: app/hooks/template-hooks.php:151 app/hooks/template-hooks.php:161
+msgid "Appear before main content in Manga Pages"
+msgstr "出现在漫画页面的主要内容之前"
+
+#: app/hooks/template-hooks.php:159
+msgid "WP Manga - Main Top Second Sidebar"
+msgstr "WP漫画-主顶部第二边栏"
+
+#: app/hooks/template-hooks.php:169
+msgid "WP Manga - Main Bottom Sidebar"
+msgstr "WP Manga -底侧"
+
+#: app/hooks/template-hooks.php:171
+msgid "Appear after main content in Manga Pages"
+msgstr "出现在漫画页面的主要内容之后"
+
+#: app/hooks/template-hooks.php:310
+msgid ""
+"contains themes or scenes that may not be suitable for very young readers "
+"thus is blocked for their protection."
+msgstr "包含的主题或场景可能不适合未成年人的读者，因此被拦截以保护他们。"
+
+#: app/hooks/template-hooks.php:311
+msgid "Are you over 18?"
+msgstr "你超过18岁了吗?"
+
+#: app/hooks/template-hooks.php:323
+msgid "Caution to under-aged viewers"
+msgstr "警告未成年观众"
+
+#: app/hooks/template-hooks.php:329 app/metadatas/post-metadatas.php:18
+#: app/metadatas/post-metadatas.php:112 app/theme-options.php:1029
+msgid "No"
+msgstr "否"
+
+#: app/hooks/template-hooks.php:330
+msgid "Yes, I am"
+msgstr "是的"
+
+#: app/inc/extras.php:68 app/metadatas/page-metadatas.php:60
+#: app/metadatas/page-metadatas.php:118 inc/template-tags.php:31
+#: madara-core/manga-search.php:133
+msgid "All"
+msgstr "所有"
+
+#: app/inc/extras.php:73
+#, php-format
+msgid "Manga starts with %s"
+msgstr "漫画 从 %s 开始"
+
+#: app/inc/extras.php:271
+msgid "Hot"
+msgstr "热门"
+
+#: app/inc/extras.php:271 madara-core/manga-filter.php:47
+msgid "New"
+msgstr "新版的 %1$s 可用。%2$s查看版本 %3$s 详情%4$s 或者 %5$s立即更新%6$s。"
+
+#: app/inc/template-tags.php:106
+msgid "18+"
+msgstr "18+"
+
+#: app/metadatas/page-metadatas.php:17
+msgid "Page Settings"
+msgstr "页面设置"
+
+#: app/metadatas/page-metadatas.php:25
+msgid "Page Sidebar"
+msgstr "页面侧边栏"
+
+#: app/metadatas/page-metadatas.php:26
+msgid "Choose Sidebar Layout for Page"
+msgstr "设置页面侧边栏布局"
+
+#: app/metadatas/page-metadatas.php:68
+msgid "Front Page Settings"
+msgstr "首页设置"
+
+#: app/metadatas/page-metadatas.php:87
+msgid "Choose the content source"
+msgstr "选择内容源"
+
+#: app/metadatas/page-metadatas.php:103 app/metadatas/post-metadatas.php:78
+msgid "Manga"
+msgstr "漫画"
+
+#: app/metadatas/page-metadatas.php:110
+msgid "Manga Type"
+msgstr "漫画类型"
+
+#: app/metadatas/page-metadatas.php:111
+msgid "Type of Manga to display"
+msgstr "显示漫画类型"
+
+#: app/metadatas/page-metadatas.php:123
+msgid "Web Comic"
+msgstr "网络漫画"
+
+#: app/metadatas/page-metadatas.php:128
+msgid "Web Novel (Text)"
+msgstr "网络小说(文本)"
+
+#: app/metadatas/page-metadatas.php:133
+msgid "Web Drama (Video)"
+msgstr "网络戏剧(视频)"
+
+#: app/metadatas/page-metadatas.php:140 app/theme-options.php:355
+msgid "Item Layout"
+msgstr "项目布局"
+
+#: app/metadatas/page-metadatas.php:141
+msgid "Choose Item Layout"
+msgstr "选择项目布局"
+
+#: app/metadatas/page-metadatas.php:148
+msgid "Use Theme Options setting"
+msgstr "使用主题选项设置"
+
+#: app/metadatas/page-metadatas.php:152 app/theme-options.php:363
+msgid "Default (Small Thumbnail)"
+msgstr "默认(小缩略图)"
+
+#: app/metadatas/page-metadatas.php:156 app/theme-options.php:367
+#: app/theme-options.php:725
+msgid "Big Thumbnail"
+msgstr "大缩略图"
+
+#: app/metadatas/page-metadatas.php:160 app/theme-options.php:371
+msgid "Simple List"
+msgstr "简单列表"
+
+#: app/metadatas/page-metadatas.php:167
+msgid "Content Margin Top"
+msgstr "内容页边距顶部"
+
+#: app/metadatas/page-metadatas.php:168
+msgid "Margin Top in Listing Content. Default's 50 (in pixel)"
+msgstr "列表内容的页边距顶部。默认值为50(像素)"
+
+#: app/metadatas/page-metadatas.php:175
+msgid "Archives Heading Text"
+msgstr "档案标题文本"
+
+#: app/metadatas/page-metadatas.php:176
+msgid "Appear in Blog Listing or Manga Listing"
+msgstr "出现在博客列表或漫画列表页面"
+
+#: app/metadatas/page-metadatas.php:182
+msgid "Archives Heading Icon"
+msgstr "档案标题图标"
+
+#: app/metadatas/page-metadatas.php:223
+msgid "Default Theme Options"
+msgstr "默认的主题选项"
+
+#: app/metadatas/page-metadatas.php:242
+msgid "Manga Status"
+msgstr "漫画状态"
+
+#: app/metadatas/page-metadatas.php:243
+msgid "Filter by manga status"
+msgstr "按漫画状态过滤"
+
+#: app/metadatas/page-metadatas.php:251
+msgid "Manga Tags"
+msgstr "漫画标签"
+
+#: app/metadatas/page-metadatas.php:252
+msgid "Enter manga tags to get mangs from, separated by a comma"
+msgstr "输入要从中获取漫画的漫画标签，以逗号分隔"
+
+#: app/metadatas/page-metadatas.php:259
+msgid "Manga Genres"
+msgstr "漫画类型"
+
+#: app/metadatas/page-metadatas.php:260
+msgid "Enter manga genres to get mangs from, separated by a comma"
+msgstr "输入漫画类型，以逗号分隔"
+
+#: app/metadatas/page-metadatas.php:267
+msgid "Post Count"
+msgstr "文章计数"
+
+#: app/metadatas/page-metadatas.php:268
+msgid "Number of posts per page. Default is 10"
+msgstr "每页的文章数量，默认的是10"
+
+#: app/metadatas/page-metadatas.php:275
+msgid "Post Categories"
+msgstr "文章分类"
+
+#: app/metadatas/page-metadatas.php:276
+msgid "Enter category Ids or slugs to get posts from, separated by a comma"
+msgstr "输入类别ID或别名以获取文章，中间用逗号分隔"
+
+#: app/metadatas/page-metadatas.php:283
+msgid "Post Tags"
+msgstr "发布在"
+
+#: app/metadatas/page-metadatas.php:284
+msgid "Enter tags to get posts from, separated by a comma"
+msgstr "输入标签以获取帖子，以逗号分隔"
+
+#: app/metadatas/page-metadatas.php:291
+msgid "Post Ids"
+msgstr "文章ID"
+
+#: app/metadatas/page-metadatas.php:292
+msgid ""
+"Enter post IDs, separated by a comma.If this param is used, other params are "
+"ignored"
+msgstr "输入由逗号分隔的文章ID。如果使用此参数，则忽略其他参数"
+
+#: app/metadatas/page-metadatas.php:299
+msgid "Post Order"
+msgstr "文章排序"
+
+#: app/metadatas/page-metadatas.php:300
+msgid "Choose the order condition"
+msgstr "排序设置"
+
+#: app/metadatas/page-metadatas.php:306
+msgid "Descending"
+msgstr "降序"
+
+#: app/metadatas/page-metadatas.php:310
+msgid "Ascending"
+msgstr "升序"
+
+#: app/metadatas/page-metadatas.php:317
+msgid "Order By"
+msgstr "排序"
+
+#: app/metadatas/page-metadatas.php:325
+msgid "New Post"
+msgstr "最新帖子"
+
+#: app/metadatas/page-metadatas.php:329
+msgid "Latest Update (or New Manga Chapter)"
+msgstr "最新更新(或漫画新章)"
+
+#: app/metadatas/page-metadatas.php:333 app/views/ParseComment.php:26
+msgid "Name"
+msgstr "名称"
+
+#: app/metadatas/page-metadatas.php:337
+msgid "Random"
+msgstr "随机"
+
+#: app/metadatas/page-metadatas.php:344 madara-core/manga-filter.php:37
+msgid "Trending"
+msgstr "趋势"
+
+#: app/metadatas/page-metadatas.php:348
+msgid "All Time Views"
+msgstr "所有时间"
+
+#: app/metadatas/page-metadatas.php:354
+msgid "Trending Time Range"
+msgstr "趋势时间范围"
+
+#: app/metadatas/page-metadatas.php:355
+msgid "Choose time range to order trending items"
+msgstr "选择时间范围订购趋势项目"
+
+#: app/metadatas/page-metadatas.php:361 app/theme-options.php:773
+msgid "All Time"
+msgstr "所有时间"
+
+#: app/metadatas/page-metadatas.php:365
+msgid "1 day"
+msgstr "1天"
+
+#: app/metadatas/page-metadatas.php:369
+msgid "1 week"
+msgstr "1周"
+
+#: app/metadatas/page-metadatas.php:373
+msgid "1 month"
+msgstr "1个月"
+
+#: app/metadatas/page-metadatas.php:377
+msgid "1 year"
+msgstr "1年"
+
+#: app/metadatas/page-metadatas.php:384
+msgid "Filter Mangas by title' first character"
+msgstr "按标题的第一个字符筛选漫画"
+
+#: app/metadatas/page-metadatas.php:385
+msgid ""
+"Show the Characters Filter Bar to filter Mangas by title' first character"
+msgstr "显示字符筛选栏以按标题“第一个字符”筛选漫画"
+
+#: app/metadatas/page-metadatas.php:393
+msgid "Ignore Ids"
+msgstr "忽略\"已删除\"，但"
+
+#: app/metadatas/page-metadatas.php:394
+msgid "Enter post/manga IDs, separated by a comma to be excluded from the list"
+msgstr "输入后/漫画 ID，由逗毛分离，从列表中排除"
+
+#: app/metadatas/page-metadatas.php:404
+msgid "Custom Color"
+msgstr "自定义颜色"
+
+#: app/metadatas/page-metadatas.php:543
+msgid "Header Settings"
+msgstr "页眉设置"
+
+#: app/metadatas/page-metadatas.php:584
+msgid "On"
+msgstr "开启"
+
+#: app/metadatas/page-metadatas.php:588
+msgid "Off"
+msgstr "关闭"
+
+#: app/metadatas/page-metadatas.php:772
+msgid "Sidebar Settings"
+msgstr "侧边栏设置"
+
+#: app/metadatas/page-metadatas.php:778
+msgid "Custom Sidebar Settings"
+msgstr "自定义侧边栏设置"
+
+#: app/metadatas/page-metadatas.php:779
+msgid "Change various settings of Sidebars"
+msgstr "改变侧边栏的各种设置"
+
+#: app/metadatas/page-metadatas.php:923 app/metadatas/post-metadatas.php:36
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: app/metadatas/page-metadatas.php:930
+msgid "Turn on/off Page Title"
+msgstr "打开/关闭页面标题"
+
+#: app/metadatas/page-metadatas.php:936
+msgid "Page Meta"
+msgstr "页面元"
+
+#: app/metadatas/page-metadatas.php:937
+msgid "Turn on/off Page Meta including published datetime"
+msgstr "打开/关闭页面元数据，包括已发布的日期时间"
+
+#: app/metadatas/post-metadatas.php:31
+msgid "Custom"
+msgstr "自定义"
+
+#: app/metadatas/post-metadatas.php:45
+msgid "Default Reading Style"
+msgstr "阅读风格"
+
+#: app/metadatas/post-metadatas.php:46
+msgid "Reading Style specified for Manga"
+msgstr "为漫画指定的阅读风格"
+
+#: app/metadatas/post-metadatas.php:56 app/theme-options.php:906
+#: madara-core/user/page/reader-settings.php:71
+msgid "Paged"
+msgstr "分页"
+
+#: app/metadatas/post-metadatas.php:67
+msgid "One Shot Manga"
+msgstr "单集漫画"
+
+#: app/metadatas/post-metadatas.php:68
+msgid "Is One Shot Manga? (specified for Manga type)"
+msgstr "是只要一集的漫画吗？（指定为漫画类型）"
+
+#: app/metadatas/post-metadatas.php:74 app/metadatas/post-metadatas.php:192
+msgid "Use Default Setting in Theme Options"
+msgstr "默认"
+
+#: app/metadatas/post-metadatas.php:82
+msgid "One Shot"
+msgstr "单集"
+
+#: app/metadatas/post-metadatas.php:89
+msgid "Height for Images in this OneShot"
+msgstr "图像高度"
+
+#: app/metadatas/post-metadatas.php:90
+msgid "Enter height value in pixel"
+msgstr "以像素输入高度值"
+
+#: app/metadatas/post-metadatas.php:98
+msgid "Gaps between images"
+msgstr "图像间隙"
+
+#: app/metadatas/post-metadatas.php:99
+msgid "Enable gaps between images in chapter (used for Manga Chapter Type"
+msgstr "启用章节图像之间的间隙（用于漫画章节类型）"
+
+#: app/metadatas/post-metadatas.php:108 app/metadatas/post-metadatas.php:127
+#: app/theme-options.php:1025
+msgid "Yes"
+msgstr "启用"
+
+#: app/metadatas/post-metadatas.php:119
+msgid "Adult Content"
+msgstr "成人内容"
+
+#: app/metadatas/post-metadatas.php:120
+msgid "Mark this manga is Adult Content"
+msgstr "标记这个漫画是成人内容"
+
+#: app/metadatas/post-metadatas.php:135
+msgid "Expected Total Chapters"
+msgstr "预期章节"
+
+#: app/metadatas/post-metadatas.php:136
+msgid ""
+"If you know how many chapters are there in this series, enter it here, even "
+"if it is just expectation"
+msgstr "如果您知道本系列中有多少章节，请在此处输入，即使只是期望"
+
+#: app/metadatas/post-metadatas.php:143
+msgid "Title Badges"
+msgstr "标题徽章"
+
+#: app/metadatas/post-metadatas.php:144
+msgid "Choose Manga Title Badges"
+msgstr "选择漫画标题徽章"
+
+#: app/metadatas/post-metadatas.php:151
+msgid "Custom Badge"
+msgstr "自定义标记"
+
+#: app/metadatas/post-metadatas.php:152
+msgid "Enter a custom text for Badge"
+msgstr "输入Badge徽章自定义文本"
+
+#: app/metadatas/post-metadatas.php:159
+msgid "Custom Badge URL"
+msgstr "自定义徽章URL"
+
+#: app/metadatas/post-metadatas.php:160
+msgid "Set link for badge. Leave empty to not use link"
+msgstr "设置徽章链接，留空不使用链接"
+
+#: app/metadatas/post-metadatas.php:167
+msgid "Badge URL target"
+msgstr "徽章URL目标"
+
+#: app/metadatas/post-metadatas.php:168
+msgid "Open link in new tab or current tab"
+msgstr "在新选项卡或当前选项卡中打开链接"
+
+#: app/metadatas/post-metadatas.php:174
+msgid "Current Tab"
+msgstr "当前选项卡"
+
+#: app/metadatas/post-metadatas.php:178
+msgid "New Tab"
+msgstr "新标签"
+
+#: app/metadatas/post-metadatas.php:185
+msgid "Summary Layout"
+msgstr "摘要布局"
+
+#: app/metadatas/post-metadatas.php:186 app/theme-options.php:492
+msgid "Layout of Manga Summary Info section"
+msgstr "漫画摘要信息部分的布局"
+
+#: app/metadatas/post-metadatas.php:196 app/theme-options.php:499
+msgid "Layout 1 - Small Featured Image"
+msgstr "Layout 1 - Small Featured Image"
+
+#: app/metadatas/post-metadatas.php:200 app/theme-options.php:503
+msgid "Layout 2 - Fullsize Featured Image"
+msgstr "Layout 2 - Fullsize Featured Image"
+
+#: app/metadatas/post-metadatas.php:207 app/theme-options.php:482
+msgid "Manga Single - Background"
+msgstr "漫画单-背景"
+
+#: app/metadatas/post-metadatas.php:208 app/theme-options.php:483
+msgid "Upload background image used in Manga detail page"
+msgstr "上传背景图片用于漫画详情页"
+
+#: app/metadatas/post-metadatas.php:215
+msgid "Manga Banner Image"
+msgstr "横幅图像"
+
+#: app/metadatas/post-metadatas.php:216
+msgid ""
+"Upload banner image (horizontal/wide ratio) used in Manga Slider and other "
+"places"
+msgstr "上传漫画滑块和其他地方使用的横幅图像（水平/宽高比）"
+
+#: app/metadatas/post-metadatas.php:224
+msgid "SEO - Manga Meta Title"
+msgstr "SEO -漫画标题"
+
+#: app/metadatas/post-metadatas.php:225
+msgid "Custom Meta Title for Manga Post"
+msgstr "自定义漫画文章的SEO优化标题"
+
+#: app/metadatas/post-metadatas.php:231
+msgid "SEO - Manga Meta Description"
+msgstr "SEO -漫画描述"
+
+#: app/metadatas/post-metadatas.php:232
+msgid "Custom Meta Description for Manga Post"
+msgstr "自定义漫画文章SEO优化描述"
+
+#: app/models/Entity/Ads.php:75
+#, php-format
+msgid "%s - AdSense Ads Slot ID"
+msgstr "%s - AdSense Ads Slot ID"
+
+#: app/models/Entity/Ads.php:76
+#, php-format
+msgid ""
+"If you want to display %s, enter Google AdSense Ad Slot ID here. If left "
+"empty, \"%s - Custom Code\" will be used"
+msgstr ""
+"如果您想显示%s，请在这里输入谷歌AdSense Ad Slot ID。如果留空，将使用“%s - "
+"Custom Code”"
+
+#: app/models/Entity/Ads.php:83
+#, php-format
+msgid "%s - Custom Code"
+msgstr "%s -自定义代码"
+
+#: app/models/Entity/Ads.php:84
+#, php-format
+msgid "Enter custom code for %s position"
+msgstr "输入 %s 位置的自定义代码"
+
+#: app/models/Entity/Social.php:48
+msgid "Facebook"
+msgstr "Facebook"
+
+#: app/models/Entity/Social.php:49
+msgid "The custom URL to your Facebook profile page (Please include http://)"
+msgstr "Facebook个人主页的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:56
+msgid "Twitter"
+msgstr "Twitter"
+
+#: app/models/Entity/Social.php:57
+msgid "The custom URL to your Twitter profile page (Please include http://)"
+msgstr "Twitter个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:64
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: app/models/Entity/Social.php:65
+msgid "The custom URL to your LinkedIn profile page (Please include http://)"
+msgstr "LinkedIn个人主页的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:72
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: app/models/Entity/Social.php:73
+msgid "The custom URL to your Tumblr profile page (Please include http://)"
+msgstr "Tumblr个人主页的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:80
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: app/models/Entity/Social.php:81
+msgid ""
+"The custom URL to your Goolge Plus profile page (Please include http://)"
+msgstr "Goolge Plus个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:88
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: app/models/Entity/Social.php:89
+msgid "The custom URL to your Pinterest profile page (Please include http://)"
+msgstr "Pinterest个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:96
+msgid "Youtube"
+msgstr "Youtube"
+
+#: app/models/Entity/Social.php:97
+msgid "The custom URL to your Youtube profile page (Please include http://)"
+msgstr "Youtube个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:104
+msgid "Flickr"
+msgstr "Flickr"
+
+#: app/models/Entity/Social.php:105
+msgid "The custom URL to your Flickr profile page (Please include http://)"
+msgstr "Flickr个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:112
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: app/models/Entity/Social.php:113
+msgid "The custom URL to your Dribble profile page (Please include http://)"
+msgstr "Dribbble个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:120
+msgid "Behance"
+msgstr "Behance"
+
+#: app/models/Entity/Social.php:121
+msgid "The custom URL to your Behance profile page (Please include http://)"
+msgstr "Behance个人资料页面的自定义URL(请包括http://)"
+
+#: app/models/Entity/Social.php:128 app/views/ParseComment.php:28
+msgid "Email"
+msgstr "邮箱"
+
+#: app/models/Entity/Social.php:129
+msgid "The custom URL to your Email account"
+msgstr "您的电子邮件帐户的自定义URL"
+
+#: app/models/Entity/Social.php:136
+msgid "RSS"
+msgstr "RSS"
+
+#: app/models/Entity/Social.php:137
+msgid "Your website RSS Feed URL"
+msgstr "您的网站RSS Feed URL"
+
+#: app/models/Entity/Social.php:152
+msgid "Custom Social Accounts"
+msgstr "自定义社会账户"
+
+#: app/models/Entity/Social.php:153
+msgid "Add Social Account"
+msgstr "添加社交帐户"
+
+#: app/models/Entity/Social.php:160
+msgid "Icon Font Awesome"
+msgstr "图标字体Font Awesome"
+
+#: app/models/Entity/Social.php:163
+msgid "Enter Font Awesome class (Ex: fa-facebook)"
+msgstr "输入Font Awesome类（例如：fa-facebook）"
+
+#: app/models/Entity/Social.php:166
+msgid "URL"
+msgstr "链接地址"
+
+#: app/models/Entity/Social.php:169
+msgid "Enter full link to your account (including http://)"
+msgstr "输入您的帐户的完整链接(包括http://)"
+
+#: app/models/Entity/Social.php:175
+msgid "Open Social link in new tab?"
+msgstr "在新标签中打开社交链接？"
+
+#: app/plugins/madara-option-tree/OptionTree.php:18
+msgid "LESS Compiler"
+msgstr "LESS编译工"
+
+#: app/plugins/madara-option-tree/OptionTree.php:23
+msgid "Compile LESS into .css files, used for production"
+msgstr "少编译成用于生产的.css文件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:335
+msgid "Install Required Plugins"
+msgstr "安装所需的插件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:336
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:41
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#. translators: %s: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:338
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:42
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "正在安装插件：%s"
+
+#. translators: %s: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:340
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "正在更新插件：%s"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:341
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:44
+msgid "Something went wrong with the plugin API."
+msgstr "插件API出错了。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:343
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:45
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "这个主题需要以下插件%1$s。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:345
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:47
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "这个主题建议以下插件%1$s。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:347
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:57
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新到最新版本以确保与%1$s主题兼容。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:349
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "以下插件可以更新：%1$s。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:351
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:51
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下需要的插件当前未启用：%1$s。"
+
+#. translators: 1: plugin name(s).
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:353
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:53
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐的插件当前未启用：%1$s。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:354
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:61
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:355
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:356
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:357
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:63
+msgid "Return to Required Plugins Installer"
+msgstr "返回至所需插件安装页面"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:358
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:880
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2564
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3597
+msgid "Return to the Dashboard"
+msgstr "返回主控页面"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:359
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3176
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:64
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:360
+msgid "The following plugin was activated:"
+msgstr "插件成功激活。"
+
+#. translators: 1: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:362
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "没有执行操作。%1$s插件已经激活。"
+
+#. translators: 1: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:364
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件未激活。此主题需要更高版本的%s。请更新插件。"
+
+#. translators: 1: dashboard link.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:366
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件成功安装并激活。 %1$s"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:367
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:368
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或多个插件需要或建议安装、更新或激活。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:369
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系此网站的管理员来获取帮助。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:584
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "此插件需要更新以兼容您的主题。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:584
+msgid "Update Required"
+msgstr "需要更新"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:697
+msgid "Set the parent_slug config variable instead."
+msgstr "设置parent_slug配置变量代替。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:987
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包中没有想要的别名的文件夹，重命名无效。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:987
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:993
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供者，让他们按照WordPress指南打包他们的插件。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:993
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包中含有多个文件，但这些文件不是打包在一个文件夹中。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:1170
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2962
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#. translators: %s: version number
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2036
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2326
+msgid "Required"
+msgstr "必需"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2329
+msgid "Recommended"
+msgstr "推荐"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2346
+msgid "WordPress Repository"
+msgstr "WordPress库"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2349
+msgid "External Source"
+msgstr "外部来源"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2352
+msgid "Pre-Packaged"
+msgstr "预封包的"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2370
+#: app/plugins/madara-welcome/system-status.php:305
+msgid "Not Installed"
+msgstr "未安装"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2374
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2376
+msgid "Active"
+msgstr "激活"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2382
+msgid "Required Update not Available"
+msgstr "所需的更新不可用"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2385
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2388
+msgid "Update recommended"
+msgstr "建议更新"
+
+#. translators: 1: install status, 2: update status
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2396
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2440
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2444
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "安装<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2448
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "可供更新<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2452
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "激活<span class=\"count\">(%s)</span>"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2524
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2531
+msgid "Installed version:"
+msgstr "已安装的版本："
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2535
+msgid "Minimum required version:"
+msgstr "所需的最低版本："
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2544
+msgid "Available version:"
+msgstr "可用的版本："
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2564
+msgid "No plugins to install, update or activate."
+msgstr "没有插件可以安装、更新或激活。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2577
+msgid "Plugin"
+msgstr "插件"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2578
+msgid "Source"
+msgstr "来源"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2583
+msgid "Version"
+msgstr "版本"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2634
+#, php-format
+msgid "Install %2$s"
+msgstr "安装%2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2639
+#, php-format
+msgid "Update %2$s"
+msgstr "更新%2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2645
+#, php-format
+msgid "Activate %2$s"
+msgstr "激活%2$s"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2707
+msgid "Upgrade message from the plugin author:"
+msgstr "来自插件作者的升级信息："
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2739
+msgid "Install"
+msgstr "安装"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2745
+msgid "Update"
+msgstr "更新"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2748
+msgid "Activate"
+msgstr "激活"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2779
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件。没有执行操作。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2781
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。没有执行操作。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2822
+msgid "No plugins are available to be installed at this time."
+msgstr "当前没有插件可供安装。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2824
+msgid "No plugins are available to be updated at this time."
+msgstr "当前没有插件可供更新。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2922
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件。没有执行操作。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2948
+msgid "No plugins are available to be activated at this time."
+msgstr "当前没有插件可供激活。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:2965
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下插件激活成功："
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3175
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3518
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在更新插件%1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3521
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装%1$s时发生了一个错误：<strong>%2$s</strong>。"
+
+#. translators: 1: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3523
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s安装失败。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3527
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"正在开始安装和激活。这个过程在某些主机上可能会花费一些时间，所以请耐心等待。"
+
+#. translators: 1: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3529
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s安装和激活成功。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3529
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3537
+msgid "Show Details"
+msgstr "显示详情"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3529
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3537
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3530
+msgid "All installations and activations have been completed."
+msgstr "已完成所有安装和激活。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3532
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装和激活插件%1$s (%2$d/%3$d)"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3535
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "正在开始安装。这个过程在某些主机上可能会花费一些时间，所以请耐心等待。"
+
+#. translators: 1: plugin name.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3537
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s安装成功。"
+
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3538
+msgid "All installations have been completed."
+msgstr "已完成所有安装。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: app/plugins/madara-tgm-plugin-activation/TGM_Plugin_Activation.php:3540
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件%1$s (%2$d/%3$d)"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:40
+msgid "Install Required &amp; Recommended Plugins"
+msgstr "安装必需 &amp; 推荐的插件"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:49
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"抱歉，您没有正确的权限来安装％s插件。 请联系本网站的管理员，获取安装插件的帮"
+"助。"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:55
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"抱歉，您没有正确的权限来激活％s插件。 联系此网站的管理员，以获得有关插件激活"
+"的帮助。"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:59
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"抱歉，您没有正确的权限来更新％s插件。 请联系本网站的管理员，获取安装插件的帮"
+"助。"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:62
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "启用安装的插件"
+
+#: app/plugins/madara-tgm-plugin-activation/ThemeRequired.php:65
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "已安装并成功启用全部插件。%s"
+
+#: app/plugins/madara-welcome/Welcome.php:75
+msgid "Madara Welcome Page"
+msgstr "Madara欢迎页面"
+
+#. Theme Name of the plugin/theme
+#: app/plugins/madara-welcome/Welcome.php:75
+msgid "Madara"
+msgstr "Madara"
+
+#: app/plugins/madara-welcome/Welcome.php:82
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: app/plugins/madara-welcome/Welcome.php:92
+msgid ""
+"Madara Developer! You should filter this text using "
+"\"madara_dashboard_heading\""
+msgstr "Madara开发人员!您应该使用“madara_dashboard_heading”过滤此文本。"
+
+#: app/plugins/madara-welcome/Welcome.php:104
+msgid "Please agree the registration terms"
+msgstr "请同意注册条款"
+
+#: app/plugins/madara-welcome/Welcome.php:123
+msgid "Bad request. Please try again later"
+msgstr "糟糕的请求。请稍后再试"
+
+#: app/plugins/madara-welcome/Welcome.php:144
+msgid "Welcome"
+msgstr "欢迎"
+
+#: app/plugins/madara-welcome/Welcome.php:145
+msgid "Document"
+msgstr "文档"
+
+#: app/plugins/madara-welcome/Welcome.php:146
+#: app/plugins/madara-welcome/Welcome.php:212
+msgid "Sample Data"
+msgstr "样本数据"
+
+#: app/plugins/madara-welcome/Welcome.php:147
+#: app/plugins/madara-welcome/Welcome.php:219
+msgid "Support"
+msgstr "支持"
+
+#: app/plugins/madara-welcome/Welcome.php:169
+msgid "Please install Sample Data plugin to use this feature"
+msgstr "请安装示例数据插件来使用此功能"
+
+#: app/plugins/madara-welcome/Welcome.php:192
+msgid "Theme Activated"
+msgstr "主题已激活"
+
+#: app/plugins/madara-welcome/Welcome.php:197
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: app/plugins/madara-welcome/Welcome.php:197
+msgid "Deactivate"
+msgstr "停用"
+
+#: app/plugins/madara-welcome/Welcome.php:198
+#, php-format
+msgid "Your premium support is valid until %s"
+msgstr "您的高级支持有效期至 %s"
+
+#: app/plugins/madara-welcome/Welcome.php:205
+msgid "Full Documents"
+msgstr "完整的文档"
+
+#: app/plugins/madara-welcome/Welcome.php:206
+msgid "See the full user guide for this theme's functions"
+msgstr "有关此主题的功能，请参见完整的用户指南"
+
+#: app/plugins/madara-welcome/Welcome.php:213
+msgid "Import sample data to have homepage like our live DEMO"
+msgstr "导入样本数据以获得像我们的现场演示一样的主页"
+
+#: app/plugins/madara-welcome/Welcome.php:220
+msgid "Need support using the theme? We are here for you."
+msgstr "需要支持使用主题？ 我们在这里为您服务。"
+
+#: app/plugins/madara-welcome/Welcome.php:226
+msgid "Release Logs"
+msgstr "发布日志"
+
+#: app/plugins/madara-welcome/Welcome.php:235
+msgid "Activate your theme"
+msgstr "激活您的主题"
+
+#: app/plugins/madara-welcome/Welcome.php:238
+msgid "Item Purchase Code:"
+msgstr "项目购买代码"
+
+#: app/plugins/madara-welcome/Welcome.php:243
+msgid ""
+"This is the Code you received when you purchase our theme on Envato "
+"(ThemeForest.net)"
+msgstr "这是您在购买 Envato 主题时收到的代码（ThemeForest.net）"
+
+#: app/plugins/madara-welcome/Welcome.php:244
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr "注册"
+
+#: app/plugins/madara-welcome/Welcome.php:253
+#, php-format
+msgctxt "admin"
+msgid ""
+"I give my consent to record my site address and purchase code in order to "
+"ensure <a href=\"%s\" target=\"_blank\">License</a> and copyright "
+"compliance. I understand that this information will be stored as long as the "
+"purchase code remains valid."
+msgstr ""
+"我同意记录我的网站地址和购买代码，以确保 <a href=\"%s\" target=\"_blank\">许"
+"可证</a> 和版权合规性。我理解，只要购买代码仍然有效，此信息将被存储。"
+
+#: app/plugins/madara-welcome/system-status.php:15
+msgid "Get System Report"
+msgstr "获取系统信息"
+
+#: app/plugins/madara-welcome/system-status.php:15
+msgid ""
+"Click the button to produce a report, then copy and paste into your support "
+"ticket."
+msgstr "单击按钮以生成报告，然后复制并粘贴到支持服务单中。"
+
+#: app/plugins/madara-welcome/system-status.php:20
+msgid "Copied!"
+msgstr "已复制到剪贴板!"
+
+#: app/plugins/madara-welcome/system-status.php:20
+msgid "Copy for Support"
+msgstr "复制并提交客服"
+
+#: app/plugins/madara-welcome/system-status.php:26
+#: app/plugins/madara-welcome/system-status.php:30
+msgid "Madara Versions"
+msgstr "Madara 版本"
+
+#: app/plugins/madara-welcome/system-status.php:30
+msgid "Theme Version"
+msgstr "主题版本"
+
+#: app/plugins/madara-welcome/system-status.php:35
+msgid "Current Version"
+msgstr "当前版本"
+
+#: app/plugins/madara-welcome/system-status.php:35
+msgid "Current Installed Version:"
+msgstr "当前安装的版本："
+
+#: app/plugins/madara-welcome/system-status.php:42
+#: app/plugins/madara-welcome/system-status.php:46
+msgid "WordPress Environment"
+msgstr "WordPress环境"
+
+#: app/plugins/madara-welcome/system-status.php:51
+msgid "Home URL"
+msgstr "主页URL"
+
+#: app/plugins/madara-welcome/system-status.php:51
+msgid "Home URL:"
+msgstr "主页:"
+
+#: app/plugins/madara-welcome/system-status.php:53
+msgid "The URL of your site's homepage."
+msgstr "这是你网站的首页。"
+
+#: app/plugins/madara-welcome/system-status.php:58
+msgid "Site URL"
+msgstr "网站地址"
+
+#: app/plugins/madara-welcome/system-status.php:58
+msgid "Site URL:"
+msgstr "站点地址："
+
+#: app/plugins/madara-welcome/system-status.php:59
+msgid "The root URL of your site."
+msgstr "这是你网站的根目录。"
+
+#: app/plugins/madara-welcome/system-status.php:63
+msgid "WP Version"
+msgstr "WP版本"
+
+#: app/plugins/madara-welcome/system-status.php:63
+msgid "WP Version:"
+msgstr "WordPress 版本："
+
+#: app/plugins/madara-welcome/system-status.php:65
+msgid "The version of WordPress installed on your site."
+msgstr "Wordpress版本."
+
+#: app/plugins/madara-welcome/system-status.php:69
+msgid "WP Multisite"
+msgstr "WP多站点功能"
+
+#: app/plugins/madara-welcome/system-status.php:69
+msgid "WP Multisite:"
+msgstr "WordPress 多站点功能："
+
+#: app/plugins/madara-welcome/system-status.php:71
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr "你是否开启WordPress多站点功能。"
+
+#: app/plugins/madara-welcome/system-status.php:76
+msgid "WP Memory Limit"
+msgstr "WP内存限制"
+
+#: app/plugins/madara-welcome/system-status.php:76
+msgid "WP Memory Limit:"
+msgstr "WP内存限制："
+
+#: app/plugins/madara-welcome/system-status.php:78
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "您网站同时能够使用的最大内存（RAM）。"
+
+#: app/plugins/madara-welcome/system-status.php:84
+#, php-format
+msgid ""
+"%1$s - We recommend setting memory to at least <strong>64MB</strong>. To "
+"learn how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Increasing memory allocated to PHP.</a>"
+msgstr ""
+"%1$s - 我们建议至少将内存设置为<strong>64MB</strong>。要了解如何使用，请参"
+"见：<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">增加分配给"
+"PHP的内存</a>"
+
+#: app/plugins/madara-welcome/system-status.php:92
+msgid "WP Debug Mode"
+msgstr "WP调试模式"
+
+#: app/plugins/madara-welcome/system-status.php:92
+msgid "WP Debug Mode:"
+msgstr "WP 调试模式："
+
+#: app/plugins/madara-welcome/system-status.php:94
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr "显示WordPress是否处于调试模式。"
+
+#: app/plugins/madara-welcome/system-status.php:105
+msgid "Language"
+msgstr "语言"
+
+#: app/plugins/madara-welcome/system-status.php:105 footer.php:87
+msgid "Language:"
+msgstr "语言："
+
+#: app/plugins/madara-welcome/system-status.php:107
+msgid "The current language used by WordPress. Default = English"
+msgstr "WordPress使用的当前语言。 默认=英文"
+
+#: app/plugins/madara-welcome/system-status.php:114
+#: app/plugins/madara-welcome/system-status.php:118
+msgid "Server Environment"
+msgstr "服务器环境"
+
+#: app/plugins/madara-welcome/system-status.php:123
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#: app/plugins/madara-welcome/system-status.php:123
+msgid "PHP Version:"
+msgstr "PHP 版本:"
+
+#: app/plugins/madara-welcome/system-status.php:124
+msgid "The version of PHP installed on your hosting server."
+msgstr "安装在您的主机服务器上的PHP版本。"
+
+#: app/plugins/madara-welcome/system-status.php:132
+msgid "PHP Post Max Size"
+msgstr "PHP文章最大尺寸"
+
+#: app/plugins/madara-welcome/system-status.php:132
+msgid "PHP Post Max Size:"
+msgstr "PHP最大发布大小:"
+
+#: app/plugins/madara-welcome/system-status.php:133
+msgid "The largest file size that can be contained in one post."
+msgstr "单个文章可附带的文件大小。"
+
+#: app/plugins/madara-welcome/system-status.php:137
+msgid "PHP Time Limit"
+msgstr "PHP时间限制"
+
+#: app/plugins/madara-welcome/system-status.php:137
+msgid "PHP Time Limit:"
+msgstr "PHP时间限制:"
+
+#: app/plugins/madara-welcome/system-status.php:138
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+"您的站点在超时之前在单个操作上花费的时间（以秒为单位）（以避免服务器锁定）"
+
+#: app/plugins/madara-welcome/system-status.php:143
+#: app/plugins/madara-welcome/system-status.php:147
+#, php-format
+msgid ""
+"%1$s - We recommend setting max execution time to at least 180. <br /> To "
+"import classic demo content, <strong>300</strong> seconds of max execution "
+"time is required.<br />See: <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Increasing max execution to PHP</a>"
+msgstr ""
+"%1$s - 我们建议将最大执行时间至少设置为180。<br />要导入经典演示内容，"
+"<strong>300</strong>秒的最大执行时间是必需的。< br / >:<a href=\"%2$s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">增加PHP的最大执行时间</a>"
+
+#: app/plugins/madara-welcome/system-status.php:154
+msgid "PHP Max Input Vars"
+msgstr "PHP最大输入变量"
+
+#: app/plugins/madara-welcome/system-status.php:154
+msgid "PHP Max Input Vars:"
+msgstr "PHP最大输入参数:"
+
+#: app/plugins/madara-welcome/system-status.php:156
+#: app/plugins/madara-welcome/system-status.php:192
+#: app/plugins/madara-welcome/system-status.php:220
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr "您的服务器可用于单个功能以避免重载的最大变量数。"
+
+#: app/plugins/madara-welcome/system-status.php:176
+#: app/plugins/madara-welcome/system-status.php:211
+#: app/plugins/madara-welcome/system-status.php:239
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Increasing max input vars limit.</a>"
+msgstr ""
+"%1$s - 推荐值：%2$s。<br />最大输入vars限制将截断POST数据，如菜单。 请参阅："
+"<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">增加最大输入变"
+"量限制。</a>"
+
+#: app/plugins/madara-welcome/system-status.php:184
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN已安装"
+
+#: app/plugins/madara-welcome/system-status.php:184
+msgid "SUHOSIN Installed:"
+msgstr "SUHOSIN 已安装:"
+
+#: app/plugins/madara-welcome/system-status.php:185
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.\n"
+"\t\tIf enabled on your server, Suhosin may need to be configured to increase "
+"its data submission limits."
+msgstr ""
+"Suhosin 是为 PHP 安装先进的保护系统。它旨在保护您的服务器在一方面对一些众所周"
+"知的问题，PHP 应用程序中，另一方面针对潜在未知的漏洞，在这些应用程序或 PHP 内"
+"核心本身。\n"
+"如果您的服务器上启用，Suhosin 可能需要通过配置来提高其数据提交限制。"
+
+#: app/plugins/madara-welcome/system-status.php:191
+msgid "Suhosin Post Max Vars"
+msgstr "Suhosin Post最大变量"
+
+#: app/plugins/madara-welcome/system-status.php:191
+msgid "Suhosin Post Max Vars:"
+msgstr "Suhosin Post 帖子最大变量:"
+
+#: app/plugins/madara-welcome/system-status.php:219
+msgid "Suhosin Request Max Vars"
+msgstr "Suhosin请求最大变量"
+
+#: app/plugins/madara-welcome/system-status.php:219
+msgid "Suhosin Request Max Vars:"
+msgstr "Suhosin Request 最大变量:"
+
+#: app/plugins/madara-welcome/system-status.php:247
+msgid "Suhosin Post Max Value Length"
+msgstr "Suhosin post最大值长度"
+
+#: app/plugins/madara-welcome/system-status.php:247
+msgid "Suhosin Post Max Value Length:"
+msgstr "Suhosin Post 帖子最大变量长度:"
+
+#: app/plugins/madara-welcome/system-status.php:248
+msgid ""
+"Defines the maximum length of a variable that is registered through a POST "
+"request."
+msgstr "定义通过POST请求注册的变量的最大长度。"
+
+#: app/plugins/madara-welcome/system-status.php:253
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
+"prohibit the Theme Options data from being saved to your database. See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Suhosin "
+"Configuration Info</a>."
+msgstr ""
+"%1$s - 推荐值：%2$s.<br />最大长度的限制可能会禁止主题选项的数据被保存到您的"
+"数据库. 查看: <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"配置信息</a>."
+
+#: app/plugins/madara-welcome/system-status.php:261
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: app/plugins/madara-welcome/system-status.php:261
+msgid "ZipArchive:"
+msgstr "Zip存档："
+
+#: app/plugins/madara-welcome/system-status.php:262
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr "导入演示需要Zip文档。它们用于专门为滑块导入和导出zip文件。"
+
+#: app/plugins/madara-welcome/system-status.php:266
+msgid "MySQL Version"
+msgstr "MySQL版本"
+
+#: app/plugins/madara-welcome/system-status.php:266
+msgid "MySQL Version:"
+msgstr "MySQL 版本:"
+
+#: app/plugins/madara-welcome/system-status.php:267
+msgid "The version of MySQL installed on your hosting server."
+msgstr "您的托管服务器上安装的MySQL版本。"
+
+#: app/plugins/madara-welcome/system-status.php:273
+msgid "Max Upload Size"
+msgstr "最大上传尺寸"
+
+#: app/plugins/madara-welcome/system-status.php:273
+msgid "Max Upload Size:"
+msgstr "最大上传文件体积："
+
+#: app/plugins/madara-welcome/system-status.php:274
+msgid ""
+"The largest file size that can be uploaded to your WordPress installation."
+msgstr "可以上传到WordPress安装的最大文件大小。"
+
+#: app/plugins/madara-welcome/system-status.php:278
+msgid "DOMDocument"
+msgstr "DOM文档"
+
+#: app/plugins/madara-welcome/system-status.php:278
+msgid "DOMDocument:"
+msgstr "DOM文档："
+
+#: app/plugins/madara-welcome/system-status.php:279
+msgid ""
+"DOMDocument is required for the Fusion Builder plugin to properly function."
+msgstr "Fusion Builder插件需要DOMDocument才能正常运行。"
+
+#: app/plugins/madara-welcome/system-status.php:283
+msgid "WP Remote Get"
+msgstr "WP远程获取"
+
+#: app/plugins/madara-welcome/system-status.php:283
+msgid "WP Remote Get:"
+msgstr "WP远程获取:"
+
+#: app/plugins/madara-welcome/system-status.php:284
+#: app/plugins/madara-welcome/system-status.php:293
+msgid ""
+"Madara uses this method to communicate with different APIs, e.g. Google, "
+"Twitter, Facebook."
+msgstr "Madara使用这种方法与不同的api进行通信，例如谷歌、Twitter、Facebook。"
+
+#: app/plugins/madara-welcome/system-status.php:292
+msgid "WP Remote Post"
+msgstr "WP远程发布"
+
+#: app/plugins/madara-welcome/system-status.php:292
+msgid "WP Remote Post:"
+msgstr "相关文章:"
+
+#: app/plugins/madara-welcome/system-status.php:301
+msgid "GD Library"
+msgstr "GD库"
+
+#: app/plugins/madara-welcome/system-status.php:301
+msgid "GD Library:"
+msgstr "GD 库："
+
+#: app/plugins/madara-welcome/system-status.php:302
+msgid ""
+"Madara uses this library to resize images and speed up your site's loading "
+"time"
+msgstr "Madara使用这个库来调整图像大小并加快站点的加载时间"
+
+#: app/plugins/madara-welcome/system-status.php:307
+msgid "Installed"
+msgstr "安装"
+
+#: app/plugins/madara-welcome/system-status.php:320
+#: app/plugins/madara-welcome/system-status.php:324
+msgid "Active Plugins"
+msgstr "激活插件"
+
+#: app/plugins/madara-welcome/system-status.php:344
+msgid "Visit plugin homepage"
+msgstr "访问插件设置主页"
+
+#: app/plugins/madara-welcome/system-status.php:350
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr "由 %s"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:163
+msgid "Change Widget Appearance"
+msgstr "改变部件的外表"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:179
+msgid "Layout"
+msgstr "布局"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:181
+msgid "Bordered"
+msgstr "边框"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:182
+msgid "Background"
+msgstr "背景"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:185
+msgid "Custom Variation - CSS Classes"
+msgstr "自定义变化- CSS类"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:198
+msgid "Widget Width"
+msgstr "小部件宽度"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:217
+msgid "Heading Style"
+msgstr "标题样式"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:219
+msgid "Style 1"
+msgstr "样式 1"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:220
+msgid "Style 2"
+msgstr "样式 2"
+
+#: app/plugins/madara-widgets/WidgetExtension.php:225
+msgid "Font Icon - CSS Classes"
+msgstr "字体图标- CSS类"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:48
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce 边栏"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:50
+msgid "Used by all WooCommerce pages"
+msgstr "用于所有WooCommerce页面"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:64
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:69
+msgid "Breadcrumb Background"
+msgstr "面包屑背景"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:70
+msgid ""
+"Set default Header Background for all WooCommerce pages. The Shop page has "
+"its own settings to override this default header"
+msgstr ""
+"设置所有WooCommerce页面的默认标题背景。商店页面有自己的设置来覆盖这个默认标题"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:78
+msgid "Archives Page Title"
+msgstr "档案页面标题"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:79
+msgid "Page Title of WooCommerce All Products page"
+msgstr "WooCommerce全产品页面标题"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:87
+msgid "Shop Sidebar Position"
+msgstr "商店侧边栏位置"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:88
+msgid "Choose Sidebar Position for Shop and Single Product page"
+msgstr "为商店和单个产品页面选择侧边栏位置"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:110
+msgid "Posts Per Page"
+msgstr "每页文章"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:111
+msgid "Enter number of products per page in All Products page"
+msgstr "在所有产品页面中输入每页产品的数量"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:119
+msgid "Number of items per row"
+msgstr "每行的项目数"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:120
+msgid "Enter number of products per row in All Products page"
+msgstr "在所有产品页面中输入每行产品的数量"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:127
+msgid "2 Items"
+msgstr "2个项目"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:131
+msgid "3 Items"
+msgstr "3个项目"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:135
+msgid "4 Items"
+msgstr "4个项目"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:139
+msgid "5 Items"
+msgstr "5个项目"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:143
+msgid "6 Items"
+msgstr "6个项目"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:173
+#: app/views/ParseBreadcrumbs.php:28 app/views/ParsePageTitle.php:25
+#: html/header/main-nav.php:20 html/header/main-navigation.php:50
+#: madara-core/manga-breadcrumb.php:72
+msgid "Home"
+msgstr "主页"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:191
+msgid "sale"
+msgstr "销售"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:199
+msgid "Prev"
+msgstr "上一步"
+
+#: app/plugins/madara-woocommerce/WooCommerce.php:200
+msgid "Next"
+msgstr "下"
+
+#: app/theme-options.php:18
+msgid "Manga General Layout"
+msgstr "漫画常规布局"
+
+#: app/theme-options.php:22
+msgid "Manga General Settings"
+msgstr "漫画全局设置"
+
+#: app/theme-options.php:26
+msgid "Manga Archives Page"
+msgstr "漫画档案页面"
+
+#: app/theme-options.php:30
+msgid "Manga Detail Page"
+msgstr "漫画详情页面"
+
+#: app/theme-options.php:34
+msgid "Manga Reading Page"
+msgstr "漫画阅读页面"
+
+#: app/theme-options.php:45
+msgid "Manga Hover Details"
+msgstr "漫画悬停详情"
+
+#: app/theme-options.php:46
+msgid "Show manga details when manga item in Manga Listing hoverd"
+msgstr "当漫画列表中的漫画项目鼠标悬停时显示漫画详细信息"
+
+#: app/theme-options.php:54
+msgid "Manga New Chapter Tag"
+msgstr "漫画新章节标签"
+
+#: app/theme-options.php:55
+msgid "Display \"New\" tag for the new chapter"
+msgstr "显示新章节的“New”标签"
+
+#: app/theme-options.php:63
+msgid "New Chapter - Time Range"
+msgstr "新的章节-时间范围"
+
+#: app/theme-options.php:64
+msgid ""
+"The time range for set \"New\" tag from the time the chapter is uploaded"
+msgstr "从章节上传时间开始设置 “New” 标签的时间范围"
+
+#: app/theme-options.php:71
+msgid "3 Days"
+msgstr "3天"
+
+#: app/theme-options.php:75
+msgid "7 Days"
+msgstr "7天"
+
+#: app/theme-options.php:79
+msgid "15 Days"
+msgstr "15天"
+
+#: app/theme-options.php:83
+msgid "30 Days"
+msgstr "30天"
+
+#: app/theme-options.php:91 inc/extras.php:149
+msgid "Reader Settings"
+msgstr "读者设置"
+
+#: app/theme-options.php:92
+msgid "Enable \"Reading Settings\" tab in User Settings dashboard"
+msgstr "在用户设置面板中启用“阅读设置”选项卡"
+
+#: app/theme-options.php:100
+msgid "Manga Bookmark List - Order By"
+msgstr "漫画书签列表 - 排序"
+
+#: app/theme-options.php:101
+msgid ""
+"By default, Bookmarked List items are ordered by the time an item is added "
+"to the list"
+msgstr "默认情况下，书签列表项目按项目添加到列表的时间排序"
+
+#: app/theme-options.php:107
+msgid "Default (bookmarked time)"
+msgstr "Default (bookmarked time)"
+
+#: app/theme-options.php:111
+msgid "Manga Latest Update time"
+msgstr "Manga Latest Update time"
+
+#: app/theme-options.php:119
+msgid "Manga Bookmark List - Order"
+msgstr "漫画书签列表 - 顺序"
+
+#: app/theme-options.php:120
+msgid "Order of the items in the Bookmark List in User Settings page"
+msgstr "设置用户页面中书签列表中的项目顺序"
+
+#: app/theme-options.php:126
+msgid "Oldest First"
+msgstr "按最早优先"
+
+#: app/theme-options.php:130
+msgid "Newest First"
+msgstr "按最新优先"
+
+#: app/theme-options.php:138
+msgid "Manga Main Top Sidebar Container"
+msgstr "主顶部栏容器"
+
+#: app/theme-options.php:139
+msgid "Set container for Manga Main Top Sidebar. Custom width is 1760px"
+msgstr "设置主顶部栏容器，自定义宽度为1760px"
+
+#: app/theme-options.php:165
+msgid "Manga Main Top Sidebar Background"
+msgstr "主顶部栏背景"
+
+#: app/theme-options.php:166
+msgid "Upload background image for Manga Main Top Sidebar"
+msgstr "上传主顶部侧边栏的背景图像"
+
+#: app/theme-options.php:174
+msgid "Manga Main Top Sidebar - Padding"
+msgstr "主顶部栏 - 内间距"
+
+#: app/theme-options.php:175
+msgid ""
+"Padding in Manga Main Top Sidebar. Default value is 50 0 20 0 & unit is px"
+msgstr "设置主顶部栏容器内间距，默认值为 50 0 20 0，单位为px"
+
+#: app/theme-options.php:183
+msgid "Manga Main Top Second Sidebar Container"
+msgstr "主顶部栏容器二"
+
+#: app/theme-options.php:184
+msgid "Set container for Manga Main Top Second Sidebar. Custom width is 1760px"
+msgstr "设置容器主顶部栏容器二，自定义宽度为1760px"
+
+#: app/theme-options.php:210
+msgid "Manga Main Top Second Sidebar Background"
+msgstr "主顶部栏容器二背景"
+
+#: app/theme-options.php:211
+msgid "Upload background image for Manga Main Top Second Sidebar"
+msgstr "上传主顶部栏容器二的背景图片"
+
+#: app/theme-options.php:219
+msgid "Manga Main Top Second Sidebar - Padding"
+msgstr "主顶部栏容器二 - 内间距"
+
+#: app/theme-options.php:220
+msgid ""
+"Padding in Manga Main Top Second Sidebar. Default value is 50 0 20 0 & unit "
+"is px"
+msgstr "主顶部栏容器二容器内间距，默认值为 50 0 20 0，单位为px"
+
+#: app/theme-options.php:228
+msgid "Manga Main Bottom Sidebar Container"
+msgstr "主底部栏容器"
+
+#: app/theme-options.php:229
+msgid "Set container for Manga Main Bottom Sidebar. Custom width is 1760px"
+msgstr "设置主底部栏容器，自定义宽度为1760px"
+
+#: app/theme-options.php:255
+msgid "Manga Main Bottom Sidebar Background"
+msgstr "主底部栏背景"
+
+#: app/theme-options.php:256
+msgid "Upload background image for Manga Main Bottom Sidebar"
+msgstr "上传主底部栏容器的背景图片"
+
+#: app/theme-options.php:264
+msgid "Manga Main Bottom Sidebar - Padding"
+msgstr "主底部栏 - 内间距"
+
+#: app/theme-options.php:265
+msgid ""
+"Padding in Manga Main Bottom Sidebar. Default value is 50 0 20 0 & unit is px"
+msgstr "设置主底部栏容器内间距，默认值为 50 0 20 0，单位为px"
+
+#: app/theme-options.php:273
+msgid "Manga Archives Header"
+msgstr "归档标题"
+
+#: app/theme-options.php:274
+msgid "Enable Header section on Manga Archives page"
+msgstr "启用漫画档案页面上标题区块"
+
+#: app/theme-options.php:283
+msgid "Manga Archive Header Background"
+msgstr "标题背景 "
+
+#: app/theme-options.php:284
+msgid "Upload background image for Manga Archive Header"
+msgstr "上传漫画归档面包屑背景"
+
+#: app/theme-options.php:292
+msgid "Manga Archive Heading Text"
+msgstr "标题文本"
+
+#: app/theme-options.php:293
+msgid "set Heading Text for Manga Archives page. Default is \"All Mangas\""
+msgstr "设置漫画档案页面的标题文本，默认值是\"所有漫画\""
+
+#: app/theme-options.php:301
+msgid "Genres on Manga Archive Page"
+msgstr "漫画档案页面上的类型"
+
+#: app/theme-options.php:302
+msgid "Enable Genres block on Manga Archive Page Breadcrumb"
+msgstr "在漫画存档页面面包屑上启用流派块"
+
+#: app/theme-options.php:310
+msgid "Default Genres List appearance"
+msgstr "风格列表外观"
+
+#: app/theme-options.php:311
+msgid ""
+"Show or hide Genres list by default. Choose \"On\" to open the Genres List"
+msgstr "默认显示或隐藏风格列表，选择“On”打开风格列表"
+
+#: app/theme-options.php:320
+msgid "Genres Block Title"
+msgstr "类型块标题"
+
+#: app/theme-options.php:321
+msgid "Genres Block Title. Default is \"GENRES\""
+msgstr "类型块标题。默认是“流派”"
+
+#: app/theme-options.php:329
+msgid "Manga Archives Sidebar"
+msgstr "漫画档案侧边栏"
+
+#: app/theme-options.php:356
+msgid ""
+"Select layout for Manga Item in the list. Remember to regenerate thumbnails "
+"for existing mangas"
+msgstr "设置漫画列表中项目的布局，记住要为现有的漫画重新生成缩略图"
+
+#: app/theme-options.php:378 app/theme-options.php:742
+msgid "Item Width on Mobile Screen"
+msgstr "移动屏幕上的项目宽度"
+
+#: app/theme-options.php:379 app/theme-options.php:743
+msgid "Set item width when viewing on mobile screens"
+msgstr "在移动屏幕上查看时设置项目宽度"
+
+#: app/theme-options.php:386 app/theme-options.php:754
+#, php-format
+msgid "1/2 - 50% screen width"
+msgstr "1~2 - 50% s增加宽度"
+
+#: app/theme-options.php:390 app/theme-options.php:750
+#, php-format
+msgid "1/1 - 100% screen width"
+msgstr "1/1 - 100% s增加宽度"
+
+#: app/theme-options.php:398
+msgid "Allow GIF for Featured Image"
+msgstr "允许GIF图像"
+
+#: app/theme-options.php:399
+msgid "Turn On/Off display GIF for Featured Image. Default Off."
+msgstr "开启、关闭展示GIF为封面图，默认关闭。"
+
+#: app/theme-options.php:407
+msgid "Link to the Latest Chapter on thumbnail"
+msgstr "链接到缩略图上的最新章节"
+
+#: app/theme-options.php:408
+msgid ""
+"Item thumbnail will link to the Latest Chapter in this series. A \"Chapter "
+"Tag\" will also appear on top of the thumbnail"
+msgstr "项目缩略图将链接到本系列的最新章节。“章节标签”也将出现在缩略图的顶部"
+
+#: app/theme-options.php:416
+msgid "Manga Type Icon"
+msgstr "类型图标"
+
+#: app/theme-options.php:417
+msgid ""
+"If your site has different types of manga (Comic, Novel, Drama) and you need "
+"an icon to differentiate those, turn this on"
+msgstr ""
+"如果你的网站有不同类型的漫画(漫画，小说，戏剧)，你需要一个图标来区分这些，打"
+"开这个"
+
+#: app/theme-options.php:425
+msgid "Manga Type Text"
+msgstr "类型文本"
+
+#: app/theme-options.php:426
+msgid "Showing Manga Type value or not"
+msgstr "是否显示漫画类型值"
+
+#: app/theme-options.php:434
+msgid "Badge Position"
+msgstr "徽章位置"
+
+#: app/theme-options.php:435
+msgid "Choose where to show the badge"
+msgstr "选择在哪里显示 badge 徽章"
+
+#: app/theme-options.php:442
+msgid "Before title"
+msgstr "标题之前"
+
+#: app/theme-options.php:446
+msgid "Before thumbnail"
+msgstr "缩略图前"
+
+#: app/theme-options.php:453
+msgid "Limit Visible Titles"
+msgstr "限制标题"
+
+#: app/theme-options.php:454
+msgid "Limit number of text lines so the long title will not break the layout"
+msgstr "限制文本行数，以便长标题不会破坏布局 "
+
+#: app/theme-options.php:463
+msgid "Number of visible latest chapters"
+msgstr "每行数量"
+
+#: app/theme-options.php:464
+msgid "Choose number of visible latest chapters for each item in the list"
+msgstr "列表中的每个项目选择可见的最新章节数 "
+
+#: app/theme-options.php:473
+msgid "Show Chapter Volume"
+msgstr "显示章节"
+
+#: app/theme-options.php:474
+msgid "Show Chapter Volume information"
+msgstr "显示章节信息"
+
+#: app/theme-options.php:491
+msgid "Manga Single - Summary Layout"
+msgstr "摘要背景"
+
+#: app/theme-options.php:510
+msgid "Always Show Manga Info"
+msgstr "始终显示漫画信息"
+
+#: app/theme-options.php:511
+msgid "Always show manga info fields even if they are empty"
+msgstr "始终显示漫画信息字段，即使它们是空的"
+
+#: app/theme-options.php:519
+msgid "Show Manga Tags"
+msgstr "漫画标签"
+
+#: app/theme-options.php:520
+msgid "Where to show the Manga Tags"
+msgstr "设置哪里展示漫画标签"
+
+#: app/theme-options.php:526
+msgid "Both in Manga Info section and Page Bottom"
+msgstr "Both in Manga Info section and Page Bottom"
+
+#: app/theme-options.php:530
+msgid "In Manga Info section only"
+msgstr "In Manga Info section only"
+
+#: app/theme-options.php:534
+msgid "At Page Bottom only"
+msgstr "At Page Bottom only"
+
+#: app/theme-options.php:542
+msgid "Manga Single - Meta Tags for Authors"
+msgstr "作者标签"
+
+#: app/theme-options.php:543
+msgid ""
+"Use Post Author (default WordPress Author) or Manga Authors in the Meta Tags"
+msgstr "使用文章作者 （默认 WordPress Author） 或漫画作者在 Meta 标签"
+
+#: app/theme-options.php:549
+msgid "WordPress Post Author"
+msgstr "WordPress Post Author"
+
+#: app/theme-options.php:553
+msgid "Manga Authors"
+msgstr "漫画作者"
+
+#: app/theme-options.php:561
+msgid "Manga Single - Breadcrumb"
+msgstr "漫画详情页-面包屑"
+
+#: app/theme-options.php:562
+msgid "Enable Breadcrumb on Manga Single page"
+msgstr "在漫画详情页启用面包屑"
+
+#: app/theme-options.php:570
+msgid "Manga Single - Show More Content"
+msgstr "更多内容"
+
+#: app/theme-options.php:571
+msgid "Enable Show More button in Manga Summary"
+msgstr "启用漫画摘要显示更多按钮"
+
+#: app/theme-options.php:579
+msgid "Manga Single - Show More Chapter"
+msgstr "更多章节"
+
+#: app/theme-options.php:580
+msgid "Enable Show More button in Manga Chapters List"
+msgstr "启用漫画章节列表显示更多按钮"
+
+#: app/theme-options.php:588
+msgid "Show \"Read First\", \"Read Last\" button"
+msgstr "开始阅读/最后阅读"
+
+#: app/theme-options.php:596
+msgid "Manga Single Sidebar"
+msgstr "漫画详情侧边栏"
+
+#: app/theme-options.php:622
+msgid "Manga Single - Default Manga Style"
+msgstr "默认样式"
+
+#: app/theme-options.php:623
+msgid ""
+"Set default style for Mangas. In each manga you can configure again to "
+"override this setting"
+msgstr "设置默认样式，在每个漫画中，您可以再次配置以覆盖此设置"
+
+#: app/theme-options.php:630
+msgid "Manga (with Chapters List)"
+msgstr "Manga (with Chapters List)"
+
+#: app/theme-options.php:634
+msgid "One Shot (display the first chapter only)"
+msgstr "One Shot (display the first chapter only)"
+
+#: app/theme-options.php:641
+msgid "Lazy-load chapters list"
+msgstr "延迟加载"
+
+#: app/theme-options.php:645
+msgid ""
+"If you manga/novel has a lot of chapters, the chapters list will load too "
+"long. Lazy-load it will improve the performance. However, it will not be "
+"cached"
+msgstr ""
+"如果你漫画/小说有很多章节，章节列表将加载太久，延迟加载将提高性能。但是，它不"
+"会被缓存"
+
+#: app/theme-options.php:650
+msgid "Manga Single - Volumes Order"
+msgstr "Volumes 排序"
+
+#: app/theme-options.php:651
+msgid ""
+"Volumes order in the Chapter Navigation bar. In \"Manga Edit\" page, you can "
+"drag&drop the order of volumes to sort them"
+msgstr "章节导航栏中的卷顺序。 在“漫画编辑”页面，您可以拖放卷的顺序进行排序 "
+
+#: app/theme-options.php:658
+msgid "As in \"Manga Edit\" page"
+msgstr "As in \"Manga Edit\" page"
+
+#: app/theme-options.php:662
+msgid "Reverse order in \"Manga Edit\" page"
+msgstr "Reverse order in \"Manga Edit\" page"
+
+#: app/theme-options.php:669
+msgid "Manga Single - Chapters Order"
+msgstr "漫画详情-章节顺序"
+
+#: app/theme-options.php:670
+msgid ""
+"Set chapters order in Manga Single and other page where chapters are listed. "
+"Order By Name works, but low performance. Consider using Order by Custom "
+"Index"
+msgstr ""
+"在漫画单页和其他列出章节的页面中设置章节顺序。可以按名称排序，但是性能很差。"
+"考虑使用Order by Custom索引"
+
+#: app/theme-options.php:677
+msgid "Oldest to latest by Name"
+msgstr "名字从最后到最新"
+
+#: app/theme-options.php:681
+msgid "Latest to oldest by Name"
+msgstr "名字从最新到最后"
+
+#: app/theme-options.php:685
+msgid "Oldest to latest by Time"
+msgstr "时间从最新到最后"
+
+#: app/theme-options.php:689
+msgid "Latest to oldest by Time"
+msgstr "时间从最后到最新"
+
+#: app/theme-options.php:693
+msgid "Custom Index Value - Bigger to Smaller"
+msgstr "自定义索引值——从大到小"
+
+#: app/theme-options.php:697
+msgid "Custom Index Value - Smaller to Bigger"
+msgstr "自定义索引值——从小到大"
+
+#: app/theme-options.php:703
+msgid "Manga Single - Chapters List Columns"
+msgstr "章节列数"
+
+#: app/theme-options.php:704
+msgid "Choose number of columns to list chapters"
+msgstr "选择章节显示列数"
+
+#: app/theme-options.php:713
+msgid "Manga Single - Related Items Layout"
+msgstr "相关布局"
+
+#: app/theme-options.php:714
+msgid "Choose layout for Manga Related Items"
+msgstr "选择相关漫画项目的布局"
+
+#: app/theme-options.php:721
+msgid "Default (small thumbnail)"
+msgstr "默认(小图)"
+
+#: app/theme-options.php:732
+msgid "Manga Single - Number of Related Items"
+msgstr "相关列数"
+
+#: app/theme-options.php:733
+msgid "Choose number of related items to display"
+msgstr "设置漫画相关项目显示列数"
+
+#: app/theme-options.php:761
+msgid "Manga Views Display"
+msgstr "显示视图"
+
+#: app/theme-options.php:762
+msgid "Display monthly views or all time views"
+msgstr "显示月视图或所有时间视图"
+
+#: app/theme-options.php:769
+msgid "Monthly"
+msgstr "每月"
+
+#: app/theme-options.php:780
+msgid "SEO - Manga Title"
+msgstr "SEO - 漫画标题"
+
+#: app/theme-options.php:781
+msgid ""
+"Custom Title Meta for Single Manga page. Use tag %title% for current Manga "
+"Title. When using with Yoast SEO, this will override the meta title in Yoast"
+msgstr ""
+"自定义标题元为单一漫画页面。使用标签 %title% 为当前漫画标题。当与Yoast SEO一"
+"起使用时，这将覆盖Yoast中的元标题"
+
+#: app/theme-options.php:789
+msgid "SEO - Manga Description"
+msgstr "SEO - 漫画描述"
+
+#: app/theme-options.php:790
+msgid ""
+"Custom Description Meta for Single Manga page. Use tag %title% for current "
+"Manga Title. When using with Yoast SEO, this will override the meta "
+"description in Yoast"
+msgstr ""
+"自定义描述元为单一漫画页面。使用标签 %title% 为当前漫画标题。当与Yoast SEO一"
+"起使用时，这将覆盖Yoast中的元描述"
+
+#: app/theme-options.php:798
+msgid "SEO - Manga Chapter Title"
+msgstr "SEO - 章节标题"
+
+#: app/theme-options.php:799
+msgid ""
+"Custom Title Meta for Single Manga Reading page. Use tag %title% for current "
+"Manga Title, %chapter% for current Manga Chapter, %chapter_index% for "
+"current Chapter Index. When using with Yoast SEO, this will override the "
+"meta title in Yoast"
+msgstr ""
+"自定义标题 Meta 为漫画详情阅读页面，使用标签 %title% 为当前漫画标题，%chapter"
+"% 为当前漫画章节，当与 Yoast SEO 插件一起使用时，这将覆盖Yoast中的 Meta 标题"
+
+#: app/theme-options.php:807
+msgid "SEO - Manga Chapter Description"
+msgstr "SEO - 章节描述"
+
+#: app/theme-options.php:808
+msgid ""
+"Custom Description Meta for Single Manga Reading page. Use tag %title% for "
+"current Manga Title, %chapter% for current Manga Chapter, %chapter_index% "
+"for current Chapter Index, %summary% for Manga excerpt or first paragraph in "
+"a Novel chapter. When using with Yoast SEO, this will override the meta "
+"description in Yoast"
+msgstr ""
+"自定义描述 Meta 为单一漫画阅读页面，标签 %title% 用于当前漫画标题，%chapter% "
+"用于当前漫画章节，%summary%用于漫画摘录或小说章节的第一段。当与 Yoast SEO 插"
+"件一起使用时，这将覆盖Yoast中的 Meta 描述"
+
+#: app/theme-options.php:816
+msgid "Enable Reading Discussion"
+msgstr "启用评论"
+
+#: app/theme-options.php:817
+msgid "Turn On/Off Reading Discussion for Manga Reading Page. Default Off."
+msgstr "打开/关闭漫画阅读页面评论，默认关闭。"
+
+#: app/theme-options.php:825
+msgid "Enable Reading Discussion Heading"
+msgstr "评论标题"
+
+#: app/theme-options.php:826
+msgid "Show heading for the Comments Form"
+msgstr "显示评论表单标题"
+
+#: app/theme-options.php:835
+msgid "Manga Reading Page Sidebar"
+msgstr "页面边栏"
+
+#: app/theme-options.php:862
+msgid "Manga Text Chapter - Side Column"
+msgstr "文本章节 - 边栏"
+
+#: app/theme-options.php:863
+msgid ""
+"In Text Chapter reading page, move sidebar & discussion to the side column, "
+"instead of at bottom of content"
+msgstr "阅读文本章节页面中，将边栏和评论移到侧边栏，而不是内容的底部"
+
+#: app/theme-options.php:871
+msgid "Chapter Heading"
+msgstr "章节标题"
+
+#: app/theme-options.php:872
+msgid "Show Chapter Heading"
+msgstr "显示章节标题"
+
+#: app/theme-options.php:880
+msgid "Minimal Reading Layout"
+msgstr "精简阅读"
+
+#: app/theme-options.php:881
+msgid "Hide header and other parts to focus in reading content"
+msgstr "隐藏标题和其他部分来集中阅读内容"
+
+#: app/theme-options.php:889
+msgid "Manga Text Chapter - Font Size"
+msgstr "文字章节 - 字体大小"
+
+#: app/theme-options.php:890
+msgid ""
+"Set font size (in pixels) for text. By default, it takes global font-size"
+msgstr "设置文本的字体大小(以像素为单位)，默认情况下，它接受全局字体大小"
+
+#: app/theme-options.php:898
+msgid "Manga Image Chapter - Reading Style"
+msgstr "图像章节 - 阅读风格"
+
+#: app/theme-options.php:899
+msgid "Choose reading style for Image Chapter"
+msgstr "选择图像章节的阅读风格"
+
+#: app/theme-options.php:917
+msgid "Chapters Order in Reading Navigation"
+msgstr "阅读导航"
+
+#: app/theme-options.php:918
+msgid "Should we keep the order in detail page, or reverse it?"
+msgstr "我们应该保留详情页面顺序，还是反转它？"
+
+#: app/theme-options.php:925
+msgid "Use Chapters Order in Detail page"
+msgstr "Use Chapters Order in Detail page"
+
+#: app/theme-options.php:929
+msgid "Reverse"
+msgstr "相反"
+
+#: app/theme-options.php:936
+msgid "Enable Gaps"
+msgstr "启用间隙"
+
+#: app/theme-options.php:937
+msgid "Enable Gaps between the images in Reading List Style"
+msgstr "设置阅读“列表”样式图像之间的间隙"
+
+#: app/theme-options.php:946 madara-core/user/page/reader-settings.php:80
+msgid "Images Per Page"
+msgstr "每页面图像"
+
+#: app/theme-options.php:954
+msgid "1 image"
+msgstr "1 张图片"
+
+#: app/theme-options.php:958
+msgid "3 images"
+msgstr "3张图片"
+
+#: app/theme-options.php:962
+msgid "6 images"
+msgstr "6张图片"
+
+#: app/theme-options.php:966
+msgid "10 images"
+msgstr "10"
+
+#: app/theme-options.php:974
+msgid "Full Width (No Left/Right Padding)"
+msgstr "全宽"
+
+#: app/theme-options.php:975
+msgid "Disable Left/Right padding when reading chapter"
+msgstr "阅读章节时禁用左/右内间距"
+
+#: app/theme-options.php:983
+msgid "Enable Related Manga"
+msgstr "使用相关漫画"
+
+#: app/theme-options.php:984
+msgid "Turn On/Off Related Manga in Reading Page."
+msgstr "打开/关闭阅读页面中的相关漫画。"
+
+#: app/theme-options.php:992
+msgid "Page Reading Ajax"
+msgstr "Ajax 阅读"
+
+#: app/theme-options.php:998
+msgid "Use Ajax instead of redirecting URL when go to next page on chapter"
+msgstr "使用Ajax而不是重定向URL，转到下一章节页面"
+
+#: app/theme-options.php:1003
+msgid "Preload Images"
+msgstr "预加载图片"
+
+#: app/theme-options.php:1008
+msgid ""
+"Use preloaded images for chapter without reloading or using ajax to get next/"
+"prev image"
+msgstr "使用章节预加载的图像，而不重新加载或使用ajax获得 下/上一个图像"
+
+#: app/theme-options.php:1013
+msgid "Sticky Header"
+msgstr "粘性导航栏"
+
+#: app/theme-options.php:1021
+msgid "Default (use setting in Theme Options > Header > Sticky Menu"
+msgstr "默认（使用主题选项中的设置>页眉>悬浮菜单"
+
+#: app/theme-options.php:1036
+msgid "Sticky Chapter Navigation (Wide Screens)"
+msgstr "悬浮章节导航（宽屏）"
+
+#: app/theme-options.php:1046
+msgid "Enable Sticky Chapter Navigation for mobile screens ( < 768px)"
+msgstr "设置移动设备屏幕悬浮章节导航 （< 768px）"
+
+#: app/theme-options.php:1056
+msgid "Next & Prev page by Pointer position"
+msgstr "上/下一页按指针位置"
+
+#: app/theme-options.php:1066
+msgid "Social Sharing"
+msgstr "社交分享"
+
+#: app/theme-options.php:1067
+msgid "Enable Social Sharing. Required plugin: "
+msgstr "启用社交媒体分享，需要插件： "
+
+#: app/theme-options.php:1075
+msgid "Disable Image \"Save image as\""
+msgstr "禁用保存"
+
+#: app/theme-options.php:1076
+msgid ""
+"This setting will remove \"Save image as\" from mouse right click menu on "
+"Manga Reading Page"
+msgstr "此设置将从漫画阅读页面的鼠标右键菜单中删除图像另存为"
+
+#: app/theme-options.php:1084
+msgid "Manga Reading History"
+msgstr "阅读历史"
+
+#: app/theme-options.php:1085
+msgid "Save Manga to user reading history when user's reading a chapter."
+msgstr "当用户阅读一章时，将漫画保存到用户阅读历史。"
+
+#: app/theme-options.php:1093
+msgid "Manga Reading History Delay"
+msgstr "漫画阅读历史延迟"
+
+#: app/theme-options.php:1094
+msgid ""
+"how many seconds should we wait user to read the chapter before saving "
+"chapter into reading history"
+msgstr "将章节保存为阅读历史记录之前，我们应该等待用户读多少秒"
+
+#: app/theme-options.php:1103
+msgid "Manga Reading History Items"
+msgstr "阅读历史项目"
+
+#: app/theme-options.php:1104
+msgid ""
+"Number of Manga Items at most to be saved in Manga Reading History. If you "
+"want to store unlimited number of items, enter -1. Please note that you have "
+"a lot of mangas, it would effect performance"
+msgstr ""
+"漫画阅读历史中最多保存的漫画项目数，如果要存储无限数量的项目，请输入 -1。 请"
+"注意，您有很多漫画，这会影响性能"
+
+#: app/theme-options.php:1112
+msgid "Manga Search - Exclude Tags"
+msgstr "排除标签"
+
+#: app/theme-options.php:1113
+msgid ""
+"Exclude mangas from Search Results if they have these tags. Enter a list of "
+"tag slug, separated by comma"
+msgstr ""
+"如果漫画有这些标签，则从搜索结果中排除漫画，输入标签多个使用英文逗号分割"
+
+#: app/theme-options.php:1120
+msgid "Manga Search - Exclude Genres"
+msgstr "排除风格"
+
+#: app/theme-options.php:1121
+msgid ""
+"Exclude mangas from Search Results if they have these genres. Enter a list "
+"of genre slug, separated by comma"
+msgstr ""
+"如果漫画有这些风格流派，则从搜索结果中排除漫画，输入一个风格流派列表，多个使"
+"用英文逗号分割"
+
+#: app/theme-options.php:1128
+msgid "Manga Search - Exclude Authors"
+msgstr "排除作者"
+
+#: app/theme-options.php:1129
+msgid ""
+"Exclude mangas from Search Results if they belong to these authors. Enter a "
+"list of author slug, separated by comma"
+msgstr ""
+"如果漫画有这些流派，则从搜索结果中排除漫画，输入作者列表，多个使用英文逗号分"
+"割"
+
+#: app/theme-options.php:1136
+msgid "Ajax Search"
+msgstr "Ajax搜索"
+
+#: app/theme-options.php:1137
+msgid "Enable or Disable Ajax Search for Manga"
+msgstr "启用或禁用 Ajax 搜索漫画"
+
+#: app/theme-options.php:1151
+msgid "Show Polylang Languages Switcher in Footer"
+msgstr "显示页脚多语言切换器"
+
+#: app/theme-options.php:1161
+msgid "User Settings"
+msgstr "用户设置"
+
+#: app/theme-options.php:1166
+msgid "Require strong Password"
+msgstr "加强密码"
+
+#: app/theme-options.php:1167
+msgid "Force user to use strong password"
+msgstr "强制用户使用加强密码"
+
+#: app/theme-options.php:1177
+msgid "Speaker"
+msgstr "扬声器"
+
+#: app/theme-options.php:1182
+msgid "Player Size"
+msgstr "播放器大小"
+
+#: app/theme-options.php:1183
+msgid "Size of the audio player"
+msgstr "音频播放器的大小"
+
+#: app/theme-options.php:1189
+msgid "Full width"
+msgstr "全宽"
+
+#: app/theme-options.php:1193
+msgid "Small Player"
+msgstr "小型播放"
+
+#: app/theme-options.php:1201
+msgid "Player Position"
+msgstr "播放位置"
+
+#: app/theme-options.php:1208
+msgid "Floating (fixed position at bottom)"
+msgstr "浮动（底部固定位置）"
+
+#: app/theme-options.php:1212
+msgid "Before chapter content"
+msgstr "章节内容之前"
+
+#: app/theme.php:173
+msgid "Main Sidebar"
+msgstr "主侧边栏"
+
+#: app/theme.php:175
+msgid "Main Sidebar used by all pages"
+msgstr "所有页面使用的主侧边栏"
+
+#: app/theme.php:183
+msgid "Single Post Sidebar"
+msgstr "文章侧边栏"
+
+#: app/theme.php:185
+msgid "Appear in Single Post"
+msgstr "出现在一篇文章详情页面"
+
+#: app/theme.php:193
+msgid "Search Sidebar"
+msgstr "搜索侧边栏"
+
+#: app/theme.php:195
+msgid "Search Sidebar in header"
+msgstr "标题中的搜索侧边栏"
+
+#: app/theme.php:203
+msgid "Main Top Sidebar"
+msgstr "主要侧边栏"
+
+#: app/theme.php:205 app/theme.php:215
+msgid "Appear before main content"
+msgstr "出现在主内容之前"
+
+#: app/theme.php:213
+msgid "Main Top Second Sidebar"
+msgstr "主顶部栏二"
+
+#: app/theme.php:223
+msgid "Body Top Sidebar"
+msgstr "主体顶栏"
+
+#: app/theme.php:225
+msgid "Appear before body content"
+msgstr "出现在正文内容之前"
+
+#: app/theme.php:233
+msgid "Body Bottom Sidebar"
+msgstr "主体底部侧边栏"
+
+#: app/theme.php:235
+msgid "Appear after body content"
+msgstr "出现在正文内容之后"
+
+#: app/theme.php:243
+msgid "Main Bottom Sidebar"
+msgstr "主底边栏"
+
+#: app/theme.php:245
+msgid "Appear after main content"
+msgstr "出现在主要内容之后"
+
+#: app/theme.php:253
+msgid "Footer Sidebar"
+msgstr "页脚边栏"
+
+#: app/theme.php:270 html/header/main-navigation.php:36
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: app/theme.php:271
+msgid "Secondary Menu"
+msgstr "二级菜单"
+
+#: app/theme.php:272
+msgid "Mobile Menu"
+msgstr "移动设备菜单"
+
+#: app/theme.php:273
+msgid "User Menu"
+msgstr "用户菜单"
+
+#: app/theme.php:274
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: app/views/ParseBreadcrumbs.php:30 app/views/ParsePageTitle.php:27
+msgid "Search Results for"
+msgstr "搜索结果"
+
+#: app/views/ParseComment.php:30
+msgid "Website"
+msgstr "网站"
+
+#: app/views/ParseComment.php:37
+msgid "Comment"
+msgstr "评论"
+
+#: app/views/ParseComment.php:75
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审阅。"
+
+#: app/views/ParseComment.php:79
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#. translators: 1: date, 2: time
+#: app/views/ParseComment.php:86
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 于 %2$s"
+
+#: app/views/ParseHead.php:186
+msgid "Powered by Madara - A powerful multi-purpose theme by Madara"
+msgstr "Madara - 一个强大的多用途主题"
+
+#: app/views/ParseMeta.php:52
+msgid "posted on"
+msgstr "发布在"
+
+#: app/views/ParseMeta.php:95
+msgid "View all posts in "
+msgstr "查看所有文章"
+
+#: app/views/ParseMeta.php:133
+msgid "Views"
+msgstr "查看"
+
+#: app/views/ParseMeta.php:147
+msgid "Share"
+msgstr "分享"
+
+#: app/views/ParsePageTitle.php:29 madara-core/manga-search.php:116
+#: madara-core/manga-search.php:117
+msgid "Author"
+msgstr "作者"
+
+#: app/views/ParsePageTitle.php:30
+msgid "Page not found"
+msgstr "页面未找到"
+
+#: app/views/ParsePageTitle.php:51 app/views/ParsePageTitle.php:54
+#: app/views/ParsePageTitle.php:57
+msgid "Archives for "
+msgstr "档案 "
+
+#: app/views/ParsePagination.php:97
+msgid "Posts navigation"
+msgstr "文章导航"
+
+#: app/views/ParsePagination.php:106
+msgid "<span class=\"icon ion-md-arrow-forward meta-nav\"></span> Older Posts"
+msgstr "<span class=\"icon ion-md-arrow-forward meta-nav\"></span> 旧的文章"
+
+#: app/views/ParsePagination.php:108
+msgid "<span class=\"icon ion-md-arrow-back meta-nav\"></span> Older Posts"
+msgstr "<span class=\"icon ion-md-arrow-back meta-nav\"></span> 旧的文章"
+
+#: app/views/ParsePagination.php:121
+msgid "Newer posts <span class=\"icon ion-md-arrow-back meta-nav\"></span>"
+msgstr "更新的文章 <span class=\"icon ion-md-arrow-back meta-nav\"></span>"
+
+#: app/views/ParsePagination.php:123
+msgid "Newer posts <span class=\"icon ion-md-arrow-forward meta-nav\"></span>"
+msgstr "更新的文章 <span class=\"icon ion-md-arrow-back meta-nav\"></span>"
+
+#: app/views/ParsePagination.php:187
+msgid "LOAD MORE"
+msgstr "加载更多"
+
+#: app/views/ParsePostNavigation.php:39
+msgid "NEXT POST"
+msgstr "下一篇文章"
+
+#: app/views/ParsePostNavigation.php:55
+msgid "PREV POST"
+msgstr "上一篇文章"
+
+#: app/views/ParseSocials.php:117
+msgid "Share on Facebook"
+msgstr "分享到Facebook"
+
+#: app/views/ParseSocials.php:130
+msgid "Share on Twitter"
+msgstr "分享到Twitter"
+
+#: app/views/ParseSocials.php:142
+msgid "Share on LinkedIn"
+msgstr "分享到LinkedIn"
+
+#: app/views/ParseSocials.php:154
+msgid "Share on Tumblr"
+msgstr "分享到Tumblr"
+
+#: app/views/ParseSocials.php:167
+msgid "Share on Google Plus"
+msgstr "分享到Google Plus"
+
+#: app/views/ParseSocials.php:180
+msgid "Pin this"
+msgstr "钉一下"
+
+#: app/views/ParseSocials.php:193
+msgid "Email this"
+msgstr "发送邮件"
+
+#: app/views/ParseSocials.php:200
+msgid "SHARE THIS POST"
+msgstr "分享这个文章"
+
+#: comments.php:35
+#, php-format
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] "1评论"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:43 comments.php:63
+msgid "&larr; Older Comments"
+msgstr "&larr; 过去的评论"
+
+#: comments.php:44 comments.php:64
+msgid "Newer Comments &rarr;"
+msgstr "新近的评论 &rarr;"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "评论被关闭"
+
+#: css/custom.css.php:730 madara-core/user/page/bookmark.php:18
+msgid "Manga Name"
+msgstr "漫画名称"
+
+#: css/custom.css.php:733 html/single/content-page.php:71
+#: madara-core/user/page/bookmark.php:20
+msgid "Edit"
+msgstr "编辑"
+
+#: css/custom.css.php:736 madara-core/user/page/bookmark.php:19
+msgid "Updated Time"
+msgstr "时间"
+
+#: footer.php:79
+#, php-format
+msgid "&copy; %s Madara Inc. All rights reserved"
+msgstr "&copy; %s Madara Inc. All rights reserved"
+
+#: header.php:57 madara-core/manga-search.php:50
+#: madara-core/widgets/manga-search/manga-search.php:84 search.php:19
+msgid "Search..."
+msgstr "搜索..."
+
+#: html/header/mobile-navigation.php:35 html/header/sub-header-nav.php:57
+msgid "Sign in"
+msgstr "登录"
+
+#: html/header/mobile-navigation.php:39 html/header/sub-header-nav.php:58
+msgid "Sign up"
+msgstr "注册"
+
+#: html/loop/content-none.php:16
+msgid "Nothing Found"
+msgstr "无法找到任何内容"
+
+#: html/loop/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布您的第一篇文章？<a href=\"%1$s\">从这里开始</a>"
+
+#: html/loop/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "对不起，没有符合你的搜索条件。请换其它关键词再试"
+
+#: html/loop/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看来我们不能找到你要找的东西。也许搜索可以提供帮助"
+
+#: html/loop/content-search.php:47
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
+
+#: html/loop/content-search.php:53 html/single/content-page.php:63
+#: html/single/content.php:56
+msgid "Pages:"
+msgstr "页面："
+
+#: html/loop/content-search.php:66
+msgid "Read more"
+msgstr "阅读更多"
+
+#: html/single/author.php:18
+msgid "About The Author"
+msgstr "关于作者"
+
+#: html/single/content-page.php:55 html/single/content.php:47
+msgid "Tags: "
+msgstr "标签："
+
+#: inc/extras.php:41
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: inc/extras.php:54
+#, php-format
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: inc/extras.php:57
+#, php-format
+msgid "Day: %s"
+msgstr "日：%s"
+
+#: inc/extras.php:60
+#, php-format
+msgid "Month: %s"
+msgstr "月：%s"
+
+#: inc/extras.php:60
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/extras.php:63
+#, php-format
+msgid "Year: %s"
+msgstr "年：%s"
+
+#: inc/extras.php:63
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:66
+msgid "Asides"
+msgstr "日志"
+
+#: inc/extras.php:69
+msgid "Galleries"
+msgstr "图库"
+
+#: inc/extras.php:72
+msgid "Images"
+msgstr "图片"
+
+#: inc/extras.php:75
+msgid "Videos"
+msgstr "视频"
+
+#: inc/extras.php:78
+msgid "Quotes"
+msgstr "引用"
+
+#: inc/extras.php:81
+msgid "Links"
+msgstr "链接"
+
+#: inc/extras.php:84
+msgid "Statuses"
+msgstr "状态"
+
+#: inc/extras.php:87
+msgid "Audios"
+msgstr "音频"
+
+#: inc/extras.php:90
+msgid "Chats"
+msgstr "图表"
+
+#: inc/extras.php:97
+#, php-format
+msgid "Projects in %s category"
+msgstr "项目 %s 分类"
+
+#: inc/extras.php:99 inc/extras.php:118
+msgid "Archives"
+msgstr "存档"
+
+#: inc/extras.php:110
+msgid "All Projects"
+msgstr "所有项目"
+
+#: inc/extras.php:114
+msgid "Location"
+msgstr "位置"
+
+#: inc/extras.php:116
+msgid "All Services"
+msgstr "所有服务"
+
+#: inc/extras.php:131 madara-core/manga-single.php:97
+msgid "Show more  "
+msgstr "显示更多 "
+
+#: inc/extras.php:132
+msgid "Show less  "
+msgstr "显示更少 "
+
+#: inc/extras.php:147
+msgid "Bookmarks"
+msgstr "书签"
+
+#: inc/extras.php:148
+msgid "History"
+msgstr "历史"
+
+#: inc/extras.php:150
+msgid "Account Settings"
+msgstr "帐户设置"
+
+#: inc/extras.php:151
+msgid "My Uploaded Mangas"
+msgstr "我上传的漫画"
+
+#: inc/template-tags.php:46
+#, php-format
+msgid ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>Showing <span>%d-"
+"%d</span> of <span>%d</span> projects in <span>%s</span></p></li></ul></"
+"div></div>"
+msgstr ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>显示 <span>%d-%d</"
+"span> of <span>%d</span> 项目 <span>%s</span></p></li></ul></div></div>"
+
+#: inc/template-tags.php:56
+#, php-format
+msgid ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>Showing <span>%d-"
+"%d</span> of <span>%d</span> project in <span>%s</span></p></li></ul></div></"
+"div>"
+msgstr ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>显示 <span>%d-%d</"
+"span> of <span>%d</span> 项目 <span>%s</span></p></li></ul></div></div>"
+
+#: inc/template-tags.php:69 inc/template-tags.php:77
+#, php-format
+msgid ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>Showing <span>%d-"
+"%d</span> of <span>%d</span> projects found</li></ul></div></div>"
+msgstr ""
+"<div class=\"c-meta\"><div class=\"item-meta\"><ul><li><p>显示 <span>%d-%d</"
+"span> of <span>%d</span> 找到的项目</li></ul></div></div>"
+
+#: madara-core/content/content-archive.php:88
+#, php-format
+msgid "Chapter %s"
+msgstr "章节 %s"
+
+#: madara-core/content/content-none.php:11
+#, php-format
+msgid "There is no Manga in this %s - %s"
+msgstr "这里面没有漫画 %s - %s"
+
+#: madara-core/content/content-none.php:13
+msgid "There is no Manga yet"
+msgstr "目前还没有漫画"
+
+#: madara-core/content/content-none.php:15 search.php:94
+msgid "No matches found. Try a different search..."
+msgstr "没有匹配的搜索结果。尝试不同的搜索…"
+
+#: madara-core/content/content-search.php:76
+msgid "Authors"
+msgstr "作者"
+
+#: madara-core/content/content-search.php:101
+msgid "Artists"
+msgstr "艺术家"
+
+#: madara-core/content/content-search.php:125
+msgid "Genres"
+msgstr "类型"
+
+#: madara-core/content/content-search.php:205
+msgid "Latest chapter"
+msgstr "最新章节"
+
+#: madara-core/manga-archive.php:16 madara-core/manga-breadcrumb.php:78
+msgid "All Mangas"
+msgstr "所有漫画"
+
+#: madara-core/manga-archive.php:102 search.php:43
+#, php-format
+msgid "%s result"
+msgid_plural "%s results"
+msgstr[0] "%s 个结果"
+
+#: madara-core/manga-filter.php:8
+msgid "Order by"
+msgstr "排序"
+
+#: madara-core/manga-filter.php:15
+msgid "Relevance"
+msgstr "关联"
+
+#: madara-core/manga-filter.php:22
+msgid "Latest"
+msgstr "最新"
+
+#: madara-core/manga-filter.php:27
+msgid "A-Z"
+msgstr "A-Z"
+
+#: madara-core/manga-filter.php:42
+msgid "Most Views"
+msgstr "最多浏览"
+
+#: madara-core/manga-functions.php:291
+msgid "Invalid request, please try again"
+msgstr "请求无效，请重试"
+
+#: madara-core/manga-functions.php:295
+msgid "Session expired, please try again."
+msgstr "会话已过期，请重试。"
+
+#: madara-core/manga-functions.php:302
+msgid "User not found, please try again later. "
+msgstr "找不到用户，请稍后再试 "
+
+#: madara-core/manga-functions.php:324
+msgid "Current Password cannot be empty"
+msgstr "当前密码不能为空"
+
+#: madara-core/manga-functions.php:326
+msgid "Confirm Password cannot be empty"
+msgstr "确认密码不能为空"
+
+#: madara-core/manga-functions.php:328
+msgid "New password must be different with current password"
+msgstr "新密码必须与当前密码不同"
+
+#: madara-core/manga-functions.php:330
+msgid "New Password & Confirm Password must be matched."
+msgstr "新密码和确认密码必须匹配。"
+
+#: madara-core/manga-functions.php:332
+msgid "Incorrect current password, please check again."
+msgstr "当前密码错误，请重新检查。"
+
+#: madara-core/manga-functions.php:428
+msgid "<span>You haven't read any manga yet</span>"
+msgstr "<span>你还没看过漫画呢</span>"
+
+#: madara-core/manga-functions.php:528
+msgid "Updating"
+msgstr "更新"
+
+#: madara-core/manga-functions.php:658 madara-core/single/info-tags.php:9
+msgid "Tag(s)"
+msgstr "标记(s)"
+
+#: madara-core/manga-functions.php:677 madara-core/manga-single.php:81
+msgid "Summary"
+msgstr "摘要"
+
+#: madara-core/manga-functions.php:1240
+#, php-format
+msgid "Comments for chapter \"%s\""
+msgstr "\"%s\" 评论"
+
+#: madara-core/manga-oneshot.php:71 madara-core/manga-single.php:110
+msgid "Edit This Manga"
+msgstr "编辑漫画"
+
+#: madara-core/manga-related.php:119
+msgid "YOU MAY ALSO LIKE"
+msgstr "你也可能喜欢"
+
+#: madara-core/manga-search.php:49 search.php:18
+msgid "Search for:"
+msgstr "搜索："
+
+#: madara-core/manga-search.php:75
+msgid "Advanced"
+msgstr "高级"
+
+#: madara-core/manga-search.php:108
+msgid "Genres condition"
+msgstr "条件"
+
+#: madara-core/manga-search.php:110
+msgid "OR (having one of selected genres)"
+msgstr "或"
+
+#: madara-core/manga-search.php:111
+msgid "AND (having all selected genres)"
+msgstr "和"
+
+#: madara-core/manga-search.php:121 madara-core/manga-search.php:122
+msgid "Artist"
+msgstr "艺术家"
+
+#: madara-core/manga-search.php:126
+msgid "Year of Released"
+msgstr "年发布的"
+
+#: madara-core/manga-search.php:127
+msgid "Year"
+msgstr "年"
+
+#: madara-core/manga-search.php:131
+msgid "Adult content"
+msgstr "成人内容"
+
+#: madara-core/manga-search.php:134
+msgid "None adult content"
+msgstr "非成人内容"
+
+#: madara-core/manga-search.php:135
+msgid "Only adult content"
+msgstr "仅限成人内容"
+
+#: madara-core/manga-search.php:143
+msgid "Completed"
+msgstr "已完成"
+
+#: madara-core/manga-search.php:147
+msgid "Ongoing"
+msgstr "持续"
+
+#: madara-core/manga-search.php:151
+msgid "Canceled"
+msgstr "已取消"
+
+#: madara-core/manga-search.php:155
+msgid "On Hold"
+msgstr "保留"
+
+#: madara-core/manga-search.php:160
+msgid "Reset"
+msgstr "重置"
+
+#: madara-core/manga-search.php:186
+#, php-format
+msgid "%s result for \"%s\""
+msgid_plural "%s results for \"%s\""
+msgstr[0] "%s 的 %s 结果"
+
+#: madara-core/manga-single-reading.php:124
+msgid "SHARE THIS MANGA"
+msgstr "分享这个漫画"
+
+#: madara-core/reading-content/content-reading-list.php:99
+#: madara-core/reading-content/content-reading-paged.php:120
+#: madara-core/reading-content/content-reading-paged.php:147
+msgid "View Full Size Image"
+msgstr "查看全图"
+
+#: madara-core/single/info-chapters.php:15
+msgid "Change Order"
+msgstr "修改次序"
+
+#: madara-core/single/info-chapters.php:145
+msgid "There is no chapters"
+msgstr "没有章节"
+
+#: madara-core/single/info-chapters.php:167
+msgid "Show more "
+msgstr "显示更多 "
+
+#: madara-core/single/info-rank.php:14
+#, php-format
+msgid " %1s, it has %2s monthly view"
+msgid_plural " %1s, it has %2s monthly views"
+msgstr[0] " %1s, 它有 %2s 月视图"
+
+#: madara-core/single/info-rating.php:13
+#, php-format
+msgid ""
+"<span> <span> Average <span property=\"ratingValue\" id=\"averagerate\"> %s</"
+"span> / <span property=\"bestRating\">5</span> </span> </span> out of <span "
+"property=\"ratingCount\" id=\"countrate\">%s</span>"
+msgstr ""
+"<span> <span> Average <span property=\"ratingValue\" id=\"averagerate\"> %s</"
+"span> / <span property=\"bestRating\">5</span> </span> </span> out of <span "
+"property=\"ratingCount\" id=\"countrate\">%s</span>"
+
+#: madara-core/single/quick-buttons.php:26
+msgid "Continue reading"
+msgstr "继续阅读"
+
+#: madara-core/single/quick-buttons.php:41
+#: madara-core/single/quick-buttons.php:47
+msgid "Read First"
+msgstr "正序阅读"
+
+#: madara-core/single/quick-buttons.php:42
+#: madara-core/single/quick-buttons.php:48
+msgid "Read Last"
+msgstr "倒序阅读"
+
+#: madara-core/single/user-actions.php:11
+msgid "Comments"
+msgstr "评论"
+
+#: madara-core/single/user-actions.php:18
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s 评论"
+
+#: madara-core/single/user-actions.php:20
+#, php-format
+msgid "%d comment"
+msgstr "%d评论"
+
+#: madara-core/user/page/account-settings.php:22
+msgid "Succeeded!"
+msgstr "成功！"
+
+#: madara-core/user/page/account-settings.php:22
+msgid "Update successfully"
+msgstr "更新成功"
+
+#: madara-core/user/page/account-settings.php:27
+msgid "Failed!"
+msgstr "失败！"
+
+#: madara-core/user/page/account-settings.php:55
+msgid "Only for .jpg .png or .gif file"
+msgstr "只适用于.jpg .png或.gif文件"
+
+#: madara-core/user/page/account-settings.php:61
+msgid "Upload"
+msgstr "上传"
+
+#: madara-core/user/page/account-settings.php:72
+msgid "Change Your Display name"
+msgstr "更改昵称"
+
+#: madara-core/user/page/account-settings.php:76
+msgid "Current Display name"
+msgstr "当前昵称"
+
+#: madara-core/user/page/account-settings.php:84
+msgid "New Display name"
+msgstr "新显示名称"
+
+#: madara-core/user/page/account-settings.php:92
+#: madara-core/user/page/account-settings.php:120
+#: madara-core/user/page/account-settings.php:154
+#: madara-core/user/page/reader-settings.php:105
+msgid "Submit"
+msgstr "提交"
+
+#: madara-core/user/page/account-settings.php:100
+msgid "Change Your email address"
+msgstr "更改您的电子邮件地址"
+
+#: madara-core/user/page/account-settings.php:104
+msgid "Your email"
+msgstr "您的邮箱"
+
+#: madara-core/user/page/account-settings.php:112
+msgid "New email address"
+msgstr "新电子邮件地址"
+
+#: madara-core/user/page/account-settings.php:127
+msgid "Change Your Password"
+msgstr "更改您的密码"
+
+#: madara-core/user/page/account-settings.php:132
+msgid "Current Password"
+msgstr "当前密码"
+
+#: madara-core/user/page/account-settings.php:138
+msgid "New Password"
+msgstr "新密码"
+
+#: madara-core/user/page/account-settings.php:144
+msgid "Comfirm Password"
+msgstr "确认密码"
+
+#: madara-core/user/page/account-settings.php:153
+msgid "I agree to use this weak password"
+msgstr "我同意使用这个弱密码"
+
+#: madara-core/user/page/bookmark.php:85
+msgid "Latest chapter: "
+msgstr "最新章节："
+
+#: madara-core/user/page/bookmark.php:92
+msgid "page "
+msgstr "页面 "
+
+#: madara-core/user/page/bookmark.php:101
+msgid "Unread chapter(s): "
+msgstr "未读章节： "
+
+#: madara-core/user/page/bookmark.php:158
+msgid "Check all"
+msgstr "全选"
+
+#: madara-core/user/page/bookmark.php:160
+msgid "Delete"
+msgstr "删除"
+
+#: madara-core/user/page/bookmark.php:167
+msgid "No Manga Bookmarked"
+msgstr "没有漫画书签"
+
+#: madara-core/user/page/history.php:83
+#, php-format
+msgid "page %d"
+msgstr "页面 %d"
+
+#: madara-core/user/page/history.php:116
+msgid "You haven't read any manga yet"
+msgstr "你还没看过漫画呢"
+
+#: madara-core/user/page/reader-settings.php:35
+msgid "Success!"
+msgstr "成功！"
+
+#: madara-core/user/page/reader-settings.php:35
+msgid " Update successfully"
+msgstr " 更新成功"
+
+#: madara-core/user/page/reader-settings.php:42
+msgid "Reading Settings"
+msgstr "阅读设置"
+
+#: madara-core/user/page/reader-settings.php:46
+msgid "Site Schema"
+msgstr "网站模式"
+
+#: madara-core/user/page/reader-settings.php:63
+msgid "Reading Style"
+msgstr "阅读风格"
+
+#: madara-core/user/page/reader-settings.php:81
+msgid "Only works with paged reading style"
+msgstr "仅适用于分页阅读风格"
+
+#: madara-core/user/page/reader-settings.php:89
+msgid "Load 1 image per page (default)"
+msgstr "每页加载1张图片(默认)"
+
+#: madara-core/user/page/reader-settings.php:93
+msgid "Load 3 images per page"
+msgstr "每页加载3张图片"
+
+#: madara-core/user/page/reader-settings.php:97
+msgid "Load 6 images per page"
+msgstr "每页加载6张图片"
+
+#: madara-core/user/page/reader-settings.php:101
+msgid "Load 10 images per page"
+msgstr "每页加载10张图片"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:30
+#, php-format
+msgid "%s quantity"
+msgstr "%s 数量"
+
+#: woocommerce/global/quantity-input.php:30
+#: woocommerce/global/quantity-input.php:38
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/global/quantity-input.php:54
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "数量"
+
+#: woocommerce/loop/result-count.php:32
+msgid "Showing the single result"
+msgstr "显示单个结果"
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:35
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "显示所有%d个结果"
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:40
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "显示 %1$d-%2$d 个结果（共 %3$d 个结果）"
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr "登录"
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr "用户名或邮箱地址"
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr "密码"
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr "记住我"
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr "登录"
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr "用户名"
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr "密码将发送到您的电子邮件地址."
+
+#. Theme URI of the plugin/theme
+msgid "https://live.mangabooth.com/"
+msgstr "https://live.mangabooth.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Manga Solution for WordPress. Support Manga, Comic, Novel, Anime, Video "
+"content. Require WP Manga (Madara-Core) plugin"
+msgstr ""
+"漫画解决方案的WordPress。支持漫画，漫画，小说，动漫，视频内容。需要 WP Manga "
+"(Madara-Core) 插件 | By <a href=\"https://www.gouwo8.com\" target=\"_blank\" "
+"rel=\"noopener\">狗窝吧汉化</a>"
+
+#. Author of the plugin/theme
+msgid "WPStylish"
+msgstr ""
+"Wpstylish | By <a href=\"https://www.gouwo8.com\" target=\"_blank\" rel="
+"\"noopener\">狗窝吧汉化</a>"
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/wpstylish"
+msgstr "https://themeforest.net/user/wpstylish"
