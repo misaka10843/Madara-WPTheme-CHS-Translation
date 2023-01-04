@@ -25,3 +25,11 @@
 2. 打开`madara-core/languages`文件夹
 
 3. 将[此处](https://github.com/misaka10843/Madara-WPTheme-CHS-Translation/tree/main/plugins/madara-core)的两个语言文件上传到`2`中的文件夹即可
+
+### sftp-storage插件
+
+1. 请打开Wordpress的**插件**目录
+
+2. 打开`wp-manga-sftp-storage/languages`文件夹
+
+3. 将[此处](https://github.com/misaka10843/Madara-WPTheme-CHS-Translation/tree/main/plugins/wp-manga-sftp-storage)的两个语言文件上传到`2`中的文件夹即可
