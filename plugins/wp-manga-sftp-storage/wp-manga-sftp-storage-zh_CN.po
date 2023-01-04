@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Manga - FTP/SFTP Storage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-04 12:05+0000\n"
+"PO-Revision-Date: 2023-01-04 12:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: wp-manga-sftp-storage"
+
+#: wp-manga-ftp-storage.php:74
+msgid "External FTP Server"
+msgstr "外部Ftp服务器"
+
+#: wp-manga-ftp-storage.php:79
+msgid "Host"
+msgstr "主机"
+
+#: wp-manga-ftp-storage.php:87
+msgid "Username"
+msgstr "要放置章节图像的目录路径，它应该是上面域的根目录"
+
+#: wp-manga-ftp-storage.php:95
+msgid "Password"
+msgstr "密码"
+
+#: wp-manga-ftp-storage.php:103
+msgid "Port"
+msgstr "端口"
+
+#: wp-manga-ftp-storage.php:112
+msgid "Domain"
+msgstr "域名"
+
+#: wp-manga-ftp-storage.php:121
+msgid "Storage Path"
+msgstr "存储路径"
+
+#: wp-manga-ftp-storage.php:127
+msgid ""
+"The path of directory that you want to put chapter images to, which should "
+"be the root directory for the domain above"
+msgstr "要放置章节图像的目录路径，它应该是上面域的根目录"
